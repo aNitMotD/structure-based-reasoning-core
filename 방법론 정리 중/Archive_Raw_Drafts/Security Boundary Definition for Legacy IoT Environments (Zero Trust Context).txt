@@ -1,0 +1,17 @@
+1. 문제 정의 및 리스크 평가 (Problem & Risk Assessment)
+- Protocol Conflict: 홈 네트워크 내에서 구형 IoT 기기(WEP/WPA1 기반)와 최신 기기가 혼재되어, 암호화 프로토콜 및 채널 간섭으로 인한 기능 연속성 저해(Interruption) 발생.
+- Security Vulnerability: 펌웨어 지원이 중단된 레거시 IoT 기기가 메인 네트워크에 공존함으로써, 해킹 시 주요 자원(PC/Mobile)으로 위협이 전이될 수 있는 보안 홀(Security Hole) 진단.
+- Unpatchable Constraint: 기기 자체의 보안 패치가 불가능한 Black-box 상태임을 인지하고, 소프트웨어적 해결이 아닌 아키텍처적 격리가 유일한 솔루션임을 판단.
+
+2. 아키텍처 설계 및 구현 (Architecture & Implementation)
+1) Network Segmentation (망 분리):
+- 단일 브로드캐스트 도메인의 구조적 한계를 극복하기 위해, 서브 라우터를 도입하여 물리적/논리적 네트워크 세그멘테이션 구현.
+- Cascaded Router Topology: 메인 라우터(High Trust) 하단에 서브 라우터(Low Trust)를 WAN-to-LAN으로 연결하는 이중 NAT(Double NAT) 구조 설계.
+2) Lateral Movement Prevention (횡적 이동 차단):
+- 취약한 IoT 기기를 서브 네트워크(Guest/IoT Zone)에 격리하여, 침해 사고 발생 시에도 메인 네트워크(PC, Server)로 위협이 확산되지 않도록 공격 경로(Attack Vector) 차단.
+3) Access Control Hardening:
+- 레거시 장비에 대해 MAC Address Filtering (ACL) 및 SSID 숨김(Obfuscation) 처리를 적용하여 최소 권한 원칙 준수.
+
+4. 성과 (Key Results)
+- Attack Surface Reduction: 보안에 취약한 레거시 자원을 격리 구역(Containment Zone)에 가둠으로써 전체 네트워크의 공격 표면(Attack Surface) 최소화.
+- Operational Stability: 프로토콜 간섭 문제를 구조적으로 해결하여 레거시 기기와 최신 기기의 공존 안정성(Coexistence Stability) 확보.

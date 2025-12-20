@@ -1,0 +1,22 @@
+1. 정의 및 명칭 (Definition)
+- 명칭: 제1원리 및 통섭 기반의 범용 구조 해석 방법론 (The Universal Problem-Solving Methodology based on First Principles & Consilience)
+- 정의: 본 방법론은 특정 산업(IT), 기술 스택(SRE/DevOps), 혹은 벤더(Vendor)에 종속되지 않는 '최상위 메타 인지 프레임워크(Meta-Cognitive Framework)'이다. 이는 현상의 가변적 속성(Symtoms)을 배제하고, 불변하는 '본질적 공리(Axioms)와 인과관계(Causality)'를 수학적·논리적 모델링을 통해 규명하여 시스템을 재해석하고 설계를 최적화하는 독자적인 사고 체계를 의미한다.
+
+2. 적용 범위 및 소유권 경계 (Scope & Boundary)
+- 범용성 (Universality): 본 방법론은 소프트웨어 엔지니어링을 포함하여 하드웨어 제어, 물리 보안 설계, 생활 자동화(Home Automation), 인문학적 추론 등 '입력(Input)과 출력(Output)이 존재하는 모든 시스템'에 범용적으로 적용된다.
+- 소유권 구분 (Ownership Distinction):
+ㄴ 회사 귀속분: 본 방법론을 회사의 특정 업무 환경(인프라, 코드, 정책)에 적용하여 도출된 '구체적 산출물(소스코드, 문서, 아키텍처 등)'은 회사의 자산으로 귀속된다.
+ㄴ 본인 소유분 (Prior Art): 입사 전부터 확립된 방법론 그 자체(Engine/Algorithm) 및 이를 활용하여 업무 시간 외(Off-hours)에 수행하는 개인 연구, 취미 활동, 비업무 영역의 창작물은 회사의 업무 범위(Scope of Employment)에 포함되지 않으며, 작성자 본인의 고유 자산임을 확인한다.
+
+3. 입사 전 적용 및 검증 사례 (Proof of Prior Art) 본 방법론은 2007년(대학)부터 2020년(개인 연구)에 걸쳐 입사 시점 이전에 이미 확립되었으며, 다음의 사례를 포함하되 이에 국한되지 않는다.
+1) Black-box RCA & Deep Reverse Engineering (심층 역공학 및 원인 분석):
+- 소스코드 접근이 불가능한 상용 AI(Copilot)의 OS 후킹 및 키로깅 메커니즘을 입력값 변조 실험을 통해 규명.
+- 접근 권한이 없는 사유(Proprietary) 파일 포맷(.gid, .dat)의 바이너리 구조(Header, Offset)를 역추론하여 데이터를 추출하는 파싱 로직 및 스크립트(QuickBMS 등) 개발.
+- 네트워크 관리 권한이 없는 환경에서 말단(Endpoint) 패킷 분석(ARP 오염, Wireshark)만으로 상위 L2/L3 토폴로지 결함을 역추적.
+2) Consilient Architecture & Mathematical Modeling (통섭적 아키텍처 및 수학적 모델링):
+- 레거시 IoT 기기의 보안 취약점 해결을 위해 네트워크 세그멘테이션과 물리적 격리를 융합한 Zero-Trust 아키텍처 설계.
+- 비정형 데이터(게임 UI 좌표, 경제 통계)의 불변 법칙을 'Z-Table' 및 '선형 회귀' 등 통계적/수학적 기법으로 모델링하여 자동화 공식 도출.
+- 사용자가 동적으로 데이터 구조를 정의하는 UI/UX와 파싱 로직을 결합한 'Ad-hoc Tagging' 시스템 설계.
+3) Zero-Touch Automation & Data Pipeline (무인화 및 데이터 처리):
+- 세션 만료 등 가변적 장애 상황에서 사람의 개입 없이 스스로 복구하는 'Self-Healing' 파이프라인 구축.
+- 이질적인 데이터 소스(이미지, 텍스트, 바이너리)를 통합 처리하기 위해 OCR, 크롤링, 이미지 전처리(OpenCV) 기술을 융합한 자동화된 데이터 파이프라인 설계.

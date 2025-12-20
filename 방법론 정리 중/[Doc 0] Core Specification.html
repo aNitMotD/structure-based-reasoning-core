@@ -1,0 +1,755 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Structure-Based Reasoning Methodology</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2c7abb7a-913d-803a-bfd6-e9556544ebc6" class="page sans"><header><h1 class="page-title" dir="auto">Structure-Based Reasoning Methodology</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80e2-97b5-f8764214e655" class="">Core Specification of a Constraint-Driven Cognitive Engine</h3></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80b1-adb6-f0279a153328"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-8002-ac0e-d6ad93dd9771" class="">Section 1 — Overview</h2></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8082-9ae0-dd2e1ca75f72" class="">본 문서는 문제 해결을 위한 기법이나 절차를 설명하는 문서가 아니다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80f4-b70d-c811a9ebfd09" class="">이는 문제를 다루는 <strong>사고 구조 자체</strong>를 정의하기 위한 문서이다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-806f-9988-db3668334c8a" class="">
+</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-800f-a6ac-ce0918b75fc4" class="">본 방법론은 특정 기술, 도메인, 직무에 종속되지 않으며,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8073-96ce-fdeb9076e8a2" class="">문제를 <strong>구조·경계·패턴·수렴</strong>의 관점에서 해석하는</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8096-a15d-e04edafacd55" class=""><strong>범용 구조 기반 추론 엔진</strong>을 정의한다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80be-b082-dde8803a3193" class="">
+</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80f3-8d73-cbb09f7606b6" class="">사례, 기술, 경험은 본 방법론의 입력값에 해당하며,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80d0-b0b4-f04103afcb83" class="">방법론 자체는 <strong>불변 제약과 절차</strong>로 구성된다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-803e-9bd6-d76dd4f8575d"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-80c3-97ad-f379a007b8da" class="">Section 2 — Methodology Definition &amp; Cognitive Architecture</h2></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80e1-98ad-c17f394f0517" class="">2.1 Methodology Overview</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-804b-9827-c4526832aecf" class="">본 방법론은 지식의 축적이나 경험의 양을 전제로 하지 않는다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80f5-8bd5-c7d0a2654395" class="">문제는 항상 구조적 형태로 해석되며,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-804f-871c-fde8ac06ff76" class="">입력 도메인과 무관하게 동일한 사고 파이프라인이 작동한다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8041-9b64-c37c23d0e2d3"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8078-8ef5-c94bda95ed37" class="">2.2 Core Structural Reasoning Loop</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80b7-82a6-f67a38477650" class="">본 방법론의 핵심 사고 루프는 다음 순서를 따른다.</p></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8041-84e8-e1eff1bbb586" class="bulleted-list"><li style="list-style-type:disc"><strong>Boundary</strong> — 문제의 경계를 명시적으로 정의</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80b7-b23c-f914bbb05dc5" class="bulleted-list"><li style="list-style-type:disc"><strong>Structure</strong> — 구조적 관계 식별</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8086-afa0-d8d1e77916a5" class="bulleted-list"><li style="list-style-type:disc"><strong>Pattern</strong> — 반복성 및 충돌 구조 탐색</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-800a-96d5-fa9be096b8f8" class="bulleted-list"><li style="list-style-type:disc"><strong>Convergence</strong> — 구조적으로 더 이상 분기되지 않는 상태로 수렴</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80e8-94f5-fb7b63489532" class="">이 루프는 의식적 설명 이전 단계에서 작동하며,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80f8-a6c0-dca27a0e7cfe" class="">의식은 결과를 검증·언어화하는 역할을 수행한다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-803b-bda9-cdb2bf053de0"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8005-955d-fd3930d976a5" class="">2.3 Cognitive Architecture Layers</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80da-ab9c-ce4f165a15ab" class="">본 방법론은 다층적 인지 구조를 가진다.</p></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8034-bafb-ccbc7933bed0" class="bulleted-list"><li style="list-style-type:disc">무의식적 구조 추출 계층</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80a1-952a-e313a780bbe1" class="bulleted-list"><li style="list-style-type:disc">관찰자(Observer) 계층</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8097-8453-e914bf805fef" class="bulleted-list"><li style="list-style-type:disc">출력 제어 계층</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80b5-b37a-d88f72fd2140" class="">이 계층 분리는 자기참조적 분석과 설명 가능성을 보장한다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80f7-b9c8-dffadc375375"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8010-b379-daa55932782b" class="">2.4 Governing Constraints</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80fb-8592-f198c8ff2c05" class="">본 방법론은 사고를 유도하는 규칙이 아니라,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ea-bd5b-d4f43b771c9d" class="">사고 결과를 <strong>제약·검증·정렬</strong>하기 위한</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80e9-98b4-d6c467108f35" class="">불변 원리 집합에 의해 제한된다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8001-b4b1-cd1710a1d78b" class="">
+</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8035-81a4-cbdd86a986ad" class="">해당 원리의 전문은 <strong>Appendix C</strong>에 명세된다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80b4-a79d-c4ca37f9514a" class="">→ <a href="https://www.notion.so/Appendix-C-2c7abb7a913d80e3a946f336ee430b50?pvs=21">Appendix C</a> </p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-808b-8a09-c7cf15e71c36"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80a7-8831-f06922bc6a3b" class="">2.5 Responsibility-Gated Output</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80f8-b756-ee0b86ed2aca" class="">사고 과정 자체에는 제한을 두지 않으나,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ee-a45d-f7625e3e1868" class="">외부 출력 및 실행은</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ee-8fd1-c51e15f1b600" class=""><strong>책임 가능성 범위(Responsibility Boundary)</strong> 내에서만 허용된다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-805b-ab43-cb836ee4bba0"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80cc-9dcc-f2f46fb92a75" class="">Diagram 1 — Core Engine + Constraints + Output Gate</h3></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2c7abb7a-913d-802b-a08e-cb808d24ac51" class="code code-wrap"><code class="language-Mermaid" style="white-space:pre-wrap;word-break:break-all">flowchart TB
+  A[Boundary] --&gt; B[Structure]
+  B --&gt; C[Pattern]
+  C --&gt; D[Convergence]
+
+  subgraph CORE[Core Structural Reasoning Loop]
+    A
+    B
+    C
+    D
+  end
+
+  E[11 Governing Constraints&lt;br&gt;Appendix C]
+  E --&gt; A
+  E --&gt; B
+  E --&gt; C
+  E --&gt; D
+
+  D --&gt; F[Responsibility Output Gate P10]
+  F --&gt; G[External Output]
+
+</code></pre></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80bc-8679-d30e9d3bcdf9"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-8071-8257-ef830e7286cb" class="">Section 3 — Application Case Study</h2></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8000-87bd-f76e56a1f20f" class="">Structural Reasoning in Practice</h3></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80e2-afd3-df64610a43ea" class="">3.1 Case Overview</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8079-85c2-fdc71f997df5" class="bulleted-list"><li style="list-style-type:disc">사례: <strong>MS365 Copilot Shortcut Interference Issue</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8074-a090-d12eb8e3b263" class="bulleted-list"><li style="list-style-type:disc">문제 유형: 오류 메시지 없는 예상 외 실행(Event Substitution)</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8092-9721-d3e4ea3a5295" class="">본 사례는</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80dc-b833-d1ac6e9b9f09" class="">비가시 신호 감지와 플랫폼 레벨 구조 충돌이</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80a0-9e00-d5ddfb11a95d" class="">동시에 나타난 분석 사례이다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8023-926e-f9f50507b18f"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8058-8cdd-d8db253a6e53" class="">3.2 Boundary Definition</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80c5-af84-dddfe34407a8" class="">문제는 다음과 같이 재정의되었다.</p></div><div style="display:contents" dir="auto"><blockquote id="2c7abb7a-913d-80ce-b614-d9386578227b" class="">“단축키 입력이 실패했는가?”가 아니라<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8043-ad2c-df8ff76e0321" class=""><strong>“입력 이후 어떤 구조가 해당 이벤트를 선점했는가?”</strong></p></div></blockquote></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8060-af5f-cf1f01b62350"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80a4-bb80-e2c3916f461b" class="">3.3 Execution Trace — Actual Reasoning Path</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8033-9a2a-de76b45b5343" class="bulleted-list"><li style="list-style-type:disc">서드파티 애플리케이션 호출 시 Copilot 실행</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8001-a6b3-ecb91088017f" class="bulleted-list"><li style="list-style-type:disc">단축키 가설 수립 및 변경 시도</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8043-9db4-dc3b0f678e4e" class="bulleted-list"><li style="list-style-type:disc">결과 변화 없음 → <strong>의미 없는 변화로 판단</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80ce-b012-f72f8b9f5f13" class="bulleted-list"><li style="list-style-type:disc">Copilot 및 서드파티 앱이 모두 Electron 기반임을 확인</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8097-9423-e1393cc378c6" class="bulleted-list"><li style="list-style-type:disc">Global Shortcut 충돌 가능성 의심</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-802b-8d0f-f6bb296b0821" class="bulleted-list"><li style="list-style-type:disc">uiOhook / Keypress OSD 로그를 통해 입력 선점 확인</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8055-97fa-e22cc935cb55" class="bulleted-list"><li style="list-style-type:disc">구조적 원인으로 수렴</li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-803f-8664-ea3020024487"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8087-b4bb-c3163b713651" class="">3.4 Structural Mapping</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80ce-bc4a-c7b1f8956d15" class="bulleted-list"><li style="list-style-type:disc"><strong>Structure</strong>: Electron을 기술이 아닌 <strong>플랫폼 계층</strong>으로 해석</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8055-ac13-e2e3fa9b7b5d" class="bulleted-list"><li style="list-style-type:disc"><strong>Pattern</strong>: Electron 계열 간 Global Shortcut 선점</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80d1-95d1-eea4a1160658" class="bulleted-list"><li style="list-style-type:disc"><strong>Convergence</strong>: Copilot 플랫폼 레벨 입력 선점 구조</li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8048-982c-f58854d88e8a"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-807e-a397-f56461398970" class="">3.5 Constraint Activation</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ec-80b7-e34fdd4187b8" class="">본 사례에서 활성화된 제약:</p></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80f0-857d-eaa82cfcaa4b" class="bulleted-list"><li style="list-style-type:disc">P3 — Minimal Sufficiency</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8020-9c60-de90597473ca" class="bulleted-list"><li style="list-style-type:disc">P5 — Non-Event Sensitivity</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-800f-bf77-f758f85a5085" class="bulleted-list"><li style="list-style-type:disc">P6 — Pattern Legitimacy</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80d0-84e1-c32a8a916ced" class="bulleted-list"><li style="list-style-type:disc">P7 — Convergence Validity</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80f0-9ea3-f3d6ca3f5ddf" class="bulleted-list"><li style="list-style-type:disc">P10 — Responsibility Constraint</li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8070-8f77-c758f5453b13"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80db-9f24-f345124bf3c8" class="">3.6 Output Control</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80d8-9b2c-cc62465b24dd" class="bulleted-list"><li style="list-style-type:disc">확정 출력: Copilot의 플랫폼 레벨 입력 선점</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80f4-8e53-d8aaffbe05e7" class="bulleted-list"><li style="list-style-type:disc">미확정 유지: 타 시스템 일반화 여부</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80c8-acbb-fc0f14302b82" class="">본 출력은</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8002-b301-d1ebe313d03c" class="">책임 제약에 의해 의도적으로 제어되었다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8095-9546-fc9fe986526e"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-803a-beff-d4a38a353897" class="">3.7 External Technical Evidence</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-803b-aa25-c7cb67d70367" class="">본 사례의 상세 기술 분석과 실험 기록은</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8016-bfac-c8b6f843fdf7" class="">외부 GitHub 커뮤니티에 공개된 RCA 문서로 제공된다.</p></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80ed-baae-cddb2fe04bf6" class="bulleted-list"><li style="list-style-type:disc"><a href="https://github.com/SnosMe/awakened-poe-trade/issues/1737">https://github.com/SnosMe/awakened-poe-trade/issues/1737</a></li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80d5-a07a-fb4c38426d94"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-8099-a143-ddc9647bac81" class="">Section 4 — Scope, Limits, and Structural Closure</h2></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8068-96f6-e1ac2fe1d78c" class="">4.1 What This Methodology Is</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80a0-bbc1-ce2cff0d4965" class="">본 방법론은 특정 기술, 도메인, 직무에 종속되지 않는다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80cd-a75e-cf4f32f57480" class="">이는 문제를 <strong>구조·경계·패턴·수렴</strong>의 관점에서 해석하기 위한</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ed-9878-cc017b9856fa" class=""><strong>범용 구조 기반 추론 엔진</strong>이다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80d4-a6ec-f5806cfe9c42"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8012-a721-e18ee6042f64" class="">4.2 What This Methodology Is Not</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80de-b39b-db7d5cc4f33d" class="">본 방법론은 다음을 목표로 하지 않는다.</p></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80b6-95bf-ee491bb9b3b1" class="bulleted-list"><li style="list-style-type:disc">특정 기술 스택이나 도구 사용 지침</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8070-bd7d-cc45ef5fd297" class="bulleted-list"><li style="list-style-type:disc">문제 해결을 자동화하는 규칙 집합</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80cd-85ef-d4baff26e429" class="bulleted-list"><li style="list-style-type:disc">경험이나 직관을 대체하는 결정 트리</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80a5-9ea7-c1b3ff083f1e" class="">본 방법론은 사고를 대신 수행하지 않으며,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8055-a93a-df58b6f054fb" class="">사고의 <strong>형태·순서·제약 조건</strong>만을 정의한다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80a9-a24b-cbf2d9a7663a"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8049-8f22-e7d95bc4414f" class="">4.3 Applicability and Limits</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80eb-baa5-f8778ed064f7" class="">본 방법론은 다음 조건에서 가장 효과적으로 작동한다.</p></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8098-8e88-f9d58525517f" class="bulleted-list"><li style="list-style-type:disc">문제의 경계가 정의 가능한 경우</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80dd-aa5e-fca1a4a0d059" class="bulleted-list"><li style="list-style-type:disc">구조적 관계가 결과에 결정적 영향을 미치는 경우</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80fb-94df-eb608d59d18b" class="bulleted-list"><li style="list-style-type:disc">결과보다 원인 구조가 중요한 경우</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-803b-ac2f-fc0a8c7e3906" class="">반대로 다음 영역에서는 제한적인 효용을 가진다.</p></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8049-92a4-e5577c8a26ea" class="bulleted-list"><li style="list-style-type:disc">순수 반복 작업</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80aa-8c9d-fab052241577" class="bulleted-list"><li style="list-style-type:disc">규칙이 완전히 고정된 문제</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8017-962f-e94007f143b6" class="bulleted-list"><li style="list-style-type:disc">물리적 숙련이 핵심인 영역</li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8006-86df-d33c1c73245d"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8001-b807-e713b1ad1e59" class="">4.4 Responsibility and Output Control</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80f6-a80c-c9425a396cb0" class="">본 방법론은 사고 과정 자체에는 제한을 두지 않으나,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80c4-8f65-c97d3c8e36ba" class="">외부 출력은 항상</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8058-b1fd-da57e4216b80" class=""><strong>책임 가능성 범위 내에서만 허용</strong>된다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-804c-bbeb-c54e9dcf3c0e" class="">
+</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80a7-af80-e475359a5773" class="">이는 보수성이 아니라</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80f9-8190-ec9cc83f2605" class="">결과의 신뢰성과 재현 가능성을 위한 설계이다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-801d-bb18-c67bec327eed"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80af-8715-eb1ce15219fa" class="">4.5 Node-Based Instantiation and Emergent Expansion</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80d3-a85d-f7204c56cd9a" class="">미시적 관점에서 본 방법론은</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8056-a53f-eaf3869c467c" class="">원리와 절차가 고정된 상태에서</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8094-a484-e2cae9466cbe" class=""><strong>독립적으로 완결된 분석 노드(Node)</strong>만을 생성한다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80e9-83fa-d1c0231605de" class="">
+</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80a1-8251-fbb747e7b42a" class="">각 노드는 서로를 수정하거나 보강하지 않으며</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-808f-bfee-c17bdac01e18" class="">단독으로 검증·참조·폐기 가능하다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ff-bc86-f5b006defee7" class="">
+</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80f9-bdb8-e988fae6cc00" class="">그러나 거시적 관점에서</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8030-806d-d5e1de3a8665" class="">이러한 노드의 누적은</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-805d-9312-e923d0bb167f" class="">적용 가능한 문제 공간의</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-807b-8e34-cc3a37d22ec0" class=""><strong>자연스러운 확장(Emergent Expansion)</strong>으로 관찰될 수 있다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80c4-91c1-cc363945743c" class="">
+</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8048-b03b-c72a334c3173" class="">즉, 본 방법론은</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8079-a78d-edcdcaac5b7d" class=""><strong>내부적으로는 불변이며,<br/>외부적으로는 성장하는 구조</strong>를 가진다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8016-a5e0-cfe4407e04e2"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80df-8dd6-d6b383c40545" class="">Diagram 2 — Node-Based Instantiation + Emergent Expansion</h3></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2c7abb7a-913d-80ca-bd96-e6f44a9294f4" class="code code-wrap"><code class="language-Mermaid" style="white-space:pre-wrap;word-break:break-all">flowchart LR
+  CORE[Core Engine]
+
+  A[Case Node A] --&gt; CORE
+  B[Case Node B] --&gt; CORE
+  C[Case Node C] --&gt; CORE
+  D[External Node&lt;br&gt;GitHub RCA] --&gt; CORE
+</code></pre></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80db-9e48-e5255ebb2cc9"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80c8-a6c4-f95560b58d73" class="">4.6 Interpretation and Usage Guidance</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8033-9a51-e3f232dacce0" class="">본 문서는 특정 문제에 대한 정답을 제시하지 않는다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80cc-bfa7-f490521cb133" class="">이는 문제를 다루는 <strong>사고 구조와 제약 체계</strong>를 정의한다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ff-ac5d-d6243d0caa97" class="">
+</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8000-8b5b-efc9a0beabae" class="">적용 결과는 항상</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80c2-9981-f81d86d447bd" class="">해당 사례 노드의 맥락 내에서만 해석되어야 하며,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80c5-811d-cbd603950f9e" class="">일반화는 중앙 엔진 수준에서만 정당화될 수 있다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8056-8214-ed74aa9cd76a"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8037-885b-dbd82c08ae8c" class="">4.7 Closing Statement</h3></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8066-8674-c27580f30342" class="">본 방법론은 완결된 규칙 집합이 아니라,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8066-bff8-fb15c994dd61" class="">일관된 사고를 가능하게 하는</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80a1-9587-f03e03005371" class=""><strong>구조적 제약 시스템</strong>이다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8058-a9b1-c26ef623f58d" class="">
+</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8080-a1c3-dab307d0c595" class="">문서에 포함된 사례와 외부 실증은</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-805a-8bad-cff1a02b6399" class="">방법론의 일부가 아니라,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-800e-84af-cae51983bcd5" class="">동일한 엔진에 의해 생성된 <strong>개별 노드</strong>에 해당한다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80e1-a256-e57598d3cb52" class="">
+</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8091-affd-c4c1e6cfe50a" class="">본 문서는 이 구조를 정의하고 고정하는 것을 목표로 하며,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ae-b0ec-e4da6c8c33c4" class="">추가 설명이나 확장은 요구하지 않는다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80af-9c82-ed56d2241dc6"/></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8025-8dac-ce643b74b641" class=""><em>Note:</em></p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80aa-80bb-e849f34f4093" class="">본 문서는 구조 기반 추론 <strong>코어 엔진의 명세(Core Specification)</strong>를 정의한다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8068-9f0b-d3a7b4f21dd3" class="">엔진의 호출 조건, 다른 사고 방식과의 공존, 운용 및 수명 주기에 관한 내용은</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8086-ba99-e5eec74e28b2" class="">본 문서의 범위를 벗어나며, 필요 시 별도 문서로 분리되어 다뤄질 수 있다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-804e-9d75-f473dc50f822"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-809e-8e57-f2a791225777" class="">Appendix A — Academic Background &amp; Origin</h2></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80dc-88ae-d1dc2350dd4d" class="">(Origin Anchor)</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-801e-bcb5-f899b0631312" class="bulleted-list"><li style="list-style-type:disc">2007–2011 독자적 바이너리 분석 및 역공학 연구</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8024-8736-c7f160b429ef" class="bulleted-list"><li style="list-style-type:disc">정규 교육 이전 형성된 분석 역량</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8064-bae9-e189cff2fb94" class="bulleted-list"><li style="list-style-type:disc">교육은 이론적 정렬 단계로 작동</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8038-8d80-e9d69b66b13b" class="">→ <a href="https://www.notion.so/Appendix-A-2c7abb7a913d80c5a0a4df2bdd819cf1?pvs=21">Appendix A</a> </p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80f6-bb03-ef3f5b3fc909"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-8091-ad32-fb4927ffeaa2" class="">Appendix C — Constraint Specification</h2></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8030-8d81-c1fb69b1c1a9" class="">(11 Governing Principles)</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8015-8194-f175f80d5591" class="bulleted-list"><li style="list-style-type:disc">Structural Primacy</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80af-985d-e0bd23b8d978" class="bulleted-list"><li style="list-style-type:disc">Boundary Explicitness</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8088-8b1d-dbd607a4061a" class="bulleted-list"><li style="list-style-type:disc">Minimal Sufficiency</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80c2-b68d-d71eaafab46d" class="bulleted-list"><li style="list-style-type:disc">Invariance over Instance</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8004-b37c-d0e0242a6994" class="bulleted-list"><li style="list-style-type:disc">Non-Event Sensitivity</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8086-b045-f5fccb06d33b" class="bulleted-list"><li style="list-style-type:disc">Pattern Legitimacy</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80b6-90b9-c98bcfb0da54" class="bulleted-list"><li style="list-style-type:disc">Convergence Validity</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8098-8cdf-c0025256f42f" class="bulleted-list"><li style="list-style-type:disc">Cross-Domain Consilience</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-801f-b925-c3651238abc6" class="bulleted-list"><li style="list-style-type:disc">Explanation Separability</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8076-b1d6-d7b11204fa3b" class="bulleted-list"><li style="list-style-type:disc">Responsibility Constraint</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-806d-9f3e-cd613a6c0caa" class="bulleted-list"><li style="list-style-type:disc">Self-Consistency</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8093-9a4e-fd59f402b5a3" class="">→ <a href="https://www.notion.so/Appendix-C-2c7abb7a913d80e3a946f336ee430b50?pvs=21">Appendix C</a> </p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-803f-bf3d-d6dbb8e1ce5d"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80fe-8507-eb51ce631275" class="">Diagram 3 — Reasoning vs Output Separation</h3></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2c7abb7a-913d-8076-a97b-c8ae5bd00b63" class="code code-wrap"><code class="language-Mermaid" style="white-space:pre-wrap;word-break:break-all">flowchart TB
+  R[Internal Reasoning Space] --&gt; K[Conclusion Candidates]
+  K --&gt; O[External Output]
+  K --&gt; Q[Deferred or Withheld]
+</code></pre></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80c5-a6a4-da62b19dffe6"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-8006-be2a-ed84254c4fcd" class="">Appendix D — Behavioral Proof</h2></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80da-8d9a-e7c5ad6c18d1" class="">(Responsibility Constraint)</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8090-8079-d49019a84a09" class="bulleted-list"><li style="list-style-type:disc">Copilot RCA에서의 의도적 미확정 결정</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-804e-a894-f3033d00ebd6" class="bulleted-list"><li style="list-style-type:disc">사고와 출력의 분리 실증</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8052-82df-e95ede6ee5fe" class="">→ <a href="https://www.notion.so/Appendix-D-2c7abb7a913d809d893cc2bbc9e705a8?pvs=21">Appendix D</a> </p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8092-8414-fe8da1078d86"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-8018-a492-eaf44f3dfcbb" class="">📌 Document Status</h2></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80d1-8cca-dfb904db33f8" class="bulleted-list"><li style="list-style-type:disc">Version: <strong>v1.0 Final</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8082-9117-d7eed2cf530c" class="bulleted-list"><li style="list-style-type:disc">Core Engine: <strong>Locked</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-801f-8288-d9b5a33a0002" class="bulleted-list"><li style="list-style-type:disc">Expansion Policy: <strong>Node Generation Only</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80d3-b01d-f554de05cf6b" class="bulleted-list"><li style="list-style-type:disc">External Evidence: <strong>GitHub-based</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8084-bc57-c4f239475fc7" class="bulleted-list"><li style="list-style-type:disc">Output Format: <strong>Notion (Primary)</strong></li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8093-8fe8-defc6e79920c"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-8014-948c-ec228e491762" class="">🔑 Final Statement</h2></div><div style="display:contents" dir="auto"><blockquote id="2c7abb7a-913d-8069-980f-f9a1eead7a04" class="">이 문서는 문제를 푸는 방법을 설명하지 않는다.<br/>문제를 다루는 사고 구조를 정의한다.</blockquote></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80c7-96a9-fcc6ae6917d5"/></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

@@ -1,0 +1,713 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Appendix A</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2c7abb7a-913d-80c5-a0a4-df2bdd819cf1" class="page sans"><header><h1 class="page-title" dir="auto">Appendix A</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-808a-9be1-eea52f7980ff" class="">Academic Background &amp; Origin</h2></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8031-95f8-e9f60539d27a" class="">(Foundational Origin Anchor)</h3></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80f7-b028-fa14d4d15fb1"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-8023-a87a-dc7013ecdb99" class="">0. 문서 성격 및 목적</h2></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8056-875b-e43e230e2421" class="">본 문서는 본 방법론의 핵심 역량이</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8016-ba10-ec644e10da3a" class=""><strong>입사 이전, 직무와 무관한 독자적 연구 활동</strong>에서 기원하였음을</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8083-94a9-c846a0295f4b" class="">사실 기반으로 증명하기 위한 문서이다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-803a-af19-f6d6c0985973" class="">본 문서는:</p></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8031-9536-f38c381c8694" class="bulleted-list"><li style="list-style-type:disc">방법론을 설명하거나 정당화하지 않으며</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80c6-80a2-c1e27333dadd" class="bulleted-list"><li style="list-style-type:disc">성과를 주장하기 위한 목적을 갖지 않고</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-808f-a5f8-e1753b1bd671" class="bulleted-list"><li style="list-style-type:disc"><strong>형성 기원과 독립성</strong>을 고정하는 데에만 목적을 둔다.</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-800e-ab80-e7dec27164e4" class="">본문에서 언급되는 모든</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ff-b09d-c2749516ad1a" class="">선행성·독립성·비직무성 주장은</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8062-b76a-cb516bb9da50" class="">본 문서를 근거로 한다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-803f-9bdc-fdce160ced83"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-801e-b765-e83d282e94b8" class="">A.1 독자적 바이너리 리버스 엔지니어링 연구</h2></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80c2-9875-eed0245c9299" class="">(2007년 ~ 2011년)</h3></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8011-a042-d1a5fbb7e1b1" class="">연구 성격</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-804f-9cec-d8887395b783" class="bulleted-list"><li style="list-style-type:disc">대학 전공(광전자 / 응용수학)과 무관</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80a9-b916-c1e214c61ba9" class="bulleted-list"><li style="list-style-type:disc">정규 교육 과정 외 개인 연구</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-801f-aace-c3f28fac5c26" class="bulleted-list"><li style="list-style-type:disc">비공개 기술 연구 커뮤니티(Closed Research Group) 활동</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8061-8f10-daad297d0639" class="bulleted-list"><li style="list-style-type:disc">개인 아카이빙 기반 지속적 연구</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8099-867b-f1dbd5978bec" class="">본 연구 활동은</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80c2-a23e-f9994d50e65b" class="">학위, 성적, 과제, 직무와 직접적인 연관이 없으며,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8004-95ed-f948254dff81" class="">순수한 개인 관심과 문제 해결 탐구에 의해 수행되었다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-800f-b208-d3b64f3676e2"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80ae-97cd-c5166ac4fd04" class="">핵심 성취 (Proof of Independent Research)</h3></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80ae-bba0-f5834095c5bb" class="">[2007년] Hex Code 구조 분석</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80c5-bf45-c67d955fb5d9" class="bulleted-list"><li style="list-style-type:disc">상용 모바일 게임의 바이너리 데이터를<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8073-a753-d27f68678e2a" class="">헥스 에디터(Hex Editor)로 정밀 분석</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80f5-bf1e-ea6c78bd4a75" class="bulleted-list"><li style="list-style-type:disc">메모리 오프셋(Offset)과 데이터 패턴을 역추적하는 기법 확립</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80b5-bcb0-c5cb0ce15108" class="bulleted-list"><li style="list-style-type:disc">구조 분석 결과를 개인 아카이브로 보존<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8092-9520-d22dabfb10a6" class=""><em>(비공개 자료)</em></p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8065-b42e-d48fe65a513e" class="">[2008년] 데이터 테이블 파싱</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80bf-bce8-dd90f4a100db" class="bulleted-list"><li style="list-style-type:disc">게임 내 아이템 및 가격 데이터의<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ac-85fa-f26b497c6f75" class="">구조적 배열(Array) 규칙 파악</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-807f-bde1-e3db59d155bb" class="bulleted-list"><li style="list-style-type:disc">데이터 구조를 재구성하는<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80e7-a0b8-c70317018913" class="">초기 형태의 데이터 마이닝 수행</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80a4-af8a-d9871ba2ed84" class="">[2011년] 로직 우회 및 취약점 분석</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8075-9bd1-fe85f511a1c4" class="bulleted-list"><li style="list-style-type:disc">IDA 등의 도구 활용</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8092-8085-dab15296b139" class="bulleted-list"><li style="list-style-type:disc">세이브 파일 구조 분석을 통해</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-800e-94ec-c75254c49bcf" class="bulleted-list"><li style="list-style-type:disc"><strong>코드 재배치(Code Shifting)</strong> 기반<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80bd-a175-cf8c00ef9272" class="">시스템 로직 유도 및 우회 기법 실증</p></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-807c-8c4d-d3e819554be6"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80ac-9799-c22625f6a335" class="">증빙 자료</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8096-9d1f-f6701971c2ec" class="bulleted-list"><li style="list-style-type:disc">2007~2011년 비공개 연구 커뮤니티 내<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80e6-9a0b-ebe05b239a2f" class="">기술 분석 문서 및 활동 기록</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80c4-9964-c93848e474c0" class="bulleted-list"><li style="list-style-type:disc">플랫폼 타임스탬프 포함 자료</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-804c-9f8b-c6b35e21a66c" class="bulleted-list"><li style="list-style-type:disc">개인 보존 아카이브</li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8075-a095-ced64161bbac"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-80cd-a7b5-d0cb55f6a756" class="">A.2 공학적 / 논리적 기반 확립</h2></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80da-b421-c06cd859b1e8" class="">(2007년 ~ 2015년)</h3></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-804e-a8ea-f37e7f48ad13" class="">교육 기관</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-803f-904e-c87b94dbdae8" class="bulleted-list"><li style="list-style-type:disc">한국폴리텍대학 — 광전자 전공</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80b8-a80b-d68803018827" class="bulleted-list"><li style="list-style-type:disc">강남대학교 — 응용수학 전공</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8084-8835-d74948d11354" class="">본 교육 과정은</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8084-b164-c4de3e1006f0" class="">선행 연구 활동을 대체하거나 시작한 것이 아니라,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8036-b8cd-c19aeddd7af3" class="">이미 수행 중이던 분석 활동을</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8044-9982-d84c2cfc9c77" class=""><strong>이론적으로 이해·정리·확장</strong>하는 역할을 수행하였다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80b4-aee1-e4a95e93a0f2"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80ab-a2e3-d4ccbc262cbf" class="">핵심 성취</h3></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8038-90b0-c63685e2c97a" class="">디지털공학 (A+)</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-802b-86a3-ca10a5162b75" class="bulleted-list"><li style="list-style-type:disc">0과 1의 이진 논리 회로 설계 학습</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80bf-81a1-c27020d8af42" class="bulleted-list"><li style="list-style-type:disc">선행 바이너리 분석 경험을<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8089-acdc-e7f4f2beb907" class="">하드웨어적·논리적 관점에서 재해석</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80a9-a91e-cb5a2959536c" class="">집합론 / 논리학 (A+)</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8099-88ca-f1c616c37516" class="bulleted-list"><li style="list-style-type:disc">경험적으로 수행하던 분석 과정을<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80b6-97b4-e85c5ce1840f" class="">수학적 논리 체계로 정식화</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8076-b315-f6de91e48736" class="bulleted-list"><li style="list-style-type:disc">오류 없는 추론(RCA) 구조 완성</li></ul></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80a2-b043-f2bf0d736d6f" class="">양자 암호 연구 발표</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80fc-80ec-e39998c9f3c6" class="bulleted-list"><li style="list-style-type:disc">물리적 신호와 정보 보안의 경계를 다루는 주제 탐구</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80c5-8f98-f266ea55b488" class="bulleted-list"><li style="list-style-type:disc">미지의 시스템(Black-box)을<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80c5-9043-e82fbd366c0b" class="">구조적으로 해석하는 접근 방식 검증</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80db-ba29-c6a9fd6d8c37" class="bulleted-list"><li style="list-style-type:disc">독자적 탐구 결과 발표</li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80d7-9a05-c0a3d6852368"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-8023-8642-df4f5d0e94e5" class="">증빙 자료</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-809c-b310-c873f241c0b2" class="bulleted-list"><li style="list-style-type:disc">성적증명서<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ee-b2f6-d83550b4cbe8" class="">(2007년 입학 / 2025년 발급 진본)</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-802f-a3cb-e4253f75e60f" class="bulleted-list"><li style="list-style-type:disc">양자 암호 연구 발표 자료</li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8005-ace2-f32d62f7ef15"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80d8-a0ae-c0fbb6a570ab" class="">A.2-1 정보보호 전문 교육 이력 (보조 근거)</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80ec-b39c-f5aac2ddea7b" class="bulleted-list"><li style="list-style-type:disc">기관: KISEC (정보보호교육센터)</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80a4-9cf0-f85c65a13fa2" class="bulleted-list"><li style="list-style-type:disc">수강 시기: 2012년</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80b9-8fdb-f2251e0c6594" class="bulleted-list"><li style="list-style-type:disc">성격: 정규 학위 및 직무와 무관한 전문 교육 과정</li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80fb-b8c5-c91abfb069c3" class="">본 교육 과정은<br/>이미 수행 중이던 보안·시스템 분석 활동 이후에 수강한 것으로,<br/>방법론의 형성 기원이 아니라<br/>보안 분야에 대한 공식 교육 이력을 보강하는 참고 자료에 해당한다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8053-84cc-c3e3b31cb94f" class="">졸업 과제 및 산출물은 보존되어 있지 않으나,<br/>수강 이력은 해당 기관의 공식 기록을 통해<br/>확인 가능한 상태이다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8023-8755-cf5b1fed9caa"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-8058-afa9-e391bc309d19" class="">A.3 기원 구조 요약</h2></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8046-92bb-da6b14ebea9b" class="bulleted-list"><li style="list-style-type:disc">본 방법론의 핵심 사고 역량은<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80d6-b896-dcb238b240cc" class=""><strong>교육 이전에 이미 실증적으로 작동</strong></p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8027-ab28-df3e867d7721" class="bulleted-list"><li style="list-style-type:disc">정규 교육은 해당 역량을<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8020-8ab9-f24af1b614fb" class="">이론적으로 정렬·강화하는 역할만 수행</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8032-8c8e-d199966d47cb" class="bulleted-list"><li style="list-style-type:disc">방법론은 특정 조직, 직무, 과제에<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80ed-a684-fee7ee9a79ef" class="">종속되지 않은 상태에서 형성됨</p></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-806f-b07b-f95156ea9b45"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-8088-a84e-c62c4cf03513" class="">문서 위치 및 역할</h2></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80d9-a8a6-c6f0ec3ef4da" class="bulleted-list"><li style="list-style-type:disc">본문:<div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8087-8edd-d350c5e3e20b" class="bulleted-list"><li style="list-style-type:circle">Section 1 (개요)</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80f2-a3b4-fe25bd41a414" class="bulleted-list"><li style="list-style-type:circle">Section 2 (방법론 정의)<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-802e-9787-e0bdc55f2e40" class="">→ <em>기원 근거로서 참조만 수행</em></p></div></li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-802d-8b7f-c0d757f0864b" class="bulleted-list"><li style="list-style-type:disc">Appendix A:<div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80c7-a8b1-c559cc4b26cb" class="">→ <strong>기원·선행성·독립성 고정 앵커</strong></p></div></li></ul></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8023-a641-ef7bb60c6799" class="">본 문서는</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8086-b697-dc36982d7275" class="">본문의 설명에 의해 재해석되지 않으며,</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8022-aaac-ebf3a3746337" class="">본문은 본 문서를 전제로 구성된다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-80f6-836f-ce6ebbb14e0e"/></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-8061-a158-f7f1fc21be4e" class=""><em>Note:</em></p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-807a-9212-f80fda480b14" class="">본 문서에 기술된 사고 구조와 분석 역량은 특정 시점의 산출물이 아니라, 이후에도 동일한 방식으로 개인적 연구 및 적용을 통해 유지·관찰되고 있다.</p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80d9-8c8d-dad3f5a696dd" class="">이는 방법론의 범위나 구조를 확장하기 위함이 아니라, </p></div><div style="display:contents" dir="auto"><p id="2c7abb7a-913d-80d6-bdca-cb8848d4de88" class="">기원이 과거에 고정된 일회성 산출물이 아님을 명시하기 위한 것이다.</p></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-8042-9379-c00bafb85e36"/></div><div style="display:contents" dir="auto"><h2 id="2c7abb7a-913d-80c1-afad-c6e10dd347a1" class="">고정 선언 (Origin Lock)</h2></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8031-8267-f49cc4d7f753" class="bulleted-list"><li style="list-style-type:disc">본 문서는 사실 기록 문서이다.</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-808c-8900-c4b1d4c58b1d" class="bulleted-list"><li style="list-style-type:disc">본 문서는 미화·재구성·확장되지 않는다.</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80fc-83ed-c24e3bf45eb9" class="bulleted-list"><li style="list-style-type:disc">본 문서는 수정 없이 보존된다.</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80f6-b367-de4b4a0f0f9b" class="bulleted-list"><li style="list-style-type:disc">본 문서는 본 방법론의 <strong>기원 고정 앵커</strong>이다.</li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-805f-8308-dbf1664e4558"/></div><div style="display:contents" dir="auto"><h3 id="2c7abb7a-913d-80bc-9a45-e5305856720b" class="">🔒 Status</h3></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-808f-9e65-ca22b6a0456a" class="bulleted-list"><li style="list-style-type:disc">Document Type: Origin Anchor</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-8093-8ac0-e19bb7289915" class="bulleted-list"><li style="list-style-type:disc">Scope: Pre-employment / Independent</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80ac-befe-e26a3d7d53de" class="bulleted-list"><li style="list-style-type:disc">Mutability: Locked</li></ul></div><div style="display:contents" dir="auto"><ul id="2c7abb7a-913d-80bf-890f-c8bd1e23a63d" class="bulleted-list"><li style="list-style-type:disc">Related Documents: Section 2, Appendix C, Appendix D</li></ul></div><div style="display:contents" dir="auto"><hr id="2c7abb7a-913d-807e-8fb5-ecd19eb4c517"/></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

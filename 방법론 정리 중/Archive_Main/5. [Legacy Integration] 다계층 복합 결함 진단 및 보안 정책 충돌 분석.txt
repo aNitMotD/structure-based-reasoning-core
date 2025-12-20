@@ -1,0 +1,19 @@
+1. 기술적 난제 (Challenge)
+- Complex Failure Mode: 사내 프록시 환경 도입 후 407 Proxy Authentication Required 오류가 간헐적으로 발생하며 테스트가 불가능한 상황.
+- Legacy Constraint: CLI나 API를 지원하지 않는 GUI-Only 레거시 프록시 툴 사용으로 인해, 코드 기반의 자동화 솔루션 적용이 원천적으로 불가능한 운영 제약(Operational Constraint) 존재.
+
+2. 심층 분석 (Deep RCA)
+- Packet Analysis: Wireshark 패킷 분석을 통해 407 오류가 단순 인증 실패가 아닌, 프록시 서버의 인증 요구와 로컬 툴의 설정 충돌임을 격리(Isolation).
+- Infrastructure Inference (인프라 역추론):
+ㄴ 팀 내 IP 연장 신청 패턴(인트라넷/이원화망)을 분석하여 네트워크가 논리적으로 분리(Segmentation)되어 있음을 역추론.
+ㄴ 이를 근거로 System Proxy의 단일 설정과 이원화된 망 구조 간의 불일치(Mismatch)가 407 인증 오류의 원인임을 규명하고, Cascade 분기 처리를 통해 해결.
+- Policy Layer 진단: 설정 최적화 후에도 발생하는 잔여 오류가 암호화된 대용량 바이너리를 위협으로 간주하여 차단하는 본청 보안 관제 정책(Traffic Inspection Policy)임을 규명.
+
+3. 전략적 해결 및 프로세스 최적화 (Action)
+- Configuration Optimization: 추론된 네트워크 환경(망 분리) 특성에 맞춰 Cascade 정책을 분기 처리하여 네트워크 충돌을 기술적으로 해결.
+- Process Engineering (SOP): 자동화가 불가능한 환경(GUI-Only)임을 인정하고, 대신 '인적 오류를 최소화하는 표준 운영 절차(SOP)'를 수립하여 팀 내 전파.
+- Risk Management: 본청의 경직된 보안 정책을 우회하기 어려운 현실을 반영하여, 불가능한 테스트 케이스(Encrypted Binary)를 명확히 소거(Deprecation)함으로써 팀의 불필요한 리소스 낭비를 차단.
+
+4. 성과 (Key Results)
+- Operational Continuity: 5일간의 분석을 통해 기술적 원인(Cascade)과 정책적 원인(Security Policy)을 분리해내고, 우회 프로세스를 확립하여 업무 연속성(Business Continuity) 확보.
+- Stakeholder Management: 명확한 원인 규명을 통해 본청 담당 부서의 신뢰를 회복하고, 하청 조직의 기술적 한계를 넘어서는 문제 해결 능력 증명.

@@ -1,0 +1,91 @@
+https://github.com/SnosMe/awakened-poe-trade/issues/1737
+
+
+Impact Summary: Core Feature Broken & Persistence
+Before diving into the technical analysis, I want to highlight the severity:
+1. Core Feature Blocked: This issue completely renders the "Price Check" functionality unusable, which is the core value of this application.
+2. Configuration Futile: I attempted to change the hotkey settings within the app to various other keys. The issue persists regardless of the key mapping. This confirms that Copilot's hook is aggressive and cannot be bypassed simply by changing user settings.
+3. Confirmed on Stable Build: This critical defect exists in the Stable (Production) channel of Microsoft 365, meaning all standard users are potentially affected.
+- Environment: I am using the Offline / Local Installation (Click-to-Run) version. While I encountered this on the local install, the behavior suggests an OS-level background hook that could potentially affect any version employing a similar resident process.
+- Example Addition: The issue strictly occurs when the game client is running and has the window focus, triggering the third-party application's global hotkey registration.
+
+I identified this behavior in late October and filed a formal report via Microsoft Feedback Hub. After performing a deep-dive RCA locally, I can confirm this is caused by Microsoft 365 Copilot aggressively hooking and mutating OS input events.
+
+1. The Mechanism (Broad Input Mutation) I analyzed the debug logs using uIOhook and found a critical "Phantom Injection" behavior. This is not limited to a single key: * Wildcard Interception: Copilot intercepts not just Ctrl + D, but a wide range of combinations including Ctrl + Alt + D and Ctrl + Shift + D. None of these are official Copilot hotkeys, yet they trigger the Copilot Message Window. * Persistence: Even when I remapped the app's hotkey to something completely different (e.g., Shift + Alt + G), Copilot STILL intercepted the input and forced its window open.
+
+Mutation: In all cases, Copilot CONSUMES the user input (making it disappear for the app) and INJECTS its own invocation key (Ctrl + Alt + C) into the OS.
+Exhibit A: Target Configuration
+
+Setup(Default): The app uses two distinct hotkeys: Ctrl + D (Auto-hide) and Ctrl + Alt + D (Manual).
+Expectation: These inputs should trigger the Price Check feature with their respective window behaviors (Auto-hide vs Manual).
+Image
+ 
+Exhibit B: The "Many-to-One" Mutation Failure
+
+Test 1: User pressed Ctrl + D. Result: System received Ctrl + Alt + C.
+Test 2: User pressed Ctrl + Alt + D. Result: Also received Ctrl + Alt + C.
+Critical Finding: The hook indiscriminately mutates different inputs into the same output key sequence.
+Image
+Image
+ 
+Exhibit C: Forensic Evidence (Raw uIOhook Log)
+Analysis of the Log:
+
+Keydown Ctrl + Keydown D (User's physical input is detected).
+IMMEDIATELY FOLLOWED BY: Keydown Alt + Keydown Ctrl + Alt + C (Injected/Mutated input). Conclusion: This proves the mutation happens at the low-level input stream, confirming that the original Ctrl + D event was consumed and replaced by the Copilot shortcut sequence.
+Image
+ 
+Exhibit D: Evasion Failed (Proof of Wildcard Hooking)
+Experiment: Modified the Manual Mode shortcut to a unique, non-standard combination: Shift + Alt + D.
+
+Note: The "Auto-hide" shortcut (Ctrl + D) was left unchanged as a control group.
+Result: Even the custom Shift + Alt + D was hijacked and mutated to Ctrl + Alt + C.
+Analysis: This confirms the hooking logic is aggressive and indiscriminate. It targets any keystroke sequence containing modifier keys (Ctrl, Alt, Shift), rendering user remapping futile.
+Image
+Image
+ 
+Exhibit E: The Paradox (Input Swallowing)
+
+Action: User pressed a complex combination Ctrl + Alt + Shift + D.
+Result: No response or partial blocking.
+Analysis: The aggressive hook fails to handle complex modifier chains properly, resulting in Input Swallowing (Silent Failure) where neither the app nor Copilot reacts.
+Image
+ 
+Note on Testing Methodology
+
+Although the primary use case for this tool is hovering over items for price checking, the screenshots above were taken in the character selection screen to provide a cleaner background for the log overlay visibility.
+I have already confirmed that the exact same input mutation occurs when hovering over items in-game. The context (in-game vs. menu) does not affect the MS365 Copilot hook's aggression.
+
+ 
+2. Code Verification I reviewed Shortcuts.ts in this repo. The logic for registering/unregistering shortcuts based on window focus is implemented correctly ("Good Citizen" pattern). The issue is NOT within Awakened PoE Trade's codebase. It is an architectural defect in the Windows Copilot process.
+
+3. Why PowerToys / Remapping Fails A common suggestion is to use PowerToys to remap or disable the Copilot shortcut. However, this DOES NOT fix the issue.
+
+Since Copilot consumes the original Ctrl + D event before injecting its own key, the original input is already lost by the time PowerToys sees the injected key.
+Remapping only stops the Copilot window from popping up (visual fix), but the application still fails to receive the hotkey command (functional failure).
+4. The Solutions (Workarounds) Since this is an OS-level conflict caused by MS, the reliable fix is to prevent the Copilot process from launching and hooking keys:
+
+Method A (Recommended): Disable Copilot in Windows Settings > Apps > Startup (or Task Manager > Startup apps). This ensures the process doesn't load its hook during system boot.
+Method B (On-Demand Use): If you specifically need Copilot features, launch the app manually only when needed, and terminate (quit) the process immediately after use. Do not leave it running in the background while playing.
+5. Note on Broader Ecosystem Impact
+Potential Impact on Other Electron Apps It is highly likely that this issue is not isolated to Awakened PoE Trade. Since this conflict stems from how MS365 Copilot aggressively interacts with the OS input stack versus how the standard Electron globalShortcut API registers hooks, any other Electron-based application running in the background that relies on similar global hotkeys (especially those involving Ctrl modifiers) is likely to experience the same "Silent Failure" or input mutation.
+
+This appears to be a systemic conflict between the MS365 Copilot service and the Electron framework itself on Windows.
+
+Systemic Conflict with Other Hotkey Registrants (Unverified Question): The core conflict arises at the OS hook layer upon hotkey registration. While direct evidence is confirmed for Electron-based applications, a critical question remains: Does this aggressive hooking mechanism affect applications built using other frameworks (e.g., C++, Python, .NET) that register global hotkeys using the OS-level API? Given the root cause is the high priority of the Copilot hook, it is highly probable that all standard hotkey registrations are vulnerable, regardless of the application's underlying technology.
+
+Related Search Keywords (SEO & RCA)
+Symptoms (User Synonyms):
+#shortcut_not_working #hotkey_bug #keyboard_lag #ctrl_key_not_working #buttons_not_responding #key_press_ignored #shortcut_failure #shortcut_issue
+
+Interference & Blocking:
+#shortcut_conflict #global_hotkey_blocked #shortcut_hijack #key_override #priority_issue #hotkey_interference #shortcuts_stopped_working
+
+Technical Root Cause (RCA):
+#input_swallowing #input_mutation #keystroke_stealing #hook_chain_preemption #aggressive_hooking #event_consumption #uIOhook #electron_issue
+
+Affected Environment:
+#ms365_copilot #windows10_bug #windows11_bug #office365_update #m365_service_bug
+
+Known Failed Fixes:
+#powertoys_remap_failed #regedit_not_working #visual_fix_only

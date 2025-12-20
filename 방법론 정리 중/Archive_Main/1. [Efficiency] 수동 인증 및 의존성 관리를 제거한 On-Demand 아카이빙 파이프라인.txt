@@ -1,0 +1,48 @@
+1. 배경 및 목표 (Background)
+- Objective: 유튜브의 고도화된 봇 탐지 시스템(PO Token, Client 검증)을 우회하고, 세션 만료 및 포트 충돌로 인한 중단을 원천 차단하는 Zero-Touch 완전 자동화 아카이빙 시스템 구축.
+- Environment: Windows 10/11, Python 3.x, Node.js (BGUtil Middleware), Deno (Sidecar), Batch Scripting, Selenium.
+
+2. Phase 1: 시스템 안정성과 자원 관리 (System Stability) - "내/외부 충돌 요인 제거"
+1) [Internal Issue] 비동기 엔진(Playwright)의 런타임 붕괴
+- Context: 초기 아키텍처에서는 비동기 처리를 위해 Python Playwright 라이브러리를 사용함.
+- Problem: Playwright가 의존하는 greenlet 라이브러리의 C-Extension이 Windows의 바이너리 링킹 방식과 충돌하여, 실행 시 무작위로 프로세스가 증발(Crash)하는 치명적인 런타임 불안정성 발생.
+* Solution: C-Level 의존성이 강한 비동기 엔진을 제거하고, 동기 기반(Synchronous)의 Selenium WebDriver로 마이그레이션하여 윈도우 환경에서의 실행 안정성을 100% 확보함.
+
+2) [External Issue] 미들웨어 포트 경합 및 좀비 프로세스
+- Context: yt-dlp는 PO Token 생성을 위해 외부 미들웨어(BGUtil)와의 실시간 로컬 통신이 필수적임.
+- Problem: 미들웨어가 사용하는 Default Port(4416)가 Windows Hyper-V, WSL, Docker 등 시스템 예약 대역과 빈번하게 겹쳐 바인딩 실패(EACCES)가 발생함. 또한 비정상 종료 시 잔여 프로세스가 포트를 점유하여 재실행을 차단하는 Deadlock 유발.
+* Solution:
+- Dynamic Port Orchestration: PowerShell의 .Net Sockets API를 활용해 런타임에 가용 빈 포트(Random Ephemeral Port)를 탐색하고, 해당 포트로 미들웨어를 강제 실행.
+- Smart Cleanup: Get-CimInstance를 활용해 사용자의 메인 브라우저는 보호하고, 다운로드용 프로필(headless_profile) 및 미들웨어 프로세스만 정밀 타격하여 종료하는 Safe-Kill 로직 구현.
+
+3. Phase 2: 아키텍처와 프로세스 통신 (Architecture & IPC) - "환경 변수 상속 모델"
+1) [Issue] 설정 파편화 및 하드코딩의 한계
+- Problem: 파일 I/O 방식이나 하드코딩은 처리 속도가 느리고 유지보수성이 떨어지며, 런타임에 결정되는 동적 값(Random Port)을 이기종 프로세스(Batch → Python → Node) 간에 실시간으로 동기화하기 어려움.
+* Solution (Environment Inheritance):
+- IPC 설계: 부모 프로세스(Batch)가 인프라 환경(Port, Path)을 확정하는 Single Source of Truth 역할을 수행.
+- Data Flow: setlocal을 통해 선언된 변수들이 자식 프로세스 실행 시 OS 레벨에서 자동 상속되도록 설계. 별도의 인자 파싱 없이 os.environ 참조만으로 즉시 데이터 동기화.
+
+4. Phase 3: 인증 자동화와 런타임 의존성 (Auth & Runtime Dependency) - "Sidecar & Hybrid Runtime"
+1) [Issue] JS 런타임 의존성 지옥 (Dependency Hell)
+- Context: mweb 클라이언트 위장을 위해서는 yt-dlp 내부에서 고속으로 JavaScript 코드를 실행해야 함.
+- Problem: 시스템에 설치된 Node.js(NVM 등)를 사용할 경우 시스템 환경 변수(PATH) 충돌이나 버전 호환성 문제로 인해 실행이 불안정함.
+* Solution (Sidecar Pattern):
+- Deno Bundling: 단일 실행 바이너리인 Deno를 스크립트와 동일 경로에 배치(Sidecar)하여, 호스트 OS 환경 설정에 구애받지 않는 독립적인 JS 실행 환경(Portable Runtime)을 구축.
+
+2) [Solution] Hybrid Runtime & Self-Healing
+* Hybrid Runtime Orchestration:
+- Deno: yt-dlp 내부 로직 가속 및 클라이언트 스크립트 실행 담당.
+- Node.js (BGUtil): PO Token 발급을 위한 로컬 서버 담당.
+* Self-Healing Auth: Selenium WebDriver를 통해 격리된 프로필로 세션을 유지하고, 만료 감지 시 자동으로 cookies.txt를 갱신하는 자가 치유 로직 적용.
+
+5. Phase 4: 데이터 무결성 및 후처리 (Data Integrity) - "360 VR 영상 자동 처리"
+1) [Issue] 특수 포맷 메타데이터 소실
+- Problem: 360도 VR 영상 다운로드 시 메타데이터가 누락되어, 플레이어에서 평면 영상(Equirectangular)으로 왜곡되어 재생되는 정합성 문제 발생.
+* Solution (Conditional Injector):
+- Allowlist System: 특정 VR 전문 채널 ID를 감지하여 자동으로 Spatial Media 메타데이터 주입.
+- Force Mode: 사용자 메뉴(Single Video) 선택 시, 채널 ID와 무관하게 강제로 메타데이터를 입히는 오버라이드 기능 구현.
+
+6. Phase 5: 운영 효율화 (Process Optimization) - "Context-Aware Execution"
+1) [Solution] 전역 커맨드 시스템 (Global Command System)
+- Context Awareness: 시스템 PATH에 등록된 스크립트 내부에서 %CD%(Current Directory)를 DOWNLOAD_DIR로 동적 매핑.
+- Impact: 어느 디렉토리에서든 run-dlp 명령어 입력 시, "명령을 내린 그 위치"에 결과물이 저장되는 직관적인 UX 구현.
