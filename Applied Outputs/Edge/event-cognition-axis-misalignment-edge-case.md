@@ -122,7 +122,7 @@ This pattern often co-occurs with:
 - Hindsight Bias Framing
 - Responsibility Boundary Collapse
 
-It is structurally adjacent to the **AI Subjectification edge case**, where authority is transferred without explicit consent or declaration :contentReference[oaicite:1]{index=1}.
+It is structurally adjacent to the AI Subjectification edge case, where authority is transferred without explicit consent or declaration.
 
 ---
 
