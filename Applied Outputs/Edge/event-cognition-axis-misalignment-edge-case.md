@@ -122,7 +122,7 @@ This pattern often co-occurs with:
 - Hindsight Bias Framing
 - Responsibility Boundary Collapse
 
-It is structurally adjacent to the AI Subjectification edge case, where authority is transferred without explicit consent or declaration.
+It is structurally adjacent to the **AI Subjectification edge case**, where authority is transferred without explicit consent or declaration.
 
 ---
 
@@ -160,13 +160,9 @@ It is structurally adjacent to the AI Subjectification edge case, where authorit
 
 ---
 
-## Document Placement
-- Edge-case reference document
-- Not part of core methodology
-- May be cited by:
-  - `edge-cases.md`
-  - `responsibility-boundaries.md`
-  - `test-cases-derived.md`
+## Classification
+This document represents an edge-case pattern involving
+misalignment between event-based evaluation and cognition-based responsibility.
 
 ---
 
