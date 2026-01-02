@@ -3,7 +3,7 @@
 ### 1. Observable Information
 - Protocol specifications were DRM-encrypted, preventing automated parsing
 - Variable-length and mixed-type protocol structures made static parsers impractical
-- Non-developer team members relied on visual hex comparison, introducing judgment error risk
+- Structural misjudgment risk introduced by reliance on visual-based verification
 
 ### 2. Implicitly Demanded Judgment
 - Require humans to manually interpret raw protocol data

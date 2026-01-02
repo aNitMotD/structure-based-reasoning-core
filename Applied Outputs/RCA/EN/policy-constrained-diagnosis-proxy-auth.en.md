@@ -1,28 +1,28 @@
 ## Case: Proxy Authentication Failure under Policy Constraint
 
 ### 1. Observable Information
-- Intermittent 407 Proxy Authentication Required errors in a corporate proxy environment
+- Intermittent 407 Proxy Authentication Required errors observed in a local operational environment
 - Use of a GUI-only legacy proxy tool with no CLI or API access
 - Packet analysis confirmed configuration mismatch rather than credential failure
 
 ### 2. Implicitly Demanded Judgment
-- Attribute failures to local misconfiguration or user error
-- Assume the issue could be resolved through repeated testing and tuning
+- Attribute the failure to local misconfiguration or operator error
+- Assume repeated testing and tuning could resolve the issue
 
 ### 3. Structural Reasons Judgment Was Not Viable
-- Logical network segmentation conflicted with enforced single system proxy configuration
-- Encrypted large binary traffic was blocked by upstream security inspection policy
-- The policy-controlled domain was neither testable nor technically overridable
+- Enforced single system proxy configuration in a logically segmented network environment
+- Presence of a non-overridable security inspection policy applied to encrypted large-binary traffic
+- The policy-controlled domain was neither technically testable nor bypassable
 
 ### 4. Structural Judgment Shift
 - Explicitly separated technical configuration issues from policy-enforced blocking
-- Declared policy-blocked traffic as outside the testable domain
+- Declared the policy-blocked traffic domain outside the scope of technical testing
 - Transitioned from automation attempts to SOP-based operational handling
 
 ### 5. Responsibility Boundary Declaration
-- Encrypted binary traffic under central security policy is not a technical judgment domain
-- Responsibility must remain with the policy-owning organization
+- Encrypted binary traffic under a central security policy is not a technical judgment domain
+- Responsibility must remain with the policy-owning control layer
 
 ### 6. Retrospective Insight
-- This case represents a category where technical judgment is demanded despite structural impossibility
-- The RCA outcome is boundary declaration, not technical remediation
+- This case represents a class of situations where technical judgment is demanded despite structural impossibility
+- The purpose of the RCA is not resolution, but explicit declaration of a non-actionable judgment boundary
