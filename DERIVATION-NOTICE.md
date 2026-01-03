@@ -14,6 +14,10 @@ resulting from individual reasoning activities.
 
 Ownership and attribution are determined as follows:
 
+For the purposes of this document, **“responsibility”** refers to
+legal, operational, and decision-making accountability for
+downstream consequences.
+
 1. Artifacts created within an employment context
    are owned by the employing organization,
    subject to applicable contracts and laws.
@@ -48,6 +52,11 @@ INTERPRETATION-GUARDRAILS.md
 파생 산출물을 포함한다.
 
 소유권 및 귀속 기준은 다음과 같다:
+
+본 문서에서 **“책임(responsibility)”**이란,
+산출물로부터 발생하는 결과에 대해
+법적, 운영적, 그리고 의사결정상의 책임을
+포함하여 부담하는 것을 의미한다.
 
 1. 고용 관계 내에서 생성된 산출물은
    관련 계약 및 법률에 따라
