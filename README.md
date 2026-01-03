@@ -140,7 +140,7 @@ and the responsibility boundaries described above.
 
 설명적·방법론적 맥락이 필요한 경우,
 아래 링크를 참고한다:
-- Notion: [추가 예정 링크]
+- Notion: [링크 추가 예정]
 
 ---
 

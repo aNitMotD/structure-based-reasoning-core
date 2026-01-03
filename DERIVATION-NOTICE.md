@@ -1,15 +1,13 @@
 # Derivation and Attribution Notice
 
+## English
+
 This document specifies attribution and ownership
 for derivative artifacts contained in this repository.
 
 This notice operates under
 INTERPRETATION-GUARDRAILS.md
 and does not override it.
-
----
-
-## English
 
 This repository contains derivative artifacts
 resulting from individual reasoning activities.
@@ -43,26 +41,31 @@ not executable systems or operational outputs.
 
 본 고지는
 INTERPRETATION-GUARDRAILS.md
-의 적용 문서이며,
+하에서 적용되며,
 이를 대체하지 않는다.
 
 본 레포지토리는 개인의 사고 활동에서 도출된
 파생 산출물을 포함한다.
 
-소유권은 다음 기준에 따른다:
+소유권 및 귀속 기준은 다음과 같다:
 
 1. 고용 관계 내에서 생성된 산출물은
-   관련 계약 및 법률에 따라 회사에 귀속된다.
+   관련 계약 및 법률에 따라
+   소속 조직에 귀속된다.
 
 2. 고용 관계 외에서 생성된 산출물은
-   작성자에게 귀속된다.
+   작성자 개인에게 귀속된다.
 
-3. 회사 내에서 생성되었더라도,
-   결과에 대한 책임을 회사가 전면 수용할 수 없는 경우
+3. 조직 내에서 생성되었더라도,
+   결과에 대한 책임을 조직이
+   전면적으로 수용할 수 없는 경우,
    소유권은 작성자에게 유지된다.
 
-4. 회사가 결과 책임을 명시적으로 수용할 경우,
-   소유권 이전은 별도 협의로 결정된다.
+4. 조직이 결과 책임을
+   명시적으로 수용하는 경우,
+   소유권 이전은
+   별도의 협의를 통해 결정될 수 있다.
 
-본 자료는 실행 시스템이나 운영 산출물이 아니라,
+본 자료는 실행 가능한 시스템이나
+운영 산출물이 아니라,
 판단 구조에 대한 문서이다.

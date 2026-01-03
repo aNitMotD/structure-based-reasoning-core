@@ -1,4 +1,5 @@
 # License
+
 ## English
 
 This work is licensed under the
@@ -12,7 +13,7 @@ or use this work for commercial purposes.
 
 ---
 
-## License Interpretation Notice
+### License Interpretation Notice
 
 This license governs redistribution and use of the materials
 in this repository.
@@ -29,6 +30,7 @@ delegation of decision-making or authority.
 ---
 
 # 라이선스
+
 ## 한국어
 
 본 저작물은
@@ -43,7 +45,7 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
 
 ---
 
-## 라이선스 해석 고지
+### 라이선스 해석 고지
 
 본 라이선스는 본 레포지토리 자료의
 배포 및 사용 조건을 규정한다.
