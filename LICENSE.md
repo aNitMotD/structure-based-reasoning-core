@@ -1,4 +1,5 @@
-## License (EN)
+# License
+## English
 
 This work is licensed under the
 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
@@ -27,7 +28,8 @@ delegation of decision-making or authority.
 
 ---
 
-## 라이선스 (KO)
+# 라이선스
+## 한국어
 
 본 저작물은
 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0

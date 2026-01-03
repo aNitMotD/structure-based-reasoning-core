@@ -1,4 +1,5 @@
 # Interpretation Guardrails
+## English
 
 This document defines the interpretive guardrails
 governing all contents of this repository.
@@ -133,6 +134,7 @@ the boundaries defined above.
 ---
 
 # 해석 가드레일 (Interpretation Guardrails)
+## 한국어
 
 본 문서는 이 레포지토리 전체에 적용되는
 해석 가드레일을 정의한다.
