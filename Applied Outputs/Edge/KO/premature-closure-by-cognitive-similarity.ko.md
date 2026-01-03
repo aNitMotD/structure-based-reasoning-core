@@ -1,5 +1,5 @@
 # 인지 유사성 기억에 의한 조기 종결 엣지 케이스
-## Premature Closure via Cognitive Similarity Memory
+## Premature Closure via Cognitive Similarity Memory Edge Case
 
 ### 설명
 보조자가 사용자 사고 프레임과 매우 유사한 기억을 보유할 경우,
