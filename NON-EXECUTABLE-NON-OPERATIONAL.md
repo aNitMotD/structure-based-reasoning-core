@@ -1,5 +1,7 @@
 # Non-Executable / Non-Operational Statement
 
+## English
+
 This document clarifies that
 materials in this repository
 are neither executable nor operational.
@@ -7,10 +9,6 @@ are neither executable nor operational.
 It operates under
 INTERPRETATION-GUARDRAILS.md
 and does not override it.
-
----
-
-## English
 
 The contents of this repository
 are non-executable and non-operational by design.
