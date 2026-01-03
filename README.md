@@ -15,6 +15,8 @@ The materials here represent **designed outputs only**,
 including boundary declarations, constraint specifications,
 and documented edge cases.
 
+Directory grouping reflects document type, not chronological order.
+
 ---
 
 ## Scope and Positioning
@@ -87,6 +89,8 @@ and the responsibility boundaries described above.
 **설계 산출물만을 기록**하며,
 경계 선언, 제약 명세,
 엣지 케이스 문서로 구성된다.
+
+디렉토리 구분은 형성 순서가 아니라 기록의 성격을 기준으로 한다.
 
 ---
 
