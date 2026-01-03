@@ -1,5 +1,6 @@
-# 세션 소모 vs “네트워크 비활성화”
-## 멀티모달 LLM에서 경계 모호 UX와 침묵 비전 실패
+# 세션 비용–침묵 응답 경계 오인 엣지 케이스
+## Vision Session Cost–Silent Response Boundary Misinterpretation Edge Case
+### (멀티모달 LLM 환경에서 경계를 흐리는 UX와 침묵하는 비전 실패에 대한 명확화)
 
 ## 요약
 PDF→텍스트 작업 중 다음 메시지를 보게 될 수 있다:

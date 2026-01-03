@@ -1,7 +1,5 @@
-# Session Consumption vs. “Network Disabled”
+# Vision Session Cost–Silent Response Boundary Misinterpretation Edge Case
 ## Clarifying Boundary-Obscuring UX and Silent Vision Failures in Multimodal LLMs
-
----
 
 ## Summary
 

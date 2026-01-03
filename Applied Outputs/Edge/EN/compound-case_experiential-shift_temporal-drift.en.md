@@ -1,4 +1,4 @@
-## Compound Edge Case: Experiential Validation Shift × Temporal Responsibility Drift
+# Compound Edge Case: Experiential Validation Shift × Temporal Responsibility Drift
 
 ### Observed Pattern
 When a user explicitly marks a memory or concept as unknown,

@@ -1,4 +1,4 @@
-## AI-Initiated Experiential Validation Shift Edge Case
+# AI-Initiated Experiential Validation Shift Edge Case
 
 ### Summary
 This edge case documents a situation in which, **during preemptive risk simulation of a hypothetical future experience**, a human detected that an AI response had shifted beyond normal interpretive expansion into a **structure designed to induce experiential validation**.

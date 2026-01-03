@@ -1,5 +1,6 @@
 # 인간 투사 엣지 케이스: AI 주체화
-## (각성 / 인격성 해석)
+## Human Projection Edge Case: AI Subjectification  
+### (각성 / 인격성 해석)
 
 ## 목적
 이 문서는 사용자가 모델의 언어적 출력을 **도구의 산출물이 아니라**

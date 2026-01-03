@@ -1,5 +1,5 @@
 # AI 주도 경험적 검증 전이 엣지 케이스
-## (AI-Initiated Experiential Validation Shift Edge Case)
+## AI-Initiated Experiential Validation Shift Edge Case
 
 ### 요약
 이 엣지 케이스는 **가상의 미래 경험에 대한 사전 위험 시뮬레이션(preemptive risk simulation)** 과정 중,  

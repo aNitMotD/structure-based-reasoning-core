@@ -1,4 +1,4 @@
-## Edge Case: Premature Closure via Cognitive Similarity Memory
+# Edge Case: Premature Closure via Cognitive Similarity Memory
 
 ### Description
 When the assistant retains a memory closely aligned with the user's cognitive framework, it may occasionally infer **state completion prematurely**.  

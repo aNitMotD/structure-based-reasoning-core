@@ -1,5 +1,6 @@
 # 인간 투사 엣지 케이스: 창작자 귀속
-## (출시 이후 연관성 착각)
+## Human Projection Edge Case: Creator Attribution
+### (출시 이후 연관성 착각)
 
 ## 목적
 이 문서는 ZR 창작자가 공개된 도구와 자신 사이에

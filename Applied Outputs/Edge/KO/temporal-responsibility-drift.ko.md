@@ -1,6 +1,6 @@
 # 시간적 책임 드리프트 엣지 케이스
-## (누적 상호작용 경계 박화)
 ## Temporal Responsibility Drift Edge Case
+### (누적 상호작용 경계 박화)
 
 ## 목적
 이 문서는 명시적 사건 없이
