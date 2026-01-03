@@ -140,7 +140,7 @@ and the responsibility boundaries described above.
 
 설명적 맥락이 필요한 경우,
 다음 문서를 참조한다:
-- Notion (**KO** - Authoritative): [https://anitmotd.notion.site/2c8abb7a913d80f19998c126498d16fe?source=copy_link]
+- Notion (**KO** - Authoritative): [https://anitmotd.notion.site/2ddabb7a913d80239af3ff69da237677?source=copy_link]
 
 ---
 
