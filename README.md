@@ -57,7 +57,7 @@ and evolving descriptions of the reasoning process
 are maintained separately in a Notion workspace.
 
 For explanatory context, refer to:
-- Notion (KO / **EN**): [link to be added]
+- Notion (**EN** - Reference): [https://anitmotd.notion.site/Post-hoc-Documentation-of-the-Reasoning-Engine-2ddabb7a913d80d68d35c48be4f5abb4?source=copy_link]
 
 ---
 
@@ -140,7 +140,7 @@ and the responsibility boundaries described above.
 
 설명적 맥락이 필요한 경우,
 다음 문서를 참조한다:
-- Notion (**KO** / EN): [https://anitmotd.notion.site/2c8abb7a913d80f19998c126498d16fe?source=copy_link]
+- Notion (**KO** - Authoritative): [https://anitmotd.notion.site/2c8abb7a913d80f19998c126498d16fe?source=copy_link]
 
 ---
 
