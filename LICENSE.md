@@ -3,7 +3,8 @@
 ## English
 
 This work is licensed under the
-Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License]
+(https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 You may share this material in unmodified form,
 with proper attribution, for non-commercial purposes only.
@@ -34,8 +35,9 @@ delegation of decision-making or authority.
 ## 한국어
 
 본 저작물은
-Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
-국제 라이선스를 따른다.
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 국제 라이선스]
+(https://creativecommons.org/licenses/by-nc-nd/4.0/)
+를 따른다.
 
 출처를 명시하고, 비상업적 목적에 한해
 변경 없이 공유할 수 있다.
