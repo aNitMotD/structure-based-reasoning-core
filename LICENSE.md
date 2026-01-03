@@ -27,23 +27,6 @@ delegation of decision-making or authority.
 
 ---
 
-## Methodology and Post-hoc Explanations
-
-This repository does not contain
-a full post-hoc explanation of the author’s reasoning engine
-or a complete methodological description.
-
-Extended explanations, reflective notes,
-and evolving descriptions of the reasoning process
-are maintained separately in a Notion workspace.
-
-If you are looking for explanatory or methodological context,
-refer to the following link:
-
-- Notion: [link to be added]
-
----
-
 ## 라이선스 (KO)
 
 본 저작물은
@@ -73,22 +56,3 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
 본 자료의 사용은
 의사결정이나 권한의 위임을
 의미하지 않는다.
-
----
-
-## 방법론 및 사후 설명 문서
-
-본 레포지토리는
-작성자의 사고엔진에 대한
-완전한 사후 설명이나
-방법론적 서술을 포함하지 않는다.
-
-사고 과정에 대한 확장 설명,
-사후 정리 노트,
-그리고 변화 중인 설명 문서는
-별도의 Notion 워크스페이스에서 관리된다.
-
-설명적·방법론적 맥락이 필요할 경우,
-아래 링크를 참고한다:
-
-- Notion: [추가 예정 링크]
