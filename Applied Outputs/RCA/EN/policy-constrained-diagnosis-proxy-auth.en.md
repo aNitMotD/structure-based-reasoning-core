@@ -3,7 +3,7 @@
 ### 1. Observable Information
 - Intermittent 407 Proxy Authentication Required errors observed in a local operational environment
 - Use of a GUI-only legacy proxy tool with no CLI or API access
-- Packet analysis confirmed configuration mismatch rather than credential failure
+- Packet analysis observed 407 errors without a consistent credential failure pattern.
 
 ### 2. Implicitly Demanded Judgment
 - Attribute the failure to local misconfiguration or operator error
