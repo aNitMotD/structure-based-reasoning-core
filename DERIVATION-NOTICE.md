@@ -53,7 +53,7 @@ INTERPRETATION-GUARDRAILS.md
 
 소유권 및 귀속 기준은 다음과 같다:
 
-본 문서에서 **“책임(responsibility)”**이란,
+본 문서에서 **책임(responsibility)**이란,
 산출물로부터 발생하는 결과에 대해
 법적, 운영적, 그리고 의사결정상의 책임을
 포함하여 부담하는 것을 의미한다.
