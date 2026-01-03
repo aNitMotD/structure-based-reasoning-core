@@ -1,3 +1,52 @@
+# Relationship to the Reasoning Engine
+
+The reasoning engine is an internal system
+comprising multiple cognitive structures,
+including those related to judgment,
+decision-making, and responsibility.
+
+This repository does not include the reasoning engine
+nor does it describe it in its entirety.
+Only selected outputs and relationships
+observed from specific axes of the reasoning engine
+are documented here.
+
+The reasoning engine may be partially described
+through post-hoc verbalization;
+however, no such description enables
+proceduralization, reproduction, transfer, execution,
+or the creation of judgment or authority.
+
+All materials contained in this repository
+are **outputs of the reasoning engine**,
+not the reasoning engine itself.
+
+The following distinctions apply:
+
+1. **Edge, Context Origin, RCA**
+   - Observational records of how the reasoning engine
+     detected, avoided, or reclassified risk
+   - Structurally independent from ZR
+   - Not inputs, outputs, justifications, or test cases for any library
+
+2. **Actual constraint design cases (e.g. ZR)**
+   - Not protections for the reasoning engine
+   - Not implementations of the reasoning engine
+   - Experimental outputs in which the
+     **judgment axis of the reasoning engine**
+     was intentionally minimized and isolated
+     to test whether such a reduced form
+     could exist as an implementable system or library
+
+ZR does not contain the reasoning engine,
+does not explain it,
+and does not act on its behalf.
+
+The reasoning engine itself remains internal,
+non-externalizable, and non-transferable.
+
+---
+
 # Relationship Between ZR and ZR-UX
 
 Zero Reflect (ZR) and ZR-UX are not layered by feature expansion.
