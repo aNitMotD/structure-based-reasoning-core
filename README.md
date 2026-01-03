@@ -46,7 +46,7 @@ Details are described in the accompanying declaration documents.
 
 ---
 
-## Methodology and Post-hoc Explanations
+## Post-hoc Documentation and Explanatory Context
 
 This repository does not provide
 a full post-hoc explanation of the author’s reasoning engine
@@ -56,8 +56,8 @@ Extended explanations, reflective notes,
 and evolving descriptions of the reasoning process
 are maintained separately in a Notion workspace.
 
-For explanatory or methodological context, refer to:
-- Notion: [link to be added]
+For explanatory context, refer to:
+- Notion (KO / **EN**): [link to be added]
 
 ---
 
@@ -126,21 +126,21 @@ and the responsibility boundaries described above.
 
 ---
 
-## 방법론 및 사후 설명 문서
+## 사후 문서화 및 설명적 맥락
 
 본 레포지토리는
-작성자의 사고엔진에 대한
+작성자의 사고 엔진에 대한
 완전한 사후 설명이나
-방법론적 서술을 포함하지 않는다.
+방법론적 기술을 제공하지 않는다.
 
-사고 과정에 대한 확장 설명,
-사후 정리 노트,
-그리고 변화 중인 설명 문서는
-별도의 Notion 워크스페이스에서 관리된다.
+사고 구조에 대한 확장 설명,
+사후 정리 문서 및 반성적 기록은
+별도의 작성자 관리 Notion 워크스페이스에서
+분리되어 유지된다.
 
-설명적·방법론적 맥락이 필요한 경우,
-아래 링크를 참고한다:
-- Notion: [링크 추가 예정]
+설명적 맥락이 필요한 경우,
+다음 문서를 참조한다:
+- Notion (**KO** / EN): [https://anitmotd.notion.site/2c8abb7a913d80f19998c126498d16fe?source=copy_link]
 
 ---
 
