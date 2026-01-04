@@ -2,56 +2,53 @@
 *(Post-Release Association Illusion)*
 
 ## Purpose
-This document classifies a recurring cognitive pattern in which the creator of ZR
-experiences an implicit sense of association, representation, or linkage between themselves
-and the publicly released tool.
+This document classifies a recurring cognitive pattern in which a creator experiences
+an implicit sense of association, representation, or linkage between themselves
+and a publicly released tool.
 
-This edge case records a boundary condition where attribution effects may arise,
-serving only as a boundary marker and not as a behavioral or interpretive rule.
-
-This is a **reference / edge-case document**.  
-It does not define new ZR rules, constraints, or operating modes.
+This edge case functions as a **boundary marker**.
+It does not define behavioral rules, interpretive norms, or operating guidance.
 
 ---
 
 ## Scope
-This document applies to situations where:
-- ZR has been publicly released or made broadly accessible
-- The creator has prior familiarity through repeated personal use
+This document applies under the following conditions:
+- The tool is publicly released or broadly accessible
+- The creator has repeated personal experience using the tool
 - Responsibility-aware design is central to the tool’s identity
-- The creator reflects on public interpretation or system visibility
+- Reflection arises regarding public interpretation or visibility
 
 ---
 
 ## Non-Goals
 This document does **not**:
-- Assert creator ownership over user interpretation
-- Imply special system treatment of the creator
-- Advise behavioral restraint or precaution
+- Assert creator ownership over interpretation
+- Imply special system treatment or privilege
+- Advise behavioral restraint or caution
 - Frame the phenomenon as a risk or failure
-- Introduce normative guidance
+- Introduce normative or prescriptive guidance
 
 ---
 
 ## Observed Phenomenon
 
 ### Surface Experience
-Common internal impressions may include:
-- “The tool feels implicitly associated with me.”
-- “Public release makes this feel representative.”
-- “This might be interpreted as connected to my stance or judgment.”
+Common internal impressions include:
+- “The tool feels associated with me.”
+- “Public release makes it feel representative.”
+- “My judgment may be projected onto this.”
 - “System visibility feels personally relevant.”
 
-These impressions often arise **after** public release.
+These impressions typically arise **after** public release.
 
 ---
 
 ## Core Structural Pattern
 - **Public accessibility** overlaps with **personal authorship**
-- **Responsibility-oriented design** amplifies attribution sensitivity
-- **Familiar internal context** is projected onto external interpretation
+- **Responsibility-centered design** increases attribution sensitivity
+- **Internal context** is projected onto external interpretation
 
-> In ZR terms, this constitutes a **projection error**:  
+> This constitutes a **projection error**:
 > access scope and interpretive ownership are conflated.
 
 ---
@@ -59,45 +56,43 @@ These impressions often arise **after** public release.
 ## Generation Mechanism
 
 ### Post-Release Responsibility Echo
-1. A structure is released beyond the creator’s interpretive control
-2. Responsibility shifts from internal design to external usage
-3. The creator cognitively tracks possible misattribution
-4. The tracking itself produces a sense of linkage
+1. The structure becomes accessible beyond the creator’s interpretive control
+2. Responsibility shifts from internal design to external use
+3. The creator tracks potential misattribution
+4. The tracking itself generates a sense of association
 
-This mechanism operates without any system-side coupling.
+No system-level coupling is involved.
 
 ---
 
 ## Common Misinterpretations
-- Public release implies creator endorsement or representation
-- Tool availability reflects internal system trust or special status
-- Usage of the tool projects the creator’s intent or judgment
-- The system implicitly associates the creator with the tool’s outputs
+- Public availability implies creator representation
+- Tool usage reflects the creator’s intent or judgment
+- System visibility signals endorsement or authority
+- Outputs are implicitly attributed to the creator
 
-These interpretations are cognitive in origin, not system properties.
+These are **cognitive effects**, not system properties.
 
 ---
 
 ## Boundary Reflection
-- ZR does not maintain attributional ties to its creator
-- Public release alters access, not responsibility ownership
-- Interpretation authority always remains external to the tool
+- No attributional relationship is maintained with the creator
+- Public release changes access, not responsibility ownership
+- Interpretive authority always remains external
 - The creator is subject to the same projection effects as any user
 
 ---
 
 ## Notes
-This edge case requires no mitigation.
-Recognition of the projection is sufficient to dissolve it.
+No mitigation is required.
+Recognition of the projection is sufficient for resolution.
 
 ---
 
 ## Document Placement
-- This document is **not part of the core ZR specification**
-- It functions as an **appendix-level edge-case reference**
-- It parallels:
-  - `ai-subjectification-edge-case.md`
-- It may be cited where creator-side attribution or responsibility boundaries are discussed
+- Appendix-level edge-case reference
+- Independent of core specifications
+- May be cited where creator-side attribution boundaries are discussed
 
 ---
 
