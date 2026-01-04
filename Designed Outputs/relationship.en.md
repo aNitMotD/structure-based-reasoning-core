@@ -47,6 +47,9 @@ non-externalizable, and non-transferable.
 
 ---
 
+This document references artifacts maintained in external repositories.
+Referenced files are **not included in this repository**.
+
 # Relationship Between ZR and ZR-UX
 
 Zero Reflect (ZR) and ZR-UX are not layered by feature expansion.
@@ -82,6 +85,7 @@ ZR-UX defines:
 ZR-UX is strictly subordinate to ZR.
 
 ## Authority and Precedence
+ZR / ZR-UX — Misuse Checklists (external repository reference; not included here)
 
 When documents conflict:
 1. ZR core specifications and constraints always take precedence.
