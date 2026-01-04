@@ -1,6 +1,8 @@
 # Interpretation Guardrails
 ## English
 
+All contents of this repository are further governed by the NON-RELIANCE / NO-DUTY STATEMENT.
+
 This document defines the interpretive guardrails
 governing all contents of this repository.
 
@@ -122,6 +124,43 @@ future ambiguity, not to revise prior meaning.
 
 ---
 
+## INTERPRETATION BREACH CLAUSE
+*(Conditional Declaration)*
+
+All materials in this repository  
+are subject to the interpretive boundaries  
+defined in INTERPRETATION-GUARDRAILS.md  
+and related declarations.
+
+Any interpretation, use, reference,  
+or representation of these materials  
+that exceeds, contradicts, or bypasses  
+the stated guardrails  
+is deemed outside the author’s intent,  
+consent, attribution, and responsibility.
+
+In such cases, no claim may be made  
+regarding:
+
+- authorial endorsement  
+- implied consent or approval  
+- responsibility, liability, or duty  
+- ownership, attribution, or transfer  
+
+Interpretations that breach the declared  
+guardrails do not bind the author  
+in any form and operate entirely  
+at the interpreter’s own risk  
+and responsibility.
+
+This clause does not impose penalties  
+or restrictions;  
+it solely defines the boundary  
+beyond which authorial intent  
+and responsibility do not apply.
+
+---
+
 These guardrails are intentionally minimal.
 
 They exist to constrain interpretation,
@@ -135,6 +174,10 @@ the boundaries defined above.
 
 # 해석 가드레일 (Interpretation Guardrails)
 ## 한국어
+
+본 레포지토리의 모든 내용은  
+NON-RELIANCE / NO-DUTY STATEMENT의  
+추가적인 적용을 받는다.
 
 본 문서는 이 레포지토리 전체에 적용되는
 해석 가드레일을 정의한다.
@@ -257,6 +300,43 @@ the boundaries defined above.
 본 선언은 의미 수정이 아니라,
 향후 해석 혼선을
 사전에 차단하기 위한 것이다.
+
+---
+
+## 해석 경계 위반 조항 (INTERPRETATION BREACH CLAUSE)
+*(Conditional Declaration)*
+
+본 레포지토리의 모든 자료는  
+INTERPRETATION-GUARDRAILS.md 및  
+관련 선언에 정의된  
+해석 경계를 전제로 한다.
+
+해당 가드레일을 초과하거나,  
+모순되게 해석하거나,  
+우회하는 방식의 사용, 참조, 표현은  
+작성자의 의도, 동의,  
+귀속 및 책임 범위에  
+포함되지 않는다.
+
+이러한 해석에 대해서는  
+다음을 주장할 수 없다:
+
+- 작성자의 승인 또는 지지  
+- 묵시적 동의나 승인  
+- 책임, 의무, 또는 법적 부담  
+- 소유권, 귀속, 또는 이전  
+
+해석 가드레일을 위반한 모든 해석은  
+작성자를 어떠한 형태로도  
+구속하지 않으며,  
+전적으로 해석자 자신의  
+책임과 위험 하에 이루어진다.
+
+본 조항은 제재나 제한을  
+부과하기 위한 것이 아니라,  
+작성자의 의도와 책임이  
+적용되지 않는 경계를  
+명확히 정의하기 위한 것이다.
 
 ---
 
