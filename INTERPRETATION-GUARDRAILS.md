@@ -124,6 +124,22 @@ future ambiguity, not to revise prior meaning.
 
 ---
 
+## Supplemental Declarations
+
+This repository may include supplemental constraint documents
+that reinforce the interpretive boundaries defined herein.
+
+Such documents operate under this guardrail,
+do not modify or override it,
+and serve to address recurring patterns
+of misinterpretation or over-attribution.
+
+All supplemental constraints
+are to be read as extensions of this declaration,
+not as independent or prescriptive rules.
+
+---
+
 ## INTERPRETATION BREACH CLAUSE
 *(Conditional Declaration)*
 
@@ -303,8 +319,25 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ---
 
-## 해석 경계 위반 조항 (INTERPRETATION BREACH CLAUSE)
-*(Conditional Declaration)*
+## 보강 선언 문서
+
+본 레포지토리는
+본 문서에 정의된 해석 가드레일을 보강하기 위한
+추가 제약 문서를 포함할 수 있다.
+
+이러한 보강 문서는
+본 가드레일 하에서 작동하며,
+이를 수정하거나 대체하지 않는다.
+
+보강 제약은
+반복적으로 발생하는 오해나
+과도한 귀속을 차단하기 위한 것이며,
+독립적인 규칙이나 지침으로
+해석되어서는 안 된다.
+
+---
+
+## 해석 경계 위반 조항
 
 본 레포지토리의 모든 자료는  
 INTERPRETATION-GUARDRAILS.md 및  

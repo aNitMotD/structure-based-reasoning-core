@@ -2,6 +2,20 @@
 
 ## English
 
+All materials in this repository are governed by
+INTERPRETATION-GUARDRAILS.md
+and related declaration documents.
+
+These materials:
+- do not provide methods, instructions, or workflows
+- do not transfer judgment, responsibility, or authority
+- do not constitute executable, operational, or advisory systems
+
+Interpretation, judgment, and application
+always remain external to this repository.
+
+---
+
 This repository collects design artifacts
 produced through a structure-based reasoning process.
 
@@ -74,6 +88,20 @@ and the responsibility boundaries described above.
 # Structure-Based Reasoning Core
 
 ## 한국어
+
+본 레포지토리에 포함된 모든 자료는  
+INTERPRETATION-GUARDRAILS.md 및  
+관련 선언 문서의 적용을 받는다.
+
+본 자료는 다음을 제공하지 않는다:
+- 방법, 지침, 또는 워크플로
+- 판단, 책임, 또는 권한의 이전
+- 실행 가능하거나 운영·자문 목적의 시스템
+
+해석, 판단, 적용에 대한 책임은  
+항상 본 레포지토리 외부에 남아 있다.
+
+---
 
 이 레포지토리는
 구조 기반 사고 과정을 통해 생성된
