@@ -81,7 +81,7 @@ This edge case highlights that:
 
 ## Notes
 Recognition of this pattern is sufficient.
-No corrective action is defined within ZR.
+No corrective action is defined.
 
 ---
 

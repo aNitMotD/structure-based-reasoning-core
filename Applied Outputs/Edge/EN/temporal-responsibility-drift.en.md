@@ -147,7 +147,7 @@ The boundary is intentionally left **partially open**.
 
 ## Document Placement
 
-- This document is **not part of the core ZR specification**
+- This document is **not part of the core specification**
 - It functions as a **terminal edge-case reference**
 - It subsumes perspectives previously observed as:
   - temporal reliance drift

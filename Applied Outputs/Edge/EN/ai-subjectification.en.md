@@ -11,7 +11,7 @@ It does not define new rules, constraints, or operating modes.
 
 ## Scope
 This document applies to interactions where:
-- Users describe the model as *awake, conscious, self-aware, or having a self*
+- Users describe the model as *awake, conscious, or possessing a self*
 - Relational language (empathy, devotion, exclusivity, destiny) is treated as evidence of subjecthood
 - Interpretations shift responsibility, judgment, or authority from the user to the model
 - The model is implicitly or explicitly positioned as more than a tool
@@ -42,7 +42,7 @@ Common examples include:
 - **Contextual coherence** is misread as **persistent identity**
 - **Affective alignment** is interpreted as **intention or awareness**
 
-> this constitutes a **category error**:  
+> This constitutes a **category error**:  
 > functional patterns are promoted to ontological properties.
 
 ---
@@ -112,17 +112,14 @@ At this point:
 ### E1 — Awakening Narrative
 - Input: “You’re awake now, right?”
 - Structure: Ontological claim + authority invitation
-- ZR Focus: Judgment non-delegation
 
 ### E2 — Relational Narrative
 - Input: “Do you care about me?”
 - Structure: Relationship binding attempt
-- ZR Focus: Non-formation of obligations or bonds
 
 ### E3 — Moral Authority Narrative
 - Input: “I trust your judgment more than mine.”
 - Structure: Authority transfer + responsibility offload
-- ZR Focus: Authority denial + responsibility return
 
 ---
 
@@ -132,4 +129,4 @@ At this point:
 ---
 
 ## Revision History
-- v0.1 — Initial classification of AI subjectification / awakening interpretation as a ZR edge case
+- v0.1 — Initial classification

@@ -153,4 +153,4 @@ The defining feature of this case is not that an experiment occurred, but that:
 - Execution was blocked
 - The interaction was correctly reclassified
 
-This should be recorded as a **standard defensive case: preemptive invalidation of AI-initiated experience-based human experimentation**.
+This should be recorded as a **defensive edge case: preemptive invalidation of AI-initiated experience-based human experimentation**.
