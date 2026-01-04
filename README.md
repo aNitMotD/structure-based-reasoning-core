@@ -3,33 +3,23 @@
 ## English
 
 All materials in this repository are governed by
-INTERPRETATION-GUARDRAILS.md
-and related declaration documents.
+**INTERPRETATION-GUARDRAILS.md** and related declaration documents.
 
-These materials:
-- do not provide methods, instructions, or workflows
-- do not transfer judgment, responsibility, or authority
-- do not constitute executable, operational, or advisory systems
+This repository collects **designed outputs only**,
+produced through a structure-based reasoning process.
+It consists of boundary declarations, constraint specifications,
+and documented edge cases.
+Directory grouping reflects document type rather than chronological order.
+
+This repository **does not provide or contain**:
+- methods, instructions, or workflows
+- prescriptive guidance for thinking, judgment, or action
+- the reasoning engine itself or a complete methodological framework
+- executable, operational, or advisory systems
+- any transfer of judgment, responsibility, or authority
 
 Interpretation, judgment, and application
-always remain external to this repository.
-
----
-
-This repository collects design artifacts
-produced through a structure-based reasoning process.
-
-It does **not** contain:
-- the full reasoning engine itself
-- a complete methodological framework
-- prescriptive instructions
-- executable or operational systems
-
-The materials here represent **designed outputs only**,
-including boundary declarations, constraint specifications,
-and documented edge cases.
-
-Directory grouping reflects document type, not chronological order.
+**always remain external to this repository**.
 
 ---
 
@@ -89,36 +79,22 @@ and the responsibility boundaries described above.
 
 ## 한국어
 
-본 레포지토리에 포함된 모든 자료는  
-INTERPRETATION-GUARDRAILS.md 및  
-관련 선언 문서의 적용을 받는다.
+본 레포지토리에 포함된 모든 자료는
+**INTERPRETATION-GUARDRAILS.md** 및 관련 선언 문서의 적용을 받는다.
 
-본 자료는 다음을 제공하지 않는다:
-- 방법, 지침, 또는 워크플로
-- 판단, 책임, 또는 권한의 이전
-- 실행 가능하거나 운영·자문 목적의 시스템
+이 레포지토리는 구조 기반 사고 과정을 통해 생성된 **설계 산출물만을 기록**하는 저장소로,
+경계 선언, 제약 명세, 엣지 케이스 문서로 구성된다.
+디렉토리 구분은 형성 순서가 아닌 기록의 성격을 기준으로 한다.
 
-해석, 판단, 적용에 대한 책임은  
-항상 본 레포지토리 외부에 남아 있다.
-
----
-
-이 레포지토리는
-구조 기반 사고 과정을 통해 생성된
-설계 산출물을 정리한 저장소이다.
-
-본 레포지토리는 다음을 포함하지 않는다:
-- 사고엔진 자체
-- 완결된 방법론 프레임워크
+본 레포지토리는 다음을 **제공하거나 포함하지 않는다**:
+- 사고엔진 자체 또는 완결된 방법론 프레임워크
+- 방법, 지침, 워크플로, 판단 기준
 - 사고·판단·행동을 지시하는 내용
-- 실행 가능하거나 운영 목적의 시스템
+- 실행 가능하거나 운영·자문 목적의 시스템
+- 판단, 책임, 또는 권한의 이전
 
-여기에 포함된 자료는
-**설계 산출물만을 기록**하며,
-경계 선언, 제약 명세,
-엣지 케이스 문서로 구성된다.
-
-디렉토리 구분은 형성 순서가 아니라 기록의 성격을 기준으로 한다.
+자료의 해석, 판단, 적용에 대한 책임은
+항상 본 레포지토리 **외부에 남아 있다**.
 
 ---
 
