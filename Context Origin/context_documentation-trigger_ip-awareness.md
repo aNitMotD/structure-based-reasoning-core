@@ -55,7 +55,7 @@ the explanations could not be turned into procedures.
 
 ## 컨텍스트 사례: 문서화 및 공개 판단의 형성 과정
 
-## 한국어
+## 한국어 (Korean)
 
 ### 진행 과정
 

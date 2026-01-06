@@ -1,4 +1,5 @@
 # Interpretation Guardrails
+
 ## English
 
 All contents of this repository are further governed by the NON-RELIANCE / NO-DUTY STATEMENT.
@@ -141,7 +142,6 @@ not as independent or prescriptive rules.
 ---
 
 ## INTERPRETATION BREACH CLAUSE
-*(Conditional Declaration)*
 
 All materials in this repository  
 are subject to the interpretive boundaries  
@@ -188,8 +188,9 @@ the boundaries defined above.
 
 ---
 
-# 해석 가드레일 (Interpretation Guardrails)
-## 한국어
+# 해석 가드레일
+
+## 한국어 (Korean)
 
 본 레포지토리의 모든 내용은  
 NON-RELIANCE / NO-DUTY STATEMENT의  
@@ -209,7 +210,7 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ---
 
-## 1. 비지침적 선언 (Non-Prescriptive)
+## 1. 비지침적 선언
 
 본 레포지토리는 비지침적이다.
 
@@ -225,8 +226,7 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ---
 
-## 2. 비실행적 / 비운영적 선언  
-(Non-Executable / Non-Operational)
+## 2. 비실행적 / 비운영적 선언
 
 본 레포지토리의 내용은
 실행 가능하거나 운영 목적이 아니다.
@@ -251,7 +251,7 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ---
 
-## 3. 비권위적 선언 (Non-Authoritative)
+## 3. 비권위적 선언
 
 본 레포지토리의 내용은
 권위를 가지지 않는다.
@@ -268,8 +268,7 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ---
 
-## 4. 파생물과 판단의 분리  
-(Derivative and Judgment Separation)
+## 4. 파생물과 판단의 분리
 
 본 레포지토리의 모든 자료는
 파생 산출물이다.
@@ -286,8 +285,7 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ---
 
-## 5. 조건부 귀속 및 소유권  
-(Conditional Attribution and Ownership)
+## 5. 조건부 귀속 및 소유권
 
 귀속 및 소유권은
 맥락에 따라 결정된다.
@@ -303,7 +301,7 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ---
 
-## 6. 사전 선언 (Pre-Declaration)
+## 6. 사전 선언
 
 본 레포지토리는 향후
 추가 부록, 경계 고지,

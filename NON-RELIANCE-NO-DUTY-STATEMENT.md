@@ -1,7 +1,4 @@
 # NON-RELIANCE / NO-DUTY STATEMENT
-*(Independent Declaration)*
-
----
 
 ## English
 
@@ -38,10 +35,9 @@ and does not override it.
 
 ---
 
-# NON-RELIANCE / NO-DUTY STATEMENT
-*(Independent Declaration)*
+# 비의존 / 무의무 선언
 
-## 한국어
+## 한국어 (Korean)
 
 본 레포지토리는  
 어떠한 신뢰(reliance), 자문,  

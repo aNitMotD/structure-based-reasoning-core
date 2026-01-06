@@ -1,8 +1,6 @@
 # TEMPORAL SCOPE LOCK
 *(Temporal Boundary Declaration)*
 
----
-
 ## English
 
 This repository documents  
@@ -43,10 +41,10 @@ and does not override it.
 
 ---
 
-# TEMPORAL SCOPE LOCK
-*(Temporal Boundary Declaration)*
+# 시간적 범위 고정
+*(시간 경계 선언)*
 
-## 한국어
+## 한국어 (Korean)
 
 본 레포지토리는  
 작성 시점을 기준으로 한  

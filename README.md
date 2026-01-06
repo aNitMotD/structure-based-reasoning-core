@@ -75,9 +75,9 @@ and the responsibility boundaries described above.
 
 ---
 
-# Structure-Based Reasoning Core
+# 구조 기반 사고 핵심
 
-## 한국어
+## 한국어 (Korean)
 
 본 레포지토리에 포함된 모든 자료는
 **INTERPRETATION-GUARDRAILS.md** 및 관련 선언 문서의 적용을 받는다.

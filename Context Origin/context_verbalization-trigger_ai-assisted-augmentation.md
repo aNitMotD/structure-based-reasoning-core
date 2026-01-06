@@ -66,7 +66,7 @@ without transferring responsibility or decision authority.
 
 ## 컨텍스트 사례: 책임을 유지한 상태에서의 AI 보조 언어화
 
-## 한국어
+## 한국어 (Korean)
 
 ### 진행 과정
 

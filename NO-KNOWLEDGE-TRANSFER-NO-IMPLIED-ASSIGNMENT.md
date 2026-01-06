@@ -1,7 +1,4 @@
 # NO KNOWLEDGE TRANSFER / NO IMPLIED ASSIGNMENT
-*(Independent Declaration)*
-
----
 
 ## English
 
@@ -44,10 +41,9 @@ and does not override it.
 
 ---
 
-# NO KNOWLEDGE TRANSFER / NO IMPLIED ASSIGNMENT
-*(Independent Declaration)*
+# 지식 이전 없음 / 묵시적 양도 없음
 
-## 한국어
+## 한국어 (Korean)
 
 본 레포지토리는  
 지식, 노하우, 기술, 방법,  

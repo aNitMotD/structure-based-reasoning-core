@@ -38,7 +38,9 @@ not executable systems or operational outputs.
 
 ---
 
-## 한국어
+# 도출 및 귀속에 관한 고지
+
+## 한국어 (Korean)
 
 본 문서는 본 레포지토리에 포함된  
 파생 산출물의 귀속 및 소유권 기준을 명시한다.

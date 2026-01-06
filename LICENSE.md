@@ -32,7 +32,7 @@ delegation of decision-making or authority.
 
 # 라이선스
 
-## 한국어
+## 한국어 (Korean)
 
 본 저작물은
 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 국제 라이선스]

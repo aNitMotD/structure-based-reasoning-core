@@ -23,7 +23,9 @@ always remains with the user or organization.
 
 ---
 
-## 한국어
+# 책임 및 소유권 고지
+
+## 한국어 (Korean)
 
 본 문서는 본 레포지토리 내
 모든 자료에 대한 책임 경계를 명확히 한다.

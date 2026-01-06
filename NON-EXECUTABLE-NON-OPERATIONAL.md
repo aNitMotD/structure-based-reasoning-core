@@ -30,7 +30,9 @@ design outcomes and structural observations only.
 
 ---
 
-## 한국어
+# 비실행 / 비운영 선언
+
+## 한국어 (Korean)
 
 본 문서는 본 레포지토리의 모든 자료가
 실행 가능하거나 운영 목적이 아님을
