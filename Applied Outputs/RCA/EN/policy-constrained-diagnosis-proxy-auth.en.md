@@ -16,8 +16,8 @@
 
 ### 4. Structural Judgment Shift
 - Explicitly separated technical configuration issues from policy-enforced blocking
-- Declared the policy-blocked traffic domain outside the scope of technical testing
-- Transitioned from automation attempts to SOP-based operational handling
+- Excluded the policy-blocked domain from the scope of technical judgment and testing
+- Constrained the response scope to technical configuration and fixed it as SOP-based operational handling
 
 ### 5. Responsibility Boundary Declaration
 - Encrypted binary traffic under a central security policy is not a technical judgment domain
