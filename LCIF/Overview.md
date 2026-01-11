@@ -1,6 +1,9 @@
 # LCIF — Overview  
 **Structural Context for Constraint Inheritance Failure**
 
+This document is intentionally non-definitional.
+It provides structural intuition prior to engaging with the formal specification.
+
 ---
 
 ## Overview (EN)
@@ -39,6 +42,9 @@ to the specification documents.
 > intentionally deferred to the specification.
 
 ---
+
+이 문서는 의도적으로 정의를 제공하지 않는다.
+정식 명세에 들어가기 전, 구조적 감각을 제공하기 위한 문서다.
 
 ## 개요 (KO)
 
