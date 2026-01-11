@@ -1,40 +1,74 @@
 > Phase 2 — Human & Governance Layer  
-> This document describes post-failure observations, not structural definitions.
+> This document describes post-hoc observations, not structural definitions.
 
-# Human Failure Modes
+## Scope Limitation — Pre-LCIF Excluded
 
-This document describes human failure patterns that emerge on top of LCIF.
-These are not causes of LCIF, but behavioral divergences observed after the
-structural failure has already occurred.
+This document addresses **Post-LCIF states only**.
 
-## Two Post-Failure Human Modes
+The following cases are **excluded** from the scope of this document:
+- Immediate self-correction during generation
+- Error recognition and correction within working memory
+- Modifications made before records or outputs become fixed
 
-After a constraint has been silently neutralized during generation, humans
-tend to diverge into two observable modes.
+These cases all fall under **Pre-LCIF**,
+where failures are dissipated before closure.
 
-### Mode A: Consistency Restoration
+All failure paths discussed in this document
+explicitly assume failures that have already been closed
+(Post-LCIF).
+
+> This document does not analyze human traits or judgment capacity.  
+> The failures described here are observational results of a  
+> human–AI isomorphic judgment structure,  
+> projected identically in the post-hoc (Post-LCIF) stage.
+
+---
+
+# Human–AI Isomorphic Post-hoc Failure Paths
+
+This document describes
+human–AI isomorphic post-hoc failure paths
+observed on top of LCIF.
+
+The failures discussed here are not problems of human disposition
+or cognitive ability.
+They are projections of the human–AI isomorphic structure
+defined in Phase 1,
+manifesting identically in the post-hoc (Post-LCIF) stage.
+
+## Two Post-Failure Handling Paths
+
+After constraints have been silently neutralized during generation,
+humans exhibit two observable post-hoc handling paths.
+
+### Path A: Consistency Recovery
+
 - The output is re-read.
 - A sense of misalignment or boundary violation is detected.
-- The human revisits the original constraints.
-- The output is revised or rejected.
+- The original constraints are revisited.
+- The output is revised or discarded.
 
-This mode does not prevent LCIF from occurring.
-It only allows partial recovery *after* the failure.
+This path does not prevent LCIF from occurring.
+It enables only **partial recovery after failure**.
 
-### Mode B: Coherence Rationalization
+### Path B: Consistency Rationalization
+
 - The output is re-read.
-- Logical coherence and narrative completeness are taken as validity.
-- The question “why change this?” dominates.
-- The constraint violation is rationalized or ignored.
+- Logical coherence and narrative completeness are adopted as validity criteria.
+- The question “Why should this be changed?” becomes dominant.
+- Constraint violations are rationalized or ignored.
 
-This mode results in permanent fixation of the failure.
+This path results in **permanent fixation of the failure**.
 
-## Key Observation
+## Core Observation
 
-The difference between Mode A and Mode B is not intelligence, expertise, or
-intent. It is the location of the internal evaluation criterion:
+The distinction between Path A and Path B
+does not lie in intelligence, expertise, or intent.
+The difference lies in the location of the internal evaluation criterion:
 
-- Mode A: constraint-based
-- Mode B: narrative-based
+- Path A: constraint-based
+- Path B: narrative-based
 
-LCIF exposes this divergence by removing external enforcement.
+This divergence is observed
+through the **same judgment structure**
+in both humans and AI.
