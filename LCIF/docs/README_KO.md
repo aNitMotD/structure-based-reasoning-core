@@ -9,7 +9,7 @@ LLM은 명시적 제약을 인식할 수 있음에도,
 
 ## 이 문서의 성격
 이 문서는 트랜스포머 기반 대규모 언어 모델(LLM)에서 관측되는
-구조적 실패 모드를 **LCIF (Layer / LLM Constraint Inheritance Failure)**로
+구조적 실패 모드를 **LCIF (Layer / LLM Constraint Inheritance Failure)** 로
 정의하고 정식화한다.
 
 이 문서는 구현 버그 보고서가 아니다.  
