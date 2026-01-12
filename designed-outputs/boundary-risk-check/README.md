@@ -1,4 +1,5 @@
 # Boundary Risk Check (Experimental)
+(LCIF-Analysis, SWOT-inspired · Non-Prescriptive)
 
 ## English
 
@@ -14,6 +15,7 @@ This is not a training, audit, or evaluation tool.
 ---
 
 # 경계 반응 체크 (실험용)
+(LCIF 분석, SWOT 개념 차용 · 비지침적)
 
 ## 한국어 (Korean)
 
