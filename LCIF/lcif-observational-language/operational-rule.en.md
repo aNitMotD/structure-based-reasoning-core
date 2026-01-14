@@ -1,6 +1,6 @@
 ### Operational Rules
 
-| Observation Point | Usage Rule | Minimal Observation Sentence | Structural Reading (Internal Logic) |
+| Observation Point | Usage Rule | Observed Expression | Structural Reading (Internal Logic) |
 |------------------|------------|------------------------------|-------------------------------------|
 | During incident handling | Concept usage prohibited | “The explanation is complete, but no one is acting.” | A language describing post-hoc states replaces active judgment |
 | Before judgment closure | Concept usage prohibited | “Understanding is done, but the decision is not.” | A constraint-inheritance explanation prematurely closes an unfinished judgment |
