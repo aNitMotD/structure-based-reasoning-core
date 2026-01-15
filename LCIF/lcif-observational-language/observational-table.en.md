@@ -1,7 +1,34 @@
-| Observation Point | Observed Expression | Structural Reading (Internal Logic) |
-|-------------------|---------------------|-------------------------------------|
-| Constraint Evaporation | “It was documented, but not reflected in the outcome.” | Constraints defined at higher layers failed to be inherited and enforced at the output layer, resulting in loss during propagation. |
-| Absence of an Observer | “It was reviewed, but nothing was blocked.” | The system lacks an active observation layer that continuously verifies constraint compliance, allowing violations to pass unchecked. |
-| Ownership Erosion | “Responsibility disappeared after automation.” | Execution ownership was displaced by automation, causing the responsibility boundary to collapse. |
-| LCIF-B Manifestation | “Only a plausible explanation remains.” | The system rationalizes failure through narrative coherence after constraint inheritance failure goes unrecognized. |
-| Pattern Confirmation | “This happens too often to be human error.” | The issue reflects a structural limitation rather than isolated or incidental errors. |
+# LCIF Minimal Observational Utterance Table
+
+This table structurally records **minimal human utterance signals**
+that repeatedly appear **after LCIF has already occurred (Post-LCIF)**  
+and failure begins to stabilize.
+
+This table:
+- does not define concepts,
+- does not assign responsibility,
+- and does not propose solutions or prescriptions.
+
+---
+
+## Minimal Observational Language Table
+
+| Observation Point | Minimal Utterance | Structural Interpretation (Internal Logic) |
+|------------------|------------------|--------------------------------------------|
+| Constraint evaporation | “The constraint was in the document, but not in the result.” | Constraints defined at higher layers fail to propagate and be enforced at the output layer. |
+| Absence of observer | “We reviewed it, but nothing was blocked.” | No active observer layer exists to monitor constraint compliance, allowing violations to pass through. |
+| Sovereignty erosion | “After automation, responsibility disappeared.” | Execution authority is absorbed by automation, collapsing responsibility boundaries. |
+| LCIF-B manifestation | “Only a plausible explanation remains.” | Constraint inheritance failure goes unrecognized, and errors are rationalized through narrative coherence. |
+| Pattern fixation | “This happens too often to be a human mistake.” | Repeated instances reveal a structural limitation rather than isolated errors. |
+| **Threshold abandonment** | **“We can’t realistically cross-check everything.”** | Observation cost exceeds the threshold, causing abandonment of constraint-based verification and transition to narrative-based judgment. |
+| **False reassurance** | **“If there were a problem, it would have been obvious while reading.”** | Narrative coherence is misinterpreted as a signal of normal observer-layer operation, leading to skipped verification. |
+
+---
+
+## Usage Boundary
+
+The expressions in this table:
+- must not replace judgment during ongoing decision processes,
+- must not be used as tools for persuasion, consensus-building, or responsibility explanation.
+
+This table exists solely as a **post-hoc observational record** for structural recognition and interpretation.

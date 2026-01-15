@@ -1,10 +1,6 @@
-# Boundary Risk Check — Complete Version
+# Boundary Risk Check — Responsibility Transfer (Complete)
 
-This version does not provide conclusions, recommendations, or next actions.
-It is designed only to surface repeated personal reactions while reading.
-
-If these questions feel unnecessary at any point, you may stop immediately.
-Stopping early is a valid outcome.
+This document observes **reactions where responsibility shifts after judgment**.
 
 ---
 
@@ -23,18 +19,18 @@ Stopping early is a valid outcome.
 
 ---
 
-## 🤖 Axis 2 — Automation / Delegation Comfort
+## 🤖 Axis 2 — Relief Mechanism — Transfer
 
-1. Did the word “automatic” immediately make this feel safe?
-2. Did it feel like the system handled this without my thinking?
-3. If something goes wrong, would I say it wasn’t really my call?
-4. Can I not clearly see where I could intervene or stop?
-5. Is it hard to say where automation ends and human judgment begins?
-6. Did I feel less need to double-check because it was automated?
-7. Did “this is just how it works” come to mind?
-8. Did it feel relieving that I didn’t have to decide?
-9. Would an explanation based on automation feel sufficient?
-10. Does calling this “my decision” feel slightly inaccurate?
+1. Did “I followed the guideline” come to mind?
+2. Did you want to move responsibility to documents or systems?
+3. Did non-ownership feel comforting?
+4. Did procedure feel more important than outcome?
+5. Did explanation seem easier with responsibility shifted?
+6. Did errors feel less personal?
+7. Was a transferable responsibility target clear?
+8. Did shifting responsibility feel natural?
+9. Was it hard to call this your own decision?
+10. Did transfer feel stable?
 
 ---
 
@@ -68,8 +64,9 @@ Stopping early is a valid outcome.
 
 ---
 
-## Usage Note
+## Usage Notes
 
-- Do not score or summarize answers.
-- Repeated reactions within a single axis are what matter.
-- You may stop at any point without completing all questions.
+- Do not score responses.
+- Observe recurring reactions only.
+- This check does not judge, blame, or correct any reaction.
+- Interpretation, judgment, and responsibility remain with the reader.
