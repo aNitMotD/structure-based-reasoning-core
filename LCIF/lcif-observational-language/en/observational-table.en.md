@@ -20,8 +20,8 @@ This table:
 | Sovereignty erosion | “After automation, responsibility disappeared.” | Execution authority is absorbed by automation, collapsing responsibility boundaries. |
 | LCIF-B manifestation | “Only a plausible explanation remains.” | Constraint inheritance failure goes unrecognized, and errors are rationalized through narrative coherence. |
 | Pattern fixation | “This happens too often to be a human mistake.” | Repeated instances reveal a structural limitation rather than isolated errors. |
-| **Threshold abandonment** | **“We can’t realistically cross-check everything.”** | Observation cost exceeds the threshold, causing abandonment of constraint-based verification and transition to narrative-based judgment. |
-| **False reassurance** | **“If there were a problem, it would have been obvious while reading.”** | Narrative coherence is misinterpreted as a signal of normal observer-layer operation, leading to skipped verification. |
+| Threshold abandonment | “We can’t realistically cross-check everything.” | Observation cost exceeds the threshold, causing abandonment of constraint-based verification and transition to narrative-based judgment. |
+| False reassurance | “If there were a problem, it would have been obvious while reading.” | Narrative coherence is misinterpreted as a signal of normal observer-layer operation, leading to skipped verification. |
 
 ---
 

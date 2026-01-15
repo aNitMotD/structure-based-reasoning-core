@@ -1,6 +1,7 @@
-# LCIF Observation Log / LCIF 관측 로그
+# LCIF Observation Log
 
 ## English
+
 This directory contains non-prescriptive observation logs of LCIF-related closure patterns.
 Each file records a real-world sequence of events without evaluation, recommendation, or attribution of fault.
 
@@ -21,7 +22,9 @@ based solely on the recorded transition sequences.
 
 ---
 
-## 한국어
+# LCIF 관측 로그
+
+## 한국어 (Korean)
 
 이 디렉토리는 LCIF와 관련된 판단 종결 패턴을  
 평가·권고·책임 귀속 없이 관측 기록 형태로 보관한다.  
