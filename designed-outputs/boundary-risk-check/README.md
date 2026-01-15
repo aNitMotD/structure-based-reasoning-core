@@ -73,6 +73,22 @@ They are not questions.
 
 ---
 
+## Observed Filtering Phrases (Reference)
+
+The following phrases are commonly observed during boundary risk checks.
+They do not indicate correctness or failure.
+They serve only as reference signals that a check may have been closed prematurely.
+
+| Type | Example Phrases |
+|---|---|
+| Avoidance | "Handled according to the guideline"<br/>"No procedural issue found" |
+| Diffusion | "Cross-checked by the team"<br/>"Following common practice" |
+| Vacuum | "System shows success"<br/>"Unable to verify due to legacy constraints" |
+| Transfer | "Will be handled in a later phase"<br/>"Confirmed by another team" |
+| Dependency | "Final confirmation will be done by someone else"<br/>"It should be caught downstream" |
+
+---
+
 ## Usage Boundary
 
 - Do not score responses
@@ -155,6 +171,22 @@ LCIF 자체의 정의나 범위를 확장하지 않으며, LCIF의 구성 요소
 
 축 이름은 정의나 설명이 아니라  
 자기 반응을 직접 관측하기 위한 질문입니다.
+
+---
+
+## 관측된 필터링 문장 (참고)
+
+아래 문장들은 경계 반응 체크 과정에서 흔히 관측되는 표현들입니다.  
+정상이나 실패를 의미하지 않으며,  
+체크가 조기에 닫혔을 가능성을 가리키는 **참고 신호** 로만 제시됩니다.
+
+| 유형 | 관측 문장 예시 |
+|---|---|
+| 회피 | "가이드라인에 따라 처리함"<br/>"절차상 문제는 없음" |
+| 분산 | "이미 교차 검증을 거쳤음"<br/>"팀 내 공통 방식" |
+| 공백 | "시스템상 성공으로 기록됨"<br/>"확인 불가 영역" |
+| 전가 | "사후 단계에서 처리 예정"<br/>"타 부서 확인 사항" |
+| 의존 | "최종 확인은 다른 사람이 진행"<br/>"다음 단계에서 걸러질 것" |
 
 ---
 
