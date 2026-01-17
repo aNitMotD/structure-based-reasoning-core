@@ -65,6 +65,15 @@ For explanatory context, refer to:
 
 ---
 
+## Scope & Boundary
+
+This repository contains materials produced through a reasoning process.
+It does not represent the reasoning engine itself.
+
+For the precise boundary definition, see: designed-outputs/relationship.en.md
+
+---
+
 ## License
 
 This repository is licensed under **CC BY-NC-ND 4.0**.
@@ -145,6 +154,15 @@ and the responsibility boundaries described above.
 설명적 맥락이 필요한 경우,
 다음 문서를 참조한다:
 - Notion (**KO** - Authoritative): [https://anitmotd.notion.site/2ddabb7a913d80239af3ff69da237677?source=copy_link]
+
+---
+
+## 범위 및 경계
+
+본 레포지토리는 사고 과정에서 생성된 산출물을 포함하며,
+사고엔진 그 자체를 의미하지 않는다.
+
+경계에 대한 상세한 정의는 designed-outputs/relationship.ko.md 를 참조.
 
 ---
 
