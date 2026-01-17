@@ -9,7 +9,7 @@
 
 2. Through cross-domain association,
    the author immediately recognized that
-   the clause could also apply to their own reasoning outputs.
+   the clause could also apply to their own reasoning engine, as well as its outputs.
 
 3. Documentation was initiated
    as a precautionary measure for intellectual property protection.
@@ -63,7 +63,7 @@ the explanations could not be turned into procedures.
    지식재산권 귀속에 관한 단일 조항을 접함.
 
 2. 통섭적으로 해당 조항이
-   자신의 사고 산출물에도 적용될 수 있음을
+   자신의 사고엔진 및 그 산출물에도 적용될 수 있음을
    즉시 인지함.
 
 3. 지식재산권 보호를 목적으로
