@@ -23,6 +23,13 @@ Interpretation, judgment, and application
 
 ---
 
+## Reading Order
+
+- Interpretation boundary: INTERPRETATION-GUARDRAILS.md (and related root declarations)
+- Reader positioning: user_orientation/
+
+---
+
 ## Scope and Positioning
 
 This repository is:
@@ -104,6 +111,16 @@ and the responsibility boundaries described above.
 
 자료의 해석, 판단, 적용에 대한 책임은
 항상 본 레포지토리 **외부에 남아 있다**.
+
+---
+
+## 읽기 순서 안내
+
+- **해석·책임 경계**: `INTERPRETATION-GUARDRAILS.md` 및 root에 위치한 관련 선언 문서  
+- **독자 위치 정렬**: `user_orientation/`
+
+위 문서들을 먼저 확인한 이후에,
+나머지 디렉터리의 내용을 읽는 것을 전제로 한다.
 
 ---
 
