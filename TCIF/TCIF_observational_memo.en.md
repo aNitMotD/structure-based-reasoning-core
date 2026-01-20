@@ -205,7 +205,33 @@ The following tend to appear as a cluster:
 
 ---
 
-### 7. Boundary Declaration
+### 7. Observed Mechanism — Asymmetry of Temporal Reference
+
+Under TCIF-B conditions, temporal cost is removed from the judgment model,
+but it does not disappear entirely.
+
+Instead, temporal reference becomes asymmetrically distributed:
+
+- One’s own time → treated as a baseline (“my standard”)
+- Others’ time → treated as a difference (“a deviation”)
+
+As a result:
+
+- One’s own acceleration is not recognized within the model
+- Only others’ acceleration becomes salient for comparison
+
+This leads to a recurring asymmetry:
+
+- Self-acceleration = treated as non-existent
+- Others’ acceleration = framed as a moral or ethical issue
+
+This pattern is not attributed to intent or attitude,
+but is interpreted as a byproduct of
+**comparative criteria collapse caused by temporal elision**.
+
+---
+
+### 8. Boundary Declaration
 
 - This branch is:
   - not a judgment of correctness ❌
@@ -213,6 +239,20 @@ The following tend to appear as a cluster:
   - not an application rule ❌
 - It is solely a **reference coordinate**
   for re-identifying distinct collapse paths of temporal context.
+
+---
+
+### 9. Purpose of This Memo
+
+When similar structures reappear in:
+- other narratives
+- other human cases
+- system or AI developments
+
+it is sufficient to recognize:
+
+> “Ah, this corresponds to a
+> temporal-elision branch within TCIF.”
 
 ---
 
@@ -224,7 +264,7 @@ causing efficiency to be replaced by ethical framing.
 
 ---
 
-## LCIF × TCIF-B Interaction (reference)
+## 10. LCIF × TCIF-B Interaction (reference)
 
 > This section does not analyze LCIF paths
 > and does not derive conclusions.
@@ -268,3 +308,60 @@ The following often appear in sequence:
 **LCIF-B paths appear more likely to stabilize under TCIF-B conditions.**
 
 (no judgment, no prescription)
+
+---
+
+## 11. Narrative Usage — TCIF-B Minimal Dialogue Set
+
+> The following lines are not used for explanation.  
+> They function as signals that allow the reader to  
+> **recognize a temporal-elision state on their own**.
+
+### 11.1 Temporal Elision Declaration (core)
+
+- “Even if I use AI, if I make the decision myself, it’s the same as not using it.”
+- “In the end, the decision is still made by a human.”
+
+---
+
+### 11.2 Time-Value Nullification
+
+- “Anyone could have found that information.”
+- “It was just a bit faster — the outcome would’ve been the same.”
+
+---
+
+### 11.3 Moral Framing Shift
+
+- “Isn’t that taking things a bit too easily?”
+- “That feels like a shortcut.”
+- “It doesn’t seem fair.”
+
+---
+
+### 11.4 Post-hoc Consistency Lock-in (LCIF overlap)
+
+- “The result turned out fine anyway.”
+- “If there was no problem, what’s the issue?”
+- “Why bring that up now?”
+
+---
+
+### Usage Notes
+
+- These lines are **not used for rebuttal**
+- No explanatory dialogue should be added
+- Even **2–3 consecutive lines spoken by a single character**
+  are sufficient to reveal the state
+
+---
+
+### Narrative Effect Summary
+
+- The character feels they are speaking rationally
+- The reader recognizes that:
+  - the temporal axis has been removed
+  - efficiency has been replaced by moral framing
+  - constraint tracking has been severed
+
+→ The state is conveyed **without explanation**
