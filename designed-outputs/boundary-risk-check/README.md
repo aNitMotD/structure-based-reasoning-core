@@ -56,7 +56,7 @@ under similar accountability constraints.
 ## Structure
 
 Boundary Risk Check is organized into **five responsibility reaction types**.
-Each type is presented in **three layers**, serving different reading depths.
+Each type is presented in **four layers**, serving different reading depths.
 
 ### Layers
 
@@ -70,7 +70,12 @@ Each type is presented in **three layers**, serving different reading depths.
    - Explains what kind of reaction pattern is being observed
    - No evaluation or instruction
 
-3. **Complete**
+3. **Filters**
+   - Reference layer of commonly observed phrases
+   - Indicates possible early closure of a check
+   - Not evaluative; serves as observational signals only
+
+4. **Complete**
    - Full observational checklist
    - Multiple axes for repeated self-observation
    - No scoring, no judgment, no correction
@@ -186,8 +191,8 @@ LCIF 자체의 정의나 범위를 확장하지 않으며, LCIF의 구성 요소
 
 ## 구성
 
-경계 반응 체크는 **다섯 가지 책임 반응 유형** 으로 구성되며,  
-각 유형은 **세 개의 레이어** 로 제공됩니다.
+경계 반응 체크는 **다섯 가지 책임 반응 유형**으로 구성되며,  
+각 유형은 **네 개의 레이어**로 제공됩니다.
 
 ### 레이어
 
@@ -197,11 +202,16 @@ LCIF 자체의 정의나 범위를 확장하지 않으며, LCIF의 구성 요소
    - 목적: *통과 / 정지*
 
 2. **Signal**
-   - 반응 패턴 설명
-   - 어떤 구조의 반응인지 인식하기 위한 레이어
+   - 반응 패턴 설명 레이어
+   - 어떤 구조의 반응인지 인식하기 위한 구간
    - 해석이나 지침 없음
 
-3. **Complete**
+3. **Filters**
+   - 자주 관측되는 문장 참고 레이어
+   - 체크가 조기에 닫혔을 가능성을 가리키는 신호
+   - 평가나 판정 목적 아님
+
+4. **Complete**
    - 반복 관측용 상세 체크
    - 여러 축을 통한 자기 반응 관찰
    - 점수화·판단·교정 없음
