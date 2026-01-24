@@ -1,4 +1,4 @@
-# Judgment Prerequisite Axis Records  
+# Axis Loss Records
 *(Pre-trial / Pre-failure / Pre-evaluation)*
 
 ## English
@@ -122,7 +122,7 @@ Documents in this folder:
 
 ---
 
-# 판단 전제 축 기록  
+# 축 손실 기록
 *(시행착오 이전 / 실패 이전 / 평가 이전)*
 
 ## 한국어 (Korean)
