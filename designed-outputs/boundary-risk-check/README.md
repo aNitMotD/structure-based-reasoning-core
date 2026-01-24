@@ -22,6 +22,37 @@ Stopping early is a valid outcome.
 
 ---
 
+## Observation Basis
+
+This material is **not derived from direct observation of on-site behavior**
+(e.g., meetings, conversations, or real-time decision-making).
+
+The primary observation target is **post-hoc language traces**, including but not limited to:
+
+- Retrospective explanations
+- Post-incident reports
+- Accountability-related descriptions after issues occurred
+- Language used during or after responsibility disputes
+- Narratives explaining why a certain outcome occurred
+
+In addition to this, the following condition was required for inclusion:
+
+- The same responsibility-avoidance or responsibility-shift **structural patterns**
+  were independently observed across:
+  - Different countries
+  - Different industries
+  - Different roles and job functions
+  - Different time periods
+
+These contexts were not derived from a single organization, dataset,
+or coordinated source, and were not mutually referential.
+
+This framework does **not** claim frequency, prevalence, or real-time usage rates.
+It documents only the **structural recurrence** of responsibility-related language
+under similar accountability constraints.
+
+---
+
 ## Structure
 
 Boundary Risk Check is organized into **five responsibility reaction types**.
@@ -119,6 +150,37 @@ LCIF 자체의 정의나 범위를 확장하지 않으며, LCIF의 구성 요소
 질문이 불필요하다고 느껴질 경우,
 언제든 사용을 중단해도 됩니다.  
 중단은 정상적인 결과입니다.
+
+---
+
+## 관측 근거
+
+본 자료는 회의, 대화, 실시간 의사결정 등
+**현장 행동 자체를 직접 관측한 결과물이 아닙니다.**
+
+주된 관측 대상은 다음과 같은 **사후 언어 흔적** 입니다.
+
+- 회고 설명
+- 문제 발생 이후 작성된 서술
+- 책임 귀속이 논의된 이후의 언어
+- 분쟁 또는 이슈 이후 나타난 설명 방식
+- “왜 이렇게 되었는가”에 대한 사후 이야기
+
+여기에 더해, 다음 조건을 만족하는 경우만을 관측 대상으로 삼았습니다.
+
+- 동일한 책임 회피 또는 책임 이동 **구조 패턴** 이
+  - 서로 다른 국가
+  - 서로 다른 산업
+  - 서로 다른 직군
+  - 서로 다른 시기
+  에서 **독립적으로 반복 관측된 경우**
+
+이 관측들은 단일 조직, 단일 사례 집합, 또는 상호 참조된 데이터에서
+파생된 것이 아닙니다.
+
+본 자료는 빈도, 비율, 실제 현장 사용률을 주장하지 않으며,
+유사한 책임 제약 조건이 형성될 때 나타나는
+**구조적 동형성(structural recurrence)** 만을 정리합니다.
 
 ---
 
