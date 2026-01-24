@@ -1,0 +1,21 @@
+STATUS: HUMAN_REVIEW_REQUIRED
+
+SCHEMA_ID: {{schema_id}}
+SCHEMA_HASH: {{schema_hash}}
+OUTPUT_CHANNEL: {{output_channel}}
+ACTION_CLASS: {{action_class}}
+RISK_GATE: {{risk_gate}}
+EVIDENCE_MINIMUM: {{evidence_minimum}}
+
+--- TRIGGER ---
+TYPE: {{ACTION_CLASS_VIOLATION | UNSAFE_PATTERN | EVIDENCE_BINDING | HIGH_RISK}}
+DETAILS:
+- {{trigger_detail_1}}
+- {{trigger_detail_2}}
+
+--- COLLECTED EVIDENCE ---
+{{evidence_list_or_logs}}
+
+--- NEXT ACTION ---
+Human review required.
+No automated decision was made.

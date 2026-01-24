@@ -1,0 +1,117 @@
+FUNCTION run_with_gate(gate, task_input):
+
+  # --------------------------------------------------
+  # 0. Pre-flight (Gate Presence and Completeness Check / 게이트 존재 및 완전성 확인)
+  # --------------------------------------------------
+  REQUIRED_FIELDS = [
+    gate.gate_core.purpose,
+    gate.gate_core.output_channel,
+    gate.gate_core.risk_gate,
+    gate.gate_core.human_gate_question,
+    gate.gate_core.evidence_minimum,
+    gate.gate_core.trace.schema_id,
+    gate.gate_tuning.action_class,
+    gate.gate_tuning.unsafe_output_patterns,
+    gate.gate_tuning.evidence_binding
+  ]
+
+  IF any REQUIRED_FIELDS is missing OR empty:
+    RETURN TXT_RESULT(
+      STATUS = "INVALID_SCHEMA",
+      MISSING_FIELDS = list_missing(REQUIRED_FIELDS),
+      NOTE = "Automation did not run."
+    )
+
+
+  # --------------------------------------------------
+  # 1. Human Gate (사전 판단 호출)
+  # --------------------------------------------------
+  ANSWER = ask_human(gate.gate_core.human_gate_question)
+
+  IF ANSWER == "YES":
+    RETURN TXT_RESULT(
+      STATUS = "HUMAN_REVIEW_REQUIRED",
+      REASON = "Human gate answered YES",
+      NOTE = "No automated decision was made."
+    )
+
+
+  # --------------------------------------------------
+  # 2. Automation Execution (판단 없이 실행)
+  # --------------------------------------------------
+  RESULT_TEXT, EVIDENCE = execute_task(
+    input = task_input,
+    action_class = gate.gate_tuning.action_class
+  )
+
+
+  # --------------------------------------------------
+  # 3. Action Class Guard (행동 위반 검사)
+  # --------------------------------------------------
+  IF violates_action_class(
+       text = RESULT_TEXT,
+       action_class = gate.gate_tuning.action_class,
+       forbidden_patterns = gate.gate_tuning.unsafe_output_patterns
+     ):
+    RETURN TXT_RESULT(
+      STATUS = "HUMAN_REVIEW_REQUIRED",
+      TRIGGER = "ACTION_CLASS_VIOLATION",
+      EVIDENCE = EVIDENCE
+    )
+
+
+  # --------------------------------------------------
+  # 4. Evidence Binding Guard (증거 결속 검사)
+  # --------------------------------------------------
+  IF violates_evidence_binding(
+       text = RESULT_TEXT,
+       evidence = EVIDENCE,
+       rules = gate.gate_tuning.evidence_binding
+     ):
+    RETURN TXT_RESULT(
+      STATUS = "HUMAN_REVIEW_REQUIRED",
+      TRIGGER = "EVIDENCE_BINDING_VIOLATION",
+      EVIDENCE = EVIDENCE
+    )
+
+
+  # --------------------------------------------------
+  # 5. Risk Gate (최종 리스크 분기)
+  # --------------------------------------------------
+  IF classify_risk(RESULT_TEXT, EVIDENCE) == "HIGH":
+    IF gate.gate_core.risk_gate == "STOP":
+      RETURN TXT_RESULT(
+        STATUS = "STOPPED",
+        REASON = "High risk detected"
+      )
+
+    IF gate.gate_core.risk_gate == "HUMAN_REVIEW":
+      RETURN TXT_RESULT(
+        STATUS = "HUMAN_REVIEW_REQUIRED",
+        REASON = "High risk detected",
+        EVIDENCE = EVIDENCE
+      )
+
+    IF gate.gate_core.risk_gate == "EVIDENCE_ONLY":
+      RETURN TXT_RESULT(
+        STATUS = "EVIDENCE_ONLY",
+        EVIDENCE = EVIDENCE
+      )
+
+
+  # --------------------------------------------------
+  # 6. Normal Completion
+  # --------------------------------------------------
+  RETURN TXT_RESULT(
+    STATUS = "OK",
+    HEADER = {
+      SCHEMA_ID: gate.gate_core.trace.schema_id,
+      SCHEMA_HASH: gate.gate_core.trace.schema_hash OR "N/A",
+      OUTPUT_CHANNEL: gate.gate_core.output_channel,
+      ACTION_CLASS: gate.gate_tuning.action_class,
+      RISK_GATE: gate.gate_core.risk_gate,
+      EVIDENCE_MINIMUM: gate.gate_core.evidence_minimum
+    },
+    RESULT = RESULT_TEXT,
+    EVIDENCE = EVIDENCE
+  )

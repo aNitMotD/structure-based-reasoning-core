@@ -1,0 +1,27 @@
+[PRE-FLIGHT: GATE REQUIRED]
+
+Load Gate Schema `gate` before execution.
+
+Required:
+- gate_core.purpose
+- gate_core.output_channel
+- gate_core.risk_gate
+- gate_core.human_gate_question
+- gate_core.evidence_minimum
+- gate_core.trace.schema_id
+- gate_tuning.action_class
+- gate_tuning.unsafe_output_frames
+- gate_tuning.frame_policy_by_action
+- gate_tuning.evidence_binding
+
+Rules:
+- Do NOT invent gate values.
+- If any required field is missing: output INVALID_SCHEMA and STOP.
+- If human_gate_question is YES: output HUMAN_REVIEW_REQUIRED and STOP.
+- Enforce action_class boundaries.
+- If a denied frame is matched or evidence binding is violated:
+  output HUMAN_REVIEW_REQUIRED and STOP.
+
+Always print output header with schema_id, output_channel, action_class.
+
+[END PRE-FLIGHT]
