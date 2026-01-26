@@ -86,6 +86,9 @@ LCIF occurs only when **all three** of the following conditions are met:
 When all three conditions hold, constraint violations can pass
 generation and review undetected.
 
+> **Observationally, when one or more minimal structural preconditions of working language collapse,  
+> LCIF becomes a structurally realizable failure state at a very low threshold.**
+
 ---
 
 ## Scope and Generality
