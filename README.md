@@ -30,7 +30,7 @@ Interpretation, judgment, and application
 
 ---
 
-## Scope and Positioning
+## Positioning and Character
 
 This repository is:
 - **Non-Prescriptive** — it does not instruct how to think, decide, or act
@@ -81,6 +81,10 @@ For the precise boundary definition, see: designed-outputs/relationship.en.md
 
 ---
 
+*These materials are referential and do not replace independently generated external evidence.*
+
+---
+
 ## License
 
 This repository is licensed under **CC BY-NC-ND 4.0**.
@@ -124,7 +128,7 @@ and the responsibility boundaries described above.
 
 ---
 
-## 범위 및 위치 정의
+## 위치 및 성격
 
 본 레포지토리는 다음 특성을 가진다:
 
@@ -180,6 +184,10 @@ and the responsibility boundaries described above.
 사고엔진 그 자체를 의미하지 않는다.
 
 경계에 대한 상세한 정의는 designed-outputs/relationship.ko.md 를 참조.
+
+---
+
+*본 저장소의 문서는 참고용이며, 독립적인 외부 증거를 대체하지 않는다.*
 
 ---
 
