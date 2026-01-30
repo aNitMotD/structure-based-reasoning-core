@@ -1,10 +1,13 @@
-# LCIF — Layer / LLM Constraint Inheritance Failure
+# LCIF — Layer Constraint Inheritance Failure
 
 ## Overview (EN)
 
 LCIF records a structural failure mode in which constraints are
-**recognized but not inherited across layers** within LLM-based systems
-or evaluation processes.
+**recognized but not inherited across layers** within multi-layered
+generation, evaluation, or decision systems.
+
+LLM-based systems represent a common and visible instance of this structure,
+but are not the defining scope of LCIF.
 
 These failures do not surface as immediate errors or incidents.
 Instead, they **accumulate while evaluation appears to succeed**,
@@ -64,12 +67,15 @@ and what becomes invisible as a result.
 
 ---
 
-# LCIF — 레이어 / LLM 제약 상속 실패
+# LCIF — 레이어 제약 상속 실패
 
 ## 개요 (KO)
 
-LCIF는 LLM 기반 시스템이나 평가 과정에서
-**제약이 인식되었음에도 레이어 간 상속되지 않는 구조적 실패 상태**를 기록한다.
+LCIF는 다층 구조의 생성·평가·의사결정 시스템에서
+**제약이 인식되었음에도 레이어 간 상속되지 않는 구조적 실패 상태** 를 기록한다.
+
+LLM 기반 시스템은 이러한 구조가 가장 명확하게 관측되는 대표 사례 중 하나일 뿐,
+LCIF의 적용 범위를 한정하지 않는다.
 
 이 실패는 즉각적인 오류나 사고로 드러나지 않는다.
 대신, 평가가 성공한 것처럼 보이는 과정 속에서 누적되며,

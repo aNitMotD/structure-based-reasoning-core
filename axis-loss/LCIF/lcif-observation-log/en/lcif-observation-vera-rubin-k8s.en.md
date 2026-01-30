@@ -72,7 +72,7 @@ These are **informational constraints** and do not possess enforcement authority
 
 ---
 
-### 3.2 Reproducible Conditions for LCIF (Constraint Inheritance Failure)
+### 3.2 Reproducible Conditions for LCIF (Layer Constraint Inheritance Failure)
 
 The following conditions are simultaneously observed:
 - Constraints are recognized only at input time
@@ -85,7 +85,7 @@ Result:
 - Failures are fixed as **normal execution outcomes**
 
 This constitutes a typical condition under which  
-**Constraint Inheritance Failure (LCIF)** becomes structurally entrenched.
+**Layer Constraint Inheritance Failure (LCIF)** becomes structurally entrenched.
 
 ---
 

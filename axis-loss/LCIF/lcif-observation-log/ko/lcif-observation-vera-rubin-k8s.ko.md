@@ -85,7 +85,7 @@ Transformer 기반 시스템에서 제약은 다음 위치에만 존재함이 �
 - 실패는 오류로 처리되지 않음
 - 실패는 **정상 실행 결과로 고정됨**
 
-이는 **LCIF(Constraint Inheritance Failure)** 가 고착되는 전형적 조건으로 관측된다.
+이는 **LCIF(Layer Constraint Inheritance Failure)** 가 고착되는 전형적 조건으로 관측된다.
 
 ---
 
