@@ -54,3 +54,7 @@ not from actual delegation of responsibility.
 This document records a structural perception pattern only.
 It does not propose automation strategies,
 design improvements, or mitigation steps.
+
+This observation may appear similar to certain edge cases,
+but differs in that constraint inheritance failure is not closed
+and judgment remains intentionally withheld.
