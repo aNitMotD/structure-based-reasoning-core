@@ -20,6 +20,16 @@ within individual logs.
 Interpretation and judgment are intentionally left to the reader,
 based solely on the recorded transition sequences.
 
+### Observation Status
+
+- `confirmed/`  
+  Cases where Layer Constraint Inheritance Failure (LCIF)
+  has been structurally observed and closed.
+
+- `pre-closure/`  
+  Observations recorded along LCIF-like structural paths
+  where judgment and classification are intentionally withheld.
+
 ---
 
 # LCIF 관측 로그
@@ -46,3 +56,12 @@ LCIF 프레임워크에서 설명하는 LCIF-B 패턴과
 판단과 해석은 전이 과정에 대한 기록을 바탕으로  
 독자에게 맡긴다.
 
+### 관측 상태
+
+- `confirmed/`  
+  Layer Constraint Inheritance Failure(LCIF)가  
+  구조적으로 관측되고 판정이 닫힌 사례들.
+
+- `pre-closure/`  
+  LCIF와 유사한 구조 경로 상에서 관측되었으나,  
+  판단과 분류가 의도적으로 보류된 기록들.
