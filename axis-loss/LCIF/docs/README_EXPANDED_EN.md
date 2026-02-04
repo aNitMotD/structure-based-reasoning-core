@@ -1,4 +1,4 @@
-# LCIF (Layer / LLM Constraint Inheritance Failure)
+# LCIF (Layer Constraint Inheritance Failure)
 ## README — Expanded Structural Canon (English)
 
 ---
@@ -54,10 +54,11 @@ what is observed, and where explanation intentionally stops.
          │  - Human–AI isomorphism
          │  - Boundary declaration
          │
- Phase 2 │ Post-hoc Observation (6–8)
+ Phase 2 │ Post-hoc Observation (6–9)
          │  - Post-failure handling paths
          │  - Consistency recovery / fixation
          │  - Responsibility convergence
+         │  - Pre-Judgment Responsibility Coordinate Fixation  
 
         ───────────────────────────────────
 ```

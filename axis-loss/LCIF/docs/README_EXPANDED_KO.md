@@ -1,4 +1,4 @@
-# LCIF (Layer / LLM Constraint Inheritance Failure)
+# LCIF (Layer Constraint Inheritance Failure)
 ## README — 통합 구조 정본 (Korean)
 
 ---
@@ -20,7 +20,7 @@
 
 ---
 
-## (Human–AI Isomorphic Post-hoc Failure)
+## (인간–AI 동형적 사후 실패)
 
 > 본 문서는 인간의 성향이나 판단 능력을 분석하지 않는다.
 > 본 문서에서 기술하는 실패는 Phase 1에서 정의된 인간–AI 동형 구조가
@@ -51,10 +51,11 @@
          │  - 인간–AI 동형성
          │  - 경계 선언
          │
- Phase 2 │ 사후 관측 (6–8)
+ Phase 2 │ 사후 관측 (6–9)
          │  - 실패 이후 처리 경로
          │  - 정합성 복구 / 고착
          │  - 책임 수렴 현상
+         │  - 판단 이전 책임 좌표 고정  
 
         ───────────────────────────────────
 ```
@@ -252,7 +253,6 @@ LCIF는:
 ---
 
 ## 판단 이전 책임 좌표 고정  
-*(Pre-Judgment Responsibility Coordinate Fixation)*
 
 > **지위 선언**  
 > 본 절은 법적 판단, 규범 제시, 책임 단정을 수행하지 않는다.  
