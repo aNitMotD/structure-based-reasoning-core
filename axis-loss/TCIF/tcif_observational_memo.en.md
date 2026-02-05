@@ -78,6 +78,32 @@ Example interpretation (tentative):
 
 ---
 
+### Note on the Appearance of 128 (State-Space Resolution)
+
+The reason LCIF initially appeared as 2³ and TCIF as 2⁴
+in early narrative observations
+was that each reflected, at the level of observational resolution,
+the minimum number of independent axes
+composing the constraint-handling structure
+and the temporal-handling structure, respectively.
+
+After incorporating the minimal operating conditions of language,
+LCIF was no longer observed as a “constraint-failure event,”
+but as a “state realizable within a specific linguistic environment,”
+and that environment manifested as a state space
+composed of five independent axes.
+
+The three minimal LCIF states (2³)
+constitute a subspace that is definable only within regions
+where the minimal preconditions for language operation (2⁵) are satisfied.
+When those preconditions collapse,
+LCIF does not further subdivide;
+it simply becomes realizable as a failure state.
+
+(Related observational memo: observation-state-space-cardinality)
+
+---
+
 ## 5. Current Assessment (critical boundary declaration)
 
 TCIF is:
