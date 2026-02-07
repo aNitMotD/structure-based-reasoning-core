@@ -1,16 +1,16 @@
-# LLM Constraint Inheritance Failure (LCIF)
+# Layer Constraint Inheritance Failure (LCIF)
 ### Structural Limits of Narrative-Driven Generation Systems
 
 ## One-Line Summary
-LLMs can recognize explicit constraints, yet still generate and validate outputs
+Generation layers can recognize explicit constraints, yet still generate and validate outputs
 that violate them—silently and structurally.
 
 ---
 
 ## What This Document Is
-This document defines and formalizes a structural failure mode observed in
-transformer-based large language models (LLMs), referred to as
-**Layer / LLM Constraint Inheritance Failure (LCIF)**.
+This document defines and formalizes a structural failure mode
+observed in layer-separated generation architectures, referred to as
+**Layer Constraint Inheritance Failure (LCIF)**.
 
 This is not an implementation bug report.
 This is not a usage guide.
@@ -19,7 +19,7 @@ This is a structural specification.
 ---
 
 ## Core Observation
-In LLM-assisted documentation, analysis, and summarization:
+In layer-mediated documentation, analysis, and summarization:
 
 - Explicit constraints exist in the input.
 - The model successfully recognizes those constraints.
@@ -98,7 +98,7 @@ This behavior has been observed across:
 - Gemini
 
 The common factor is not policy, tuning, or vendor choice,
-but transformer-based generation itself.
+but the layer-separated, narrative-driven generation structure.
 
 LCIF therefore represents a **paradigm-level architectural limitation**.
 
@@ -124,7 +124,7 @@ A structurally equivalent failure occurs in humans:
 - Post-review checks logic, not constraint compliance.
 
 The difference lies in the presence of an internal **Observer layer**.
-LLMs do not possess such a layer.
+Generation systems lack such a layer by design.
 
 ---
 
@@ -152,7 +152,7 @@ This document defines a boundary.
 ---
 
 ## Final Statement
-LLMs are not systems that preserve global constraints.
+Layer-separated generation systems are not systems that preserve global constraints.
 They are systems that consume constraints locally.
 
 As long as this architectural property holds,
