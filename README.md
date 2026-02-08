@@ -85,6 +85,16 @@ For the precise boundary definition, see: designed-outputs/relationship.en.md
 
 ---
 
+## Contextual Note
+
+
+This repository also contains contextual notes on how thinking
+may be recognized rather than generated within organizational environments.
+These notes are observational in nature and do not constitute guidance,
+policy, or claims of ownership.
+
+---
+
 ## License
 
 This repository is licensed under **CC BY-NC-ND 4.0**.
@@ -188,6 +198,16 @@ and the responsibility boundaries described above.
 ---
 
 *본 저장소의 문서는 참고용이며, 독립적인 외부 증거를 대체하지 않는다.*
+
+---
+
+## 맥락적 주석
+
+본 레포지토리에는
+조직 환경에서 사고가 생성되는 것이 아니라
+**인식·관측되는 방식** 에 대한 맥락적 기록이 포함되어 있다.
+이는 지침, 정책, 또는 소유권 주장에 해당하지 않는
+관측적 문서이다.
 
 ---
 
