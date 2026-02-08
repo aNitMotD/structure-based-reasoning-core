@@ -92,6 +92,7 @@ This repository also contains contextual notes on how thinking
 may be recognized rather than generated within organizational environments.
 These notes are observational in nature and do not constitute guidance,
 policy, or claims of ownership.
+- Contextual note: `context-origin/en/thinking_is_not_property.en.md`
 
 ---
 
@@ -208,6 +209,7 @@ and the responsibility boundaries described above.
 **인식·관측되는 방식** 에 대한 맥락적 기록이 포함되어 있다.
 이는 지침, 정책, 또는 소유권 주장에 해당하지 않는
 관측적 문서이다.
+- Contextual note: `context-origin/ko/thinking_is_not_property.ko.md`
 
 ---
 
