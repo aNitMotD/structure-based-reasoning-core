@@ -2,6 +2,8 @@
 > This document describes post-failure observations, not structural definitions.
 
 # Pre-Judgment Responsibility Coordinate Fixation
+This document does not define the scope or purpose of LCIF.
+It solely describes the responsibility-attribution coordinate effects that may arise when an observation enters a public or institutional context.
 
 > **Status Declaration**  
 > This specification does not perform legal judgment, prescribe norms, or impose obligations.  
