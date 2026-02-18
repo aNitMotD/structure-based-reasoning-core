@@ -20,7 +20,7 @@ Any judgment to which responsibility can be attributed requires,
 at minimum, the following axes:
 
 1. **Structural Axis**  
-   - What is the underlying problem structure?
+   - What is the underlying problem structural?
    - Are design, necessity, and relations cognitively accessible?
 
 2. **Time Axis**  
@@ -89,7 +89,7 @@ but its **substance collapses**.
 Empirically, axis-loss tends to accumulate in the following order:
 
 1. **SIF**  
-   → structure is no longer visible
+   → structural is no longer visible
 2. **TIF**  
    → temporal consideration is removed
 3. **CIF**  
@@ -127,7 +127,7 @@ In other words:
 
 | Element | Structural Role |
 |------|----------------|
-| SIF | Inaccessibility of the structure axis |
+| SIF | Inaccessibility of the structural axis |
 | TIF | Inaccessibility of the time axis |
 | CIF | Inaccessibility of the constraint axis |
 | Axis-Loss | General collapse of the judgment coordinate system |
@@ -156,7 +156,7 @@ In other words:
 > **The essence of judgment failure is not an incorrect conclusion,  
 > but the loss of the axes that make judgment possible.**
 
-- SIF describes the loss of structure,
+- SIF describes the loss of structural,
 - TIF describes the loss of time,
 - CIF describes the loss of constraints,
 - Contract law addresses the consequences.
