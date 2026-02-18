@@ -53,9 +53,9 @@ AI Pressure Density itself is not a failure.
 
 However, when pressure exceeds certain thresholds, the likelihood of repeatedly observing the following failure structures increases:
 
-- LCIF (Layer Constraint Inheritance Failure)  
-- TCIF (Temporal Context Inconsistency Failure)  
-- SCIF (Social Coherence Inconsistency Failure)
+- CIF (Constraint Inheritance Failure)  
+- TIF (Time Inconsistency Failure)  
+- SIF (Structural Inaccessibility Failure)
 
 In such cases, failure is not considered a cause, but  
 the **result of a processing path selected under pressure**.

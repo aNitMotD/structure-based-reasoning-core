@@ -1,11 +1,11 @@
 # Cross-Axis Observational Memo
-*(LCIF × TCIF × SCIF)*
+*(CIF × TIF × SIF)*
 
 ## English
 
 > This document is an **observational memo**.  
 > It provides no definitions, conclusions, or prescriptions.  
-> It records patterns observed when **LCIF, TCIF, and SCIF appear simultaneously or sequentially**,  
+> It records patterns observed when **CIF, TIF, and SIF appear simultaneously or sequentially**,  
 > preserved solely as an anchor for re-observation.
 
 ---
@@ -20,7 +20,7 @@ Its position is:
 
 - **Pre-judgment / Pre-trial**
 - Within the `judgment-axis-loss` layer
-- Non-substitutive of individual axis documents (LCIF / TCIF / SCIF)
+- Non-substitutive of individual axis documents (CIF / TIF / SIF)
 
 ---
 
@@ -36,10 +36,10 @@ but as **bundled states in which multiple judgment prerequisite axes are weakene
 
 ## 2. Typical Cross-Axis Patterns
 
-### 2.1 TCIF → LCIF Sequence
+### 2.1 TIF → CIF Sequence
 
 **Observed condition**
-- Temporal axis removed from the judgment model (TCIF-B state)
+- Temporal axis removed from the judgment model (TIF-E state)
 
 **Accompanying observation**
 - Constraints (verification, cost, responsibility tracing)
@@ -54,10 +54,10 @@ but as **bundled states in which multiple judgment prerequisite axes are weakene
 
 ---
 
-### 2.2 SCIF → TCIF Sequence
+### 2.2 SIF → TIF Sequence
 
 **Observed condition**
-- Structural context fails to enter the recognition table (SCIF state)
+- Structural context fails to enter the recognition table (SIF state)
 
 **Accompanying observation**
 - Structural discussion becomes impossible
@@ -72,7 +72,7 @@ but as **bundled states in which multiple judgment prerequisite axes are weakene
 
 ---
 
-### 2.3 SCIF → TCIF → LCIF (Full Cross)
+### 2.3 SIF → TIF → CIF (Full Cross)
 
 **Observed condition**
 - Structural axis remains inaccessible
@@ -121,7 +121,7 @@ The sole purpose of this memo is to enable recognition:
 
 This cross-axis memo is referenced when:
 
-- LCIF, TCIF, and SCIF are mentioned together
+- CIF, TIF, and SIF are mentioned together
 - Judgment processes persist only via narrative coherence
 - Structural, temporal, and constraint discussions are all neutralized
 
@@ -132,17 +132,17 @@ Without judgment or intervention,
 
 ## One-Line Summary
 
-> *When LCIF, TCIF, and SCIF intersect, judgment prerequisites dissolve sequentially,
+> *When CIF, TIF, and SIF intersect, judgment prerequisites dissolve sequentially,
 > leaving only narrative coherence in place of evaluative structure.*
 
 ---
 
-# LCIF × TCIF × SCIF 교차 관측 메모
+# CIF × TIF × SIF 교차 관측 메모
 
 ## 한국어 (Korean)
 
 > 본 문서는 정의·결론·해결책을 제공하지 않는 **관측 메모** 이다.  
-> LCIF, TCIF, SCIF가 **동시에 또는 연쇄적으로 나타날 때 관측되는 양상** 을  
+> CIF, TIF, SIF가 **동시에 또는 연쇄적으로 나타날 때 관측되는 양상** 을  
 > 재관측을 위한 참조 좌표(anchor)로 기록한다.
 
 ---
@@ -157,7 +157,7 @@ Without judgment or intervention,
 
 - **판단 이전 / 시행착오 이전**
 - `judgment-axis-loss` 레이어 내부
-- 개별 축 문서(LCIF / TCIF / SCIF)를 대체하지 않음
+- 개별 축 문서(CIF / TIF / SIF)를 대체하지 않음
 
 ---
 
@@ -173,10 +173,10 @@ Without judgment or intervention,
 
 ## 2. 전형적 교차 조합
 
-### 2.1 TCIF → LCIF 연쇄
+### 2.1 TIF → CIF 연쇄
 
 **관측 조건**
-- 시간 축이 판단 모델에서 제거됨 (TCIF-B 상태)
+- 시간 축이 판단 모델에서 제거됨 (TIF-E 상태)
 
 **동반 관측**
 - 제약(검증, 비용, 책임 추적)이
@@ -191,10 +191,10 @@ Without judgment or intervention,
 
 ---
 
-### 2.2 SCIF → TCIF 연쇄
+### 2.2 SIF → TIF 연쇄
 
 **관측 조건**
-- 구조 컨텍스트가 인식 테이블에 오르지 않음 (SCIF 상태)
+- 구조 컨텍스트가 인식 테이블에 오르지 않음 (SIF 상태)
 
 **동반 관측**
 - 구조 논의가 불가능해지며
@@ -209,7 +209,7 @@ Without judgment or intervention,
 
 ---
 
-### 2.3 SCIF → TCIF → LCIF 연쇄 (완전 교차)
+### 2.3 SIF → TIF → CIF 연쇄 (완전 교차)
 
 **관측 조건**
 - 구조 축 접근 불가 상태가 유지됨
@@ -260,7 +260,7 @@ Without judgment or intervention,
 
 이 교차 관측 메모는 다음 경우에 참조된다.
 
-- LCIF, TCIF, SCIF가 동시에 언급될 때
+- CIF, TIF, SIF가 동시에 언급될 때
 - 판단 과정이 설명 없이 서술 정합성으로만 유지될 때
 - 구조·시간·제약 논의가 모두 무력화된 상태를 마주할 때
 
@@ -271,6 +271,6 @@ Without judgment or intervention,
 
 ## 한 줄 요약
 
-LCIF, TCIF, SCIF는 독립 축이지만,
+CIF, TIF, SIF는 독립 축이지만,
 교차될 때 판단 전제 자체가 사라진 상태가
 연쇄적으로 고착되는 양상이 관측된다.

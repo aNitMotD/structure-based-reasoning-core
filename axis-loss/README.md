@@ -54,7 +54,7 @@ This corresponds less to failure and more to
 
 The following documents are placed side by side without hierarchical integration.
 
-### 3.1 LCIF — Constraint Axis
+### 3.1 CIF — Constraint Axis
 
 - Constraints fail to be inherited across layers
 - Judgment appears to occur, but constraint tracing is severed
@@ -64,7 +64,7 @@ The following documents are placed side by side without hierarchical integration
 
 ---
 
-### 3.2 TCIF — Temporal Axis
+### 3.2 TIF — Temporal Axis
 
 - Temporal context fails to remain a single continuous object
 - Or the temporal axis is removed from the judgment model
@@ -74,7 +74,7 @@ The following documents are placed side by side without hierarchical integration
 
 ---
 
-### 3.3 SCIF — Structural Axis
+### 3.3 SIF — Structural Axis
 
 - Structural context remains inaccessible prior to judgment
 - Structural observation is reduced to prediction or speculation
@@ -86,7 +86,7 @@ The following documents are placed side by side without hierarchical integration
 
 ## 4. Relationship Between Axes
 
-- LCIF, TCIF, and SCIF do not absorb or subsume one another
+- CIF, TIF, and SIF do not absorb or subsume one another
 - Each document maintains its own independent observational set
 - In all three cases:
   - At the pre-judgment stage
@@ -178,7 +178,7 @@ Documents in this folder:
 
 이 폴더에는 다음과 같은 문서들이 **위상 구분 없이 나란히** 놓인다.
 
-### 3.1 LCIF — 제약 축
+### 3.1 CIF — 제약 축
 
 - 제약이 레이어 간 상속되지 않는 상태
 - 판단은 수행된 것처럼 보이나, 제약 추적이 단절됨
@@ -188,7 +188,7 @@ Documents in this folder:
 
 ---
 
-### 3.2 TCIF — 시간 축
+### 3.2 TIF — 시간 축
 
 - 시간 컨텍스트가 동일 객체로 유지되지 않거나
 - 판단 모델에서 시간 축이 제거되는 상태
@@ -198,7 +198,7 @@ Documents in this folder:
 
 ---
 
-### 3.3 SCIF — 구조 축
+### 3.3 SIF — 구조 축
 
 - 구조 컨텍스트 자체가 판단 이전 단계에서 접근 불가 상태로 유지됨
 - 구조 관측이 예측·추측 문제로 환원됨
@@ -210,7 +210,7 @@ Documents in this folder:
 
 ## 4. 축 간 관계
 
-- LCIF, TCIF, SCIF는 서로 흡수되거나 통합되지 않는다
+- CIF, TIF, SIF는 서로 흡수되거나 통합되지 않는다
 - 각 문서는 독립적인 관측 묶음 또는 문서군을 유지한다
 - 다만 세 경우 모두:
   - 판단 이전 단계에서

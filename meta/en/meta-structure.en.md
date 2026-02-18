@@ -117,7 +117,7 @@ distorted, or erased by other layers*.
 
 This lineage is structurally isomorphic to:
 - Judgment return in Zero Reflect
-- Irreversibility after closure in LCIF
+- Irreversibility after closure in CIF
 
 **Point of Deviation**
 - Confined to mathematics and logic.

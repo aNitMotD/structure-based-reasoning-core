@@ -1,8 +1,8 @@
 # Boundary Risk Check (Experimental)
-(LCIF Analysis · Non-Prescriptive · Observational)
+(CIF Analysis · Non-Prescriptive · Observational)
 
-Boundary Risk Check is a designed observational output derived from LCIF concepts.
-It is not part of LCIF itself, and does not expand or redefine LCIF.
+Boundary Risk Check is a designed observational output derived from CIF concepts.
+It is not part of CIF itself, and does not expand or redefine CIF.
 
 ---
 
@@ -135,10 +135,10 @@ They serve only as reference signals that a check may have been closed premature
 ---
 
 # 경계 반응 체크 (실험용)
-(LCIF 분석 · 비지침적 · 관측 프레임)
+(CIF 분석 · 비지침적 · 관측 프레임)
 
-경계 반응 체크(boundary-risk-check)는 LCIF 개념에서 파생된 관측용 산출물입니다.
-LCIF 자체의 정의나 범위를 확장하지 않으며, LCIF의 구성 요소가 아닙니다.
+경계 반응 체크(boundary-risk-check)는 CIF 개념에서 파생된 관측용 산출물입니다.
+CIF 자체의 정의나 범위를 확장하지 않으며, CIF의 구성 요소가 아닙니다.
 
 ---
 

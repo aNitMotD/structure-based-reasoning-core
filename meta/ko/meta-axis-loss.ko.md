@@ -1,9 +1,9 @@
 # Axis-Loss 기반 판단 실패 일반 구조 정리
-— 계약법 · LCIF · TCIF · SCIF의 통합 —
+— 계약법 · CIF · TIF · SIF의 통합 —
 
 ## 0. 최상위 선언 (Naming Fix)
 
-LCIF, TCIF, SCIF는 서로 다른 이론이 아니라  
+CIF, TIF, SIF는 서로 다른 이론이 아니라  
 **판단을 성립시키는 좌표축(axis)이 소실되는 현상** 에 대한  
 서로 다른 관측이다.
 
@@ -36,8 +36,8 @@ LCIF, TCIF, SCIF는 서로 다른 이론이 아니라
 
 ## 2. Axis-Loss의 내부 분해
 
-### 2.1 SCIF — 구조 축 소실
-**Structural Context Inaccessibility Failure**
+### 2.1 SIF — 구조 축 소실
+**Structural Inaccessibility Failure**
 
 - 구조적 설명이 가능한 상황임에도
 - 구조 컨텍스트가 인식 테이블에 오르지 않음
@@ -52,14 +52,14 @@ LCIF, TCIF, SCIF는 서로 다른 이론이 아니라
 
 ---
 
-### 2.2 TCIF — 시간 축 소실
-**Temporal Context Inconsistency / Erasure Failure**
+### 2.2 TIF — 시간 축 소실
+**Time Inconsistency Failure**
 
-#### TCIF-A
+#### TIF-D
 - 시간 정보는 존재
 - 판단 모델 내 일관성 유지 실패
 
-#### TCIF-B
+#### TIF-E
 - 시간 비용이 판단 모델에서 제거
 - 가속·효율이 중립처럼 작동
 - 대표 신호:
@@ -69,8 +69,8 @@ LCIF, TCIF, SCIF는 서로 다른 이론이 아니라
 
 ---
 
-### 2.3 LCIF — 제약 축 소실
-**Layer / Constraint Inheritance Failure**
+### 2.3 CIF — 제약 축 소실
+**Constraint Inheritance Failure**
 
 - 명시적 제약은 입력에 존재
 - 생성·판단 레이어로 상속되지 않음
@@ -85,11 +85,11 @@ LCIF, TCIF, SCIF는 서로 다른 이론이 아니라
 
 실제 관측상 axis-loss는 다음 순서로 누적되기 쉽다.
 
-1. **SCIF**  
+1. **SIF**  
    → 구조가 보이지 않음
-2. **TCIF**  
+2. **TIF**  
    → 시간 고려가 제거됨
-3. **LCIF**  
+3. **CIF**  
    → 제약이 상속되지 않은 채 판단 종료
 
 → 결과:  
@@ -124,9 +124,9 @@ LCIF, TCIF, SCIF는 서로 다른 이론이 아니라
 
 | 구분 | 구조적 역할 |
 |----|------------|
-| SCIF | 구조 축 접근 불가 |
-| TCIF | 시간 축 접근 불가 |
-| LCIF | 제약 축 접근 불가 |
+| SIF | 구조 축 접근 불가 |
+| TIF | 시간 축 접근 불가 |
+| CIF | 제약 축 접근 불가 |
 | Axis-Loss | 판단 좌표계 붕괴 일반 |
 | 계약법 | 붕괴 이후 책임 조정 |
 
@@ -154,9 +154,9 @@ LCIF, TCIF, SCIF는 서로 다른 이론이 아니라
 > 잘못된 결론이 아니라  
 > 판단을 가능하게 하던 좌표축의 소실이다.**
 
-- SCIF는 구조를 잃은 상태를
-- TCIF는 시간을 잃은 상태를
-- LCIF는 제약을 잃은 상태를
+- SIF는 구조를 잃은 상태를
+- TIF는 시간을 잃은 상태를
+- CIF는 제약을 잃은 상태를
 - 계약법은 그 결과를 다룬다
 
 ---

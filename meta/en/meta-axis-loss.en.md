@@ -1,9 +1,9 @@
 # Axis-Loss: A General Structure of Judgment Failure  
-— An Integration of Contract Law · LCIF · TCIF · SCIF —
+— An Integration of Contract Law · CIF · TIF · SIF —
 
 ## 0. Top-Level Declaration (Naming Fix)
 
-LCIF, TCIF, and SCIF are not separate theories.  
+CIF, TIF, and SIF are not separate theories.  
 They are **different observations of the same phenomenon**:  
 the loss of the axes that make judgment possible.
 
@@ -39,8 +39,8 @@ but its **substance collapses**.
 
 ## 2. Internal Decomposition of Axis-Loss
 
-### 2.1 SCIF — Loss of the Structure Axis  
-**Structural Context Inaccessibility Failure**
+### 2.1 SIF — Loss of the Structure Axis  
+**Structural Inaccessibility Failure**
 
 - A structural explanation is possible in principle,
 - yet the structural context never enters the recognition space.
@@ -55,14 +55,14 @@ but its **substance collapses**.
 
 ---
 
-### 2.2 TCIF — Loss of the Time Axis  
-**Temporal Context Inconsistency / Erasure Failure**
+### 2.2 TIF — Loss of the Time Axis  
+**Time Inconsistency Failure**
 
-#### TCIF-A
+#### TIF-D
 - Temporal information exists,
 - but coherence within the judgment model fails.
 
-#### TCIF-B
+#### TIF-E
 - Time cost is removed from the judgment model.
 - Acceleration and efficiency appear neutral.
 - Representative signal:
@@ -72,8 +72,8 @@ but its **substance collapses**.
 
 ---
 
-### 2.3 LCIF — Loss of the Constraint Axis  
-**Layer / Constraint Inheritance Failure**
+### 2.3 CIF — Loss of the Constraint Axis  
+**Constraint Inheritance Failure**
 
 - Explicit constraints exist at the input level,
 - but are not inherited by the generation or judgment layers.
@@ -88,11 +88,11 @@ but its **substance collapses**.
 
 Empirically, axis-loss tends to accumulate in the following order:
 
-1. **SCIF**  
+1. **SIF**  
    → structure is no longer visible
-2. **TCIF**  
+2. **TIF**  
    → temporal consideration is removed
-3. **LCIF**  
+3. **CIF**  
    → judgment closes without constraint inheritance
 
 → Result:  
@@ -127,9 +127,9 @@ In other words:
 
 | Element | Structural Role |
 |------|----------------|
-| SCIF | Inaccessibility of the structure axis |
-| TCIF | Inaccessibility of the time axis |
-| LCIF | Inaccessibility of the constraint axis |
+| SIF | Inaccessibility of the structure axis |
+| TIF | Inaccessibility of the time axis |
+| CIF | Inaccessibility of the constraint axis |
 | Axis-Loss | General collapse of the judgment coordinate system |
 | Contract Law | Post-collapse responsibility adjustment |
 
@@ -156,9 +156,9 @@ In other words:
 > **The essence of judgment failure is not an incorrect conclusion,  
 > but the loss of the axes that make judgment possible.**
 
-- SCIF describes the loss of structure,
-- TCIF describes the loss of time,
-- LCIF describes the loss of constraints,
+- SIF describes the loss of structure,
+- TIF describes the loss of time,
+- CIF describes the loss of constraints,
 - Contract law addresses the consequences.
 
 ---

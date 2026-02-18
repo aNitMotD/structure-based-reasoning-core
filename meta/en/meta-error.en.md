@@ -33,7 +33,7 @@ B: “But earlier you said
 A: “… That’s a different matter.”  
 B: “How is it different?”  
 A: “Turning your neck is physical.  
-LCIF is conceptual.”
+CIF is conceptual.”
 
 B: “So physical structures are  
 ‘knowable without trying,’  
@@ -97,7 +97,7 @@ A: “…”
 
 This discomfort is  
 - not the creation of responsibility, but a **shift in the point of awareness**
-- from a TCIF-B perspective,  
+- from a TIF-E perspective,  
   friction caused by the **restoration of the time coordinate  
   at which the judgment had already closed**
 
@@ -113,5 +113,5 @@ This discomfort is
 > **Is that friction worth bearing?**
 
 There is no structural answer to this question.  
-As LCIF states,  
+As CIF states,  
 **that judgment belongs to each individual.**
