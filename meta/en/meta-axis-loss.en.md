@@ -91,7 +91,7 @@ Empirically, axis-loss tends to accumulate in the following order:
 1. **SIF**  
    → structural is no longer visible
 2. **TIF**  
-   → temporal consideration is removed
+   → temporal considerations fail to propagate in judgment
 3. **CIF**  
    → judgment closes without constraint inheritance
 
