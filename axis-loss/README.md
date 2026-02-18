@@ -64,7 +64,7 @@ The following documents are placed side by side without hierarchical integration
 
 ---
 
-### 3.2 TIF — Temporal Axis
+### 3.2 TIF — Time Axis
 
 - Temporal context fails to remain a single continuous object
 - Or the temporal axis is removed from the judgment model

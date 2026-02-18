@@ -19,7 +19,7 @@ Accordingly, they are unified under a single name:
 Any judgment to which responsibility can be attributed requires,
 at minimum, the following axes:
 
-1. **Structure Axis**  
+1. **Structural Axis**  
    - What is the underlying problem structure?
    - Are design, necessity, and relations cognitively accessible?
 
@@ -39,7 +39,7 @@ but its **substance collapses**.
 
 ## 2. Internal Decomposition of Axis-Loss
 
-### 2.1 SIF — Loss of the Structure Axis  
+### 2.1 SIF — Loss of the Structural Axis  
 **Structural Inaccessibility Failure**
 
 - A structural explanation is possible in principle,
