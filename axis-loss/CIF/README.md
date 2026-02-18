@@ -67,7 +67,7 @@ and what becomes invisible as a result.
 
 ---
 
-# CIF — 레이어 제약 상속 실패
+# CIF — 제약 상속 실패 상태
 
 ## 개요 (KO)
 

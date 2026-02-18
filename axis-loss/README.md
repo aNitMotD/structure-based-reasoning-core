@@ -67,10 +67,10 @@ The following documents are placed side by side without hierarchical integration
 ### 3.2 TIF — Time Axis
 
 - Temporal context fails to remain a single continuous object
-- Or the temporal axis is removed from the judgment model
+- Or the time axis is removed from the judgment model
 - Observed as a process collapse, often only recognized post hoc
 
-→ **Collapse of the temporal axis as a judgment prerequisite**
+→ **Collapse of the time axis as a judgment prerequisite**
 
 ---
 
@@ -194,7 +194,7 @@ Documents in this folder:
 - 판단 모델에서 시간 축이 제거되는 상태
 - 과정적 붕괴로 관측되며, 사후에만 인식되는 경우가 많음
 
-→ **시간 축(temporal axis)의 판단 전제 붕괴**
+→ **시간 축(time axis)의 판단 전제 붕괴**
 
 ---
 

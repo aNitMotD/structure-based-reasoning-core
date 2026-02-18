@@ -57,9 +57,9 @@ but a **direction of judgment alignment**.
 
 This coordinate is used in contexts such as:
 
-- Structural Context Inaccessibility (SIF)
-- Temporal Context Inconsistency (TIF)
-- Post-constraint inheritance fixation (CIF)
+- Structural Inaccessibility Failure (SIF)
+- Time Inconsistency Failure (TIF)
+- Constraint Inheritance Failure (CIF)
 
 This coordinate does not branch or typologize these states.
 It describes **the direction toward which judgment becomes fixed** under those states.
@@ -135,9 +135,9 @@ O / D는 **상태(state)** 가 아니라,
 
 이 좌표는 다음과 같은 문맥에서 사용된다.
 
-- 구조 컨텍스트 접근 불가 상태 (SIF)
-- 시간 축 처리 실패 상태 (TIF)
-- 제약 상속 실패 이후 판단 고착 (CIF)
+- 구조 접근 불가 상태 (SIF)
+- 시간 불일치 상태 (TIF)
+- 제약 상속 실패 상태 (CIF)
 
 이 좌표는
 각 상태를 분기하거나 유형화하지 않으며,

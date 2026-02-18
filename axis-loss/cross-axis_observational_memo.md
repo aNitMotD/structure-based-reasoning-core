@@ -39,7 +39,7 @@ but as **bundled states in which multiple judgment prerequisite axes are weakene
 ### 2.1 TIF → CIF Sequence
 
 **Observed condition**
-- Temporal axis removed from the judgment model (TIF-E state)
+- Time axis removed from the judgment model (TIF-E state)
 
 **Accompanying observation**
 - Constraints (verification, cost, responsibility tracing)
@@ -76,7 +76,7 @@ but as **bundled states in which multiple judgment prerequisite axes are weakene
 
 **Observed condition**
 - Structural axis remains inaccessible
-- Temporal axis is removed from the judgment model
+- Time axis is removed from the judgment model
 
 **Resulting state**
 - Constraint tracing becomes impossible
@@ -97,7 +97,7 @@ Across cross-axis states, the following mechanism is repeatedly observed:
 
 - The space left by a removed axis is **filled by an alternative judgment frame**
   - Structural axis → predictive / probabilistic debate
-  - Temporal axis → moral / attitude framing
+  - Time axis → moral / attitude framing
   - Constraint axis → post-hoc narrative justification
 
 This is not observed as error or intent,
@@ -187,7 +187,7 @@ Without judgment or intervention,
 - “자료는 참고만 했을 뿐이야.”
 - “결과는 같았을 거야.”
 
-→ 시간 소거 이후 **제약 상속 실패가 쉽게 동반** 됨
+→ 시간 소거 이후 **제약 상속 실패 상태가 쉽게 동반** 됨
 
 ---
 

@@ -1,4 +1,4 @@
-# SIF — 구조 접근 불가 실패
+# SIF — 구조 접근 불가 상태
 (Structural Inaccessibility Failure)
 
 > 본 문서는 정의·결론·해결책을 제공하지 않는 **관측 메모** 이다.  
