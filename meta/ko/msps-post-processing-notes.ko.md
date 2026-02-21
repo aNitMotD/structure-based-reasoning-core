@@ -12,12 +12,12 @@
 사람마다 MSPS 출력에 대한 **후처리 방식** 이 다를 수 있음.
 
 ### 1. 연속형 처리자 (Continuous Interpretation)
-- trajectory를 **하나의 신호** 로 인식
+- 궤도(trajectory)를 **하나의 신호** 로 인식
 - 변화 과정 자체가 감각 단위로 들어옴
 - 시간 구간이 감각 내용에 포함됨
 
 ### 2. 이산형 처리자 (Discrete / Snapshot Interpretation)
-- state change를 **이벤트** 로 인식
+- 상태 변화(state change)를 **이벤트** 로 인식
 - 시간 구간을 느끼지 않고, **상태 전환 지점만 감지**
 - “정적 → 정적” 스냅샷 전이로 인식됨
 
