@@ -95,7 +95,7 @@ not structure itself.
 ### Hearing
 - Detection target: identity signature
 - Intent: early path discrimination
-- Output: certainty of “this is that voice”
+- Output: certainty of “this is that”
 
 ### Touch
 - Detection target: discontinuity at contact boundaries
