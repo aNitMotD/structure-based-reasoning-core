@@ -30,7 +30,7 @@ Interpretation, judgment, and application
 
 ---
 
-## Scope & Boundary
+## Scope and Boundary
 
 This repository contains materials produced through a reasoning process.
 It does not represent the reasoning engine itself.
