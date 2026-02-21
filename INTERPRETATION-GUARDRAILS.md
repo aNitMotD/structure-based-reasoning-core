@@ -125,6 +125,13 @@ future ambiguity, not to revise prior meaning.
 
 ---
 
+The notices and boundary declarations in this repository
+do not constitute contractual terms
+and do not replace, modify, or limit
+the effect of the applicable license.
+
+---
+
 ## Supplemental Declarations
 
 This repository may include supplemental constraint documents
@@ -314,6 +321,13 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 본 선언은 의미 수정이 아니라,
 향후 해석 혼선을
 사전에 차단하기 위한 것이다.
+
+---
+
+본 저장소의 사전고지 및 경계 문서는
+계약 조건이나 거래 약관이 아니며,
+적용 가능한 라이선스의 효력이나 범위를
+대체·수정·제한하지 않는다.
 
 ---
 
