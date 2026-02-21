@@ -19,3 +19,22 @@ for human judgment.
 - These documents define what ZR must not do.
 - No UX behavior, guidance, or operational convenience is included here.
 - All responsibility remains with the user.
+
+## Repository & License Structure Notice
+
+This repository is a collection of **observational notes and structural summaries**
+licensed under **CC BY-NC-ND**.
+
+The **ZR (Zero Reflect)** referenced in this repository  
+is **not a component of this repository**.
+
+- ZR exists as a **separate, independent repository**.
+- ZR is a constraint and responsibility-boundary system
+  licensed under **AGPL-3.0**.
+- Any ZR-related content in this repository is
+  **descriptive and retrospective documentation only**,
+  not an implementation, distribution, or executable artifact.
+
+Accordingly, this repository  
+is **not** a distribution source, execution environment,  
+or derivative base for ZR.
