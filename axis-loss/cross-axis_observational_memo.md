@@ -57,7 +57,7 @@ but as **bundled states in which multiple judgment prerequisite axes are weakene
 ### 2.2 SIF → TIF Sequence
 
 **Observed condition**
-- Structural context fails to enter the recognition table (SIF state)
+- Structural context fails to enter the recognition frame (SIF state)
 
 **Accompanying observation**
 - Structural discussion becomes impossible
@@ -194,7 +194,7 @@ Without judgment or intervention,
 ### 2.2 SIF → TIF 연쇄
 
 **관측 조건**
-- 구조 컨텍스트가 인식 테이블에 오르지 않음 (SIF 상태)
+- 구조 컨텍스트가 인식 프레임에 오르지 않음 (SIF 상태)
 
 **동반 관측**
 - 구조 논의가 불가능해지며

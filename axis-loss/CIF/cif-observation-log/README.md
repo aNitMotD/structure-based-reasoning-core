@@ -13,7 +13,7 @@ to higher-level phenomena observed across multiple models or sessions.
 ### Interpretation Note
 
 Some observation logs in this directory may be structurally aligned
-with patterns described as CIF-F in the CIF framework.
+with patterns described as CIF-F in the CIF.
 
 However, no such classification or conclusion is explicitly asserted
 within individual logs.
@@ -48,7 +48,7 @@ based solely on the recorded transition sequences.
 ### 해석 가능성 안내
 
 이 디렉토리에 포함된 일부 관측 로그는  
-CIF 프레임워크에서 설명하는 CIF-F 패턴과  
+CIF에서 설명하는 CIF-F 패턴과  
 구조적으로 대응될 수 있다.
 
 다만, 각 로그에는 이러한 분류나 결론이 직접적으로  

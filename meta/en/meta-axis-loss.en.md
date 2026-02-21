@@ -44,6 +44,8 @@ but its **substance collapses**.
 
 - A structural explanation is possible in principle,
 - yet the structural context never enters the recognition space.
+  This occurs because the recognition frame does not admit structural context (SIF),
+  resulting in a recognition space where the structural axis is excluded.
 - Observation is reduced to prediction, speculation, or opinion debates.
 
 #### Typical Outcomes

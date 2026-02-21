@@ -248,6 +248,67 @@ and returned to constraint criteria.
 
 ---
 
+## Transition Augmentation — CIF-o / CIF-d (Judgment Alignment Notation)
+
+This section does not extend the definition, validity conditions, or failure paths of CIF.  
+This section records **observed differences in judgment alignment at the Post-CIF transition point**,  
+using the notation **CIF-o / CIF-d** purely for descriptive convenience.
+
+This notation is used **only within the scope of the expanded document**,  
+and does not redefine the top-level axis loss (O/D).
+
+### Purpose of the Notation
+
+In the post-CIF phase, repeated observations show that  
+although the failure itself is identical,  
+there are differences in **the direction toward which judgment becomes fixed**.
+
+To describe this without introducing new types or branches,  
+the following notation is used to succinctly indicate  
+judgment alignment at the transition point.
+
+### CIF-o (Externally Oriented Problematization)
+
+- Constraint inheritance failure (Post-CIF) occurs identically
+- Judgment becomes oriented toward external entities (AI, system, others)
+- Causes, responsibility, and explanations are problematized externally
+- This is the most commonly observed alignment in existing CIF cases
+
+In this case, judgment becomes fixed on the question:  
+“Why was this output generated?” directed toward an external subject.
+
+### CIF-d (Internally Oriented Justification)
+
+- Constraint inheritance failure (Post-CIF) occurs identically
+- Even after the constraint drop is **recognized**,
+  externally inserted premises **replace** existing internal constraints
+- Judgment becomes fixed in the direction of internal justification
+
+In this case, judgment closes in the form:  
+“This premise is now part of my judgment,”  
+and the external premise is post hoc absorbed as an internal constraint.
+
+### Structural Position and Limits
+
+- CIF-o / CIF-d do not distinguish whether a failure occurred
+- They do not modify the necessary or sufficient conditions of CIF
+- They do not replace existing failure paths (R/F)
+
+This notation is used solely to:
+- record, **at the Post-CIF transition point**,
+- the direction in which judgment becomes fixed,
+at the level of observational resolution.
+
+It is not intended for classification, evaluation, norm-setting, or attribution of responsibility.
+
+### Summary
+
+- CIF occurs identically in all cases
+- The difference lies in **the direction in which judgment becomes fixed after the failure**
+- In the expanded document, this is denoted as **CIF-o / CIF-d**
+
+---
+
 ## Responsibility Convergence
 
 In the post-hoc stage:
