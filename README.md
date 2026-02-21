@@ -104,6 +104,11 @@ Use, redistribution, or adaptation
 must comply with the terms of the license
 and the responsibility boundaries described above.
 
+This license governs third-party use,
+redistribution, and derivative actions,
+and does not apply to the author’s own use
+or internal maintenance.
+
 ---
 
 # 구조 기반 사고 핵심
@@ -222,3 +227,8 @@ and the responsibility boundaries described above.
 해당 라이선스와
 본 문서에 명시된 책임 경계를
 준수해야 한다.
+
+해당 라이선스는 제3자의 사용, 재배포,
+파생 행위를 규율하기 위한 것이며,
+작성자의 자체 사용이나 내부 관리에는
+적용 대상이 아니다.
