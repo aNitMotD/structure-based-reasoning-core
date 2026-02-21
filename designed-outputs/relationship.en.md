@@ -45,6 +45,11 @@ and does not act on its behalf.
 The reasoning engine itself remains internal,
 non-externalizable, and non-transferable.
 
+The explanatory context maintained separately from this repository (the Notion workspace) constitutes a post-hoc observational record of the reasoning engine itself.
+This repository, by contrast, records observations of external phenomena made through the use of the reasoning engine as a tool.
+The former treats the reasoning process as the object of observation, while the latter employs the reasoning process as the means of observation.
+Although both originate from the same reasoning engine, they do not stand in a derivative or hierarchical relationship.
+
 ---
 
 This document references artifacts maintained in external repositories.

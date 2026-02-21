@@ -30,6 +30,15 @@ Interpretation, judgment, and application
 
 ---
 
+## Scope & Boundary
+
+This repository contains materials produced through a reasoning process.
+It does not represent the reasoning engine itself.
+
+For the precise boundary definition, see: designed-outputs/relationship.en.md
+
+---
+
 ## Positioning and Character
 
 This repository is:
@@ -69,15 +78,6 @@ are maintained separately in a Notion workspace.
 
 For explanatory context, refer to:
 - Notion (**EN** - Reference): [https://anitmotd.notion.site/Post-hoc-Documentation-of-the-Reasoning-Engine-2ddabb7a913d80d68d35c48be4f5abb4?source=copy_link]
-
----
-
-## Scope & Boundary
-
-This repository contains materials produced through a reasoning process.
-It does not represent the reasoning engine itself.
-
-For the precise boundary definition, see: designed-outputs/relationship.en.md
 
 ---
 
@@ -139,6 +139,15 @@ and the responsibility boundaries described above.
 
 ---
 
+## 범위 및 경계
+
+본 레포지토리는 사고 과정에서 생성된 산출물을 포함하며,
+사고엔진 그 자체를 의미하지 않는다.
+
+경계에 대한 상세한 정의는 designed-outputs/relationship.ko.md 를 참조.
+
+---
+
 ## 위치 및 성격
 
 본 레포지토리는 다음 특성을 가진다:
@@ -186,15 +195,6 @@ and the responsibility boundaries described above.
 설명적 맥락이 필요한 경우,
 다음 문서를 참조한다:
 - Notion (**KO** - Authoritative): [https://anitmotd.notion.site/2ddabb7a913d80239af3ff69da237677?source=copy_link]
-
----
-
-## 범위 및 경계
-
-본 레포지토리는 사고 과정에서 생성된 산출물을 포함하며,
-사고엔진 그 자체를 의미하지 않는다.
-
-경계에 대한 상세한 정의는 designed-outputs/relationship.ko.md 를 참조.
 
 ---
 
