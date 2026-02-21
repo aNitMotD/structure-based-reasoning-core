@@ -102,6 +102,16 @@ not structure itself.
 - Intent: fixation of causal location
 - Output: immediate recognition signal
 
+> **Note on Post-Processing**
+>
+> MSPS describes the minimum coordinate system for *pre-interpretive detection*.
+> Interpretations involving continuity, persistence, or trajectories belong to a
+> post-processing layer **after MSPS output** and are not part of the MSPS axes.
+>
+> For discussions on post-processing styles (e.g., continuous vs. discrete/snapshot
+> interpretation), see:
+> - `msps-post-processing-notes.en.md`
+
 ---
 
 ## 6. Conclusion
