@@ -19,6 +19,63 @@ over any individual document or artifact.
 
 ---
 
+## Structural Definition of the Disclaimer’s Role
+
+### 1. Core Proposition
+
+- This disclaimer is **not a mechanism for preventing actions**.
+- The target of this disclaimer is the **justification for denying responsibility**.
+
+### 2. Separation of Action and Responsibility
+
+- **Action**
+  - Cannot be physically or structurally prevented
+  - Acts such as acquisition, use, reference, or reproduction may occur
+
+- **Responsibility**
+  - Exists on a judgmental and normative axis
+  - Remains fixed even after the fact
+  - Cannot be evaded
+
+An action may occur;  
+however, responsibility for that action belongs to a separate axis.
+
+### 3. Operational Mechanism of the Disclaimer
+
+- What is permitted: **the act of taking**
+- What is blocked: **statements that deny responsibility after taking**
+
+That is,
+
+- “It was taken” → no conflict
+- “It was taken, but responsibility does not apply” → conflict with this disclaimer
+
+### 4. Translation into the Judgment Axis
+
+- This disclaimer is **not an action constraint but a post-hoc judgment constraint**.
+- The point of conflict is not the action itself, but
+  - *the moment responsibility attribution is denied*.
+
+### 5. Structural Summary (One Line)
+
+- **Freedom of action is open; freedom to deny responsibility is closed.**
+
+### 6. Functional Definition
+
+- This disclaimer is not a prohibition.
+- It functions as a **mechanism that removes escape routes**.
+
+Permitted responses include:
+- Silence
+- Response
+- Misinterpretation
+- Objection
+
+However,  
+the justification for evading responsibility is not permitted.
+
+---
+
 ## 1. Non-Prescriptive Declaration
 
 This repository is non-prescriptive.
@@ -123,6 +180,30 @@ defined in this document.
 This declaration exists to prevent
 future ambiguity, not to revise prior meaning.
 
+### Scope of Related Boundary Declarations (Non-Exhaustive)
+
+The interpretive guardrails defined in this document
+apply in conjunction with the following
+boundary and attribution declarations.
+
+These declarations apply regardless of whether they are
+included inline, explicitly referenced,
+or provided as separate documents.
+
+- NON-RELIANCE / NO-DUTY STATEMENT
+- NON-EXECUTABLE / NON-OPERATIONAL
+- DERIVATION NOTICE
+- SUPPLEMENTAL CONSTRAINTS
+- PUBLIC MISINTERPRETATION NOTICE
+- RESPONSIBILITY AND OWNERSHIP
+- TEMPORAL SCOPE LOCK
+- NO KNOWLEDGE TRANSFER / NO IMPLIED ASSIGNMENT
+
+The absence of explicit cross-reference
+in any individual document
+does not negate the applicability
+of these declarations.
+
 ---
 
 The notices and boundary declarations in this repository
@@ -214,6 +295,63 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 이 레포지토리의 모든 문서와 산출물은
 아래 선언을 전제로 해석되어야 하며,
 본 선언은 개별 문서보다 우선한다.
+
+---
+
+## 사전고지의 역할에 대한 구조적 정리
+
+### 1. 기본 명제
+
+- 사전고지는 **행위를 막기 위한 장치가 아니다**.
+- 사전고지가 겨냥하는 대상은 **책임 부정의 정당성** 이다.
+
+### 2. 행위와 책임의 분리
+
+- **행위**
+  - 물리적·구조적으로 차단 불가
+  - 취득, 사용, 참조, 복제는 발생할 수 있음
+
+- **책임**
+  - 판단적·규범적 축
+  - 사후에도 고정 가능
+  - 회피 불가능
+
+행위는 발생할 수 있으나,  
+그 행위에 대한 책임은 별개의 축에 귀속된다.
+
+### 3. 사전고지의 작동 방식
+
+- 허용하는 것: **가져가는 행위**
+- 차단하는 것: **가져간 이후 책임을 부정하는 서술**
+
+즉,
+
+- “가져갔다” → 충돌 없음
+- “가져갔지만 책임은 아니다” → 사전고지와 충돌
+
+### 4. 판단 축으로의 번역
+
+- 사전고지는 **행위 제약이 아니라 사후 판단 제약** 이다.
+- 충돌 지점은 행위 자체가 아니라,
+  - *책임 귀속을 부정하는 순간* 이다.
+
+### 5. 구조 요약 (한 줄)
+
+- **행위 자유도는 열려 있고, 책임 자유도는 닫혀 있다.**
+
+### 6. 기능적 정의
+
+- 이 사전고지는 금지문이 아니다.
+- **도주로를 제거하는 장치** 다.
+
+허용되는 반응:
+- 침묵
+- 응답
+- 오독
+- 반박
+
+단,  
+책임 회피의 정당화만은 허용되지 않는다.
 
 ---
 
@@ -321,6 +459,30 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 본 선언은 의미 수정이 아니라,
 향후 해석 혼선을
 사전에 차단하기 위한 것이다.
+
+### 관련 경계 선언 범위 (비열거적)
+
+본 문서에 정의된 해석 가드레일은  
+아래에 열거된 경계·귀속 선언들과  
+함께 적용된다.
+
+해당 선언들은 본 문서 내에 직접 포함되어 있거나,  
+참조되었거나,  
+별도의 문서로 제공되었는지 여부와 무관하게  
+본 가드레일의 적용 대상에 포함된다.
+
+- NON-RELIANCE / NO-DUTY STATEMENT  
+- NON-EXECUTABLE / NON-OPERATIONAL  
+- DERIVATION NOTICE  
+- SUPPLEMENTAL CONSTRAINTS  
+- PUBLIC MISINTERPRETATION NOTICE  
+- RESPONSIBILITY AND OWNERSHIP  
+- TEMPORAL SCOPE LOCK  
+- NO KNOWLEDGE TRANSFER / NO IMPLIED ASSIGNMENT  
+
+개별 문서에서의 명시적 교차 참조가 없다는 사유만으로  
+상기 선언들의 적용이 배제되거나  
+무효화되지는 않는다.
 
 ---
 
