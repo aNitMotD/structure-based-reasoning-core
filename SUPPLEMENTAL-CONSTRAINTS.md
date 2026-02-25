@@ -38,26 +38,35 @@ output, or performance.
 
 ---
 
-## 2. No Structural Similarity or Comparability Claims
+## 2. No Structural Similarity and Comparability
 
 This repository does not provide  
 identifiable procedures, execution paths,  
 reproducible structures,  
-or comparable methodologies.
+or comparable methods,  
+and does not permit interpretations  
+that presuppose the existence of such elements.
 
 Accordingly, claims of:
 
 - structural similarity  
 - conceptual correspondence  
-- abstract alignment  
-- meta-level equivalence  
+- alignment at an abstract level  
+- meta-structural equivalence  
 
 do not constitute valid grounds  
 for attribution, derivation, imitation,  
-or ownership claims.
+or assertions or transfers of ownership.
 
-This repository is not  
-a comparable or mappable reference target.
+This provision does not exempt, replace,  
+or supersede applicable legal or licensing obligations  
+with respect to direct reference, citation,  
+or acts of reproduction.
+
+This repository is not a subject  
+of normative comparison or mapping,  
+but an output whose scope of interpretation  
+is explicitly and intentionally constrained.
 
 ---
 
@@ -243,7 +252,8 @@ without altering the foundational guardrails.
 식별 가능한 절차, 실행 경로,  
 재현 가능한 구조,  
 또는 비교 가능한 방법을  
-제공하지 않는다.
+제공하지 않으며,  
+그러한 요소의 존재를 전제로 한 해석을 허용하지 않는다.
 
 따라서 다음과 같은 주장:
 
@@ -256,8 +266,14 @@ without altering the foundational guardrails.
 소유권 주장 또는 이전의  
 근거가 될 수 없다.
 
+본 조항은  
+직접적 참조, 인용, 복제 행위에 대한  
+적용 가능한 법률 및 라이선스 의무를  
+면제하거나 대체하지 않는다.
+
 본 레포지토리는  
-비교 또는 대응의 대상이 아니다.
+규범적 비교의 대상이 아니라,  
+해석 가능 범위가 명시적으로 제한된 산출물이다.
 
 ---
 

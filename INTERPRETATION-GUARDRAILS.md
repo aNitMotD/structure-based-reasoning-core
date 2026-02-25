@@ -133,20 +133,40 @@ always remains external to this repository.
 
 ---
 
-## 4. Derivative and Judgment Separation
+## 4. Separation of Derivative Artifacts and Judgment
 
-All materials in this repository
-are derivative artifacts.
+All materials in this repository  
+are derivative artifacts  
+that have been recorded and organized  
+post hoc from the author’s internal reasoning activities.
 
-They are results of reasoning activities,
-not the reasoning process itself.
+These materials do not contain  
+the reasoning process itself  
+and do not delegate, share,  
+or transfer any act of judgment.
 
-The presence of structure, clarity,
-or apparent completeness
-does not imply ownership of judgment.
+Structural coherence, clarity,  
+or apparent completeness  
+do not imply ownership, responsibility,  
+or authority over judgment.
 
-Judgment always remains external
-to these artifacts.
+Judgment always remains external  
+to these artifacts,  
+with respect to both the author  
+and any user of the materials,  
+and is not internalized in  
+or transferred by these artifacts.
+
+Even if the structure of an artifact  
+is applied, executed, or operated externally,  
+the outcomes and responsibilities  
+arising from such application, execution,  
+or operation belong solely  
+to the applying party.
+
+The non-executable nature of these artifacts  
+is not altered or transferred  
+by any such external actions.
 
 ---
 
@@ -415,18 +435,35 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ## 4. 파생물과 판단의 분리
 
-본 레포지토리의 모든 자료는
+본 레포지토리의 모든 자료는  
+작성자의 내부 사고 활동으로부터  
+사후적으로 기록·정리된  
 파생 산출물이다.
 
-사고 과정 자체가 아니라,
-사고 활동의 결과만을 포함한다.
+이 자료는  
+사고 과정 자체를 포함하지 않으며,  
+어떠한 판단 행위도  
+대행·공유·이전하지 않는다.
 
-구조적 정합성, 명확성,
-또는 완결성은
-판단의 소유를 의미하지 않는다.
+구조적 정합성, 명확성,  
+또는 완결성은  
+판단의 소유, 책임,  
+또는 권한의 귀속을  
+의미하지 않는다.
 
-판단은 항상
-이 산출물 외부에 남아 있다.
+판단은 항상  
+이 산출물의 작성자 및 사용자  
+각자의 외부에 남아 있으며,  
+본 산출물에 의해  
+내재화되거나 이전되지 않는다.
+
+산출물의 구조가  
+외부에서 적용, 실행, 운용된 경우에도,  
+해당 적용, 실행, 운용의 결과와 책임은  
+적용 주체에 귀속되며,  
+본 산출물의 비실행적 성격은  
+그러한 외부 행위에 의해  
+변경되거나 전이되지 않는다.
 
 ---
 
