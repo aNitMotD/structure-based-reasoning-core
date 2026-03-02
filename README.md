@@ -28,6 +28,9 @@ Interpretation, judgment, and application
 - Interpretation boundary: INTERPRETATION-GUARDRAILS.md (and related root declarations)
 - Reader positioning: user_orientation/
 
+The remaining directories are intended to be read
+only after the documents listed above have been reviewed.
+
 ---
 
 ## Scope and Boundary
