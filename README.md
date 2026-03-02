@@ -5,10 +5,10 @@
 All materials in this repository are governed by
 **INTERPRETATION-GUARDRAILS.md** and related declaration documents.
 
-This repository collects **designed outputs only**,
-produced through a structure-based reasoning process.
-It consists of boundary declarations, constraint specifications,
-and documented edge cases.
+This repository collects **structural outputs**,
+produced through and after a structure-based reasoning process.
+It includes boundary declarations, constraint specifications,
+and other documented structural artifacts and edge cases.
 Directory grouping reflects document type rather than chronological order.
 
 This repository **does not provide or contain**:
@@ -118,8 +118,9 @@ or internal maintenance.
 본 레포지토리에 포함된 모든 자료는
 **INTERPRETATION-GUARDRAILS.md** 및 관련 선언 문서의 적용을 받는다.
 
-이 레포지토리는 구조 기반 사고 과정을 통해 생성된 **설계 산출물만을 기록**하는 저장소로,
-경계 선언, 제약 명세, 엣지 케이스 문서로 구성된다.
+이 레포지토리는 구조 기반 사고 과정을 통해 생성되거나
+그 이후에 구조적으로 정리된 **구조 산출물** 을 기록하는 저장소로,
+경계 선언, 제약 명세, 기타 구조적 산출물 및 엣지 케이스 문서로 구성된다.
 디렉토리 구분은 형성 순서가 아닌 기록의 성격을 기준으로 한다.
 
 본 레포지토리는 다음을 **제공하거나 포함하지 않는다**:
