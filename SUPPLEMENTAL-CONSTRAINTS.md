@@ -122,77 +122,6 @@ of the evaluating party.
 
 ---
 
-## Additional Clarifications (Non-Exhaustive)
-
-Silence, non-response, or lack of objection
-shall not be interpreted as consent, approval,
-or acceptance of any interpretation, use, or attribution.
-
-Partial quotation, excerpting, selective reference,
-translation, localization, or re-expression of materials,
-as well as use outside their original context or framing,
-do not modify attribution, responsibility,
-or the interpretive boundaries defined herein.
-
-Claims of understanding, comprehension,
-or demonstrated insight
-do not confer rights, permissions,
-or interpretive authority.
-
-> These supplemental clarifications
-> are not post-hoc responses to actual incidents,
-> but preemptive closures
-> of interpretive failure possibilities
-> revealed through structural analysis.
-
-### 1. Rejection of Rationality and Optimality Expectations
-
-This material does not aim at rationality, efficiency,
-cost minimization, or optimal choice.
-
-### 2. Rejection of Improvement and Versioning Expectations
-
-This material does not presuppose improvement, simplification,
-user-friendly adjustments, or future versioning.
-
-However, supplementary descriptions or conceptual clarifications
-based on observed cases may be added independently of this premise.
-
-### 3. De-authoritization of Authorial Intent and Values
-
-This material may reflect
-the author’s perspective, problem awareness,
-or value-oriented stance.
-
-However, such elements may not be used
-as grounds for the interpretation, application,
-or justification of this material.
-
-The author’s intent, beliefs, or value judgments
-do not serve as proxy grounds
-for any judgment, decision,
-or attribution of responsibility.
-
-### 4. Non-Defective Nature of Discomfort and Confusion
-
-Confusion, discomfort, unease, or difficulty in interpretation
-arising in the course of engaging with this material
-do not constitute errors, defects, or matters requiring correction.
-
-### 5. Responsibility Boundary for Interpretive Failure
-
-This clarification does not impose an obligation to understand,
-but reaffirms the existing boundary of responsibility.
-
-If this material becomes unclear, uncomfortable,
-or difficult to interpret,
-you may safely stop reading.
-
-Continued interpretation beyond that point
-remains outside the author’s responsibility.
-
----
-
 ## 6. Indirect Influence and Conceptual Inspiration
 
 Exposure to the materials contained in this repository
@@ -241,6 +170,77 @@ the boundaries defined in:
 - INTERPRETATION-GUARDRAILS.md
 - NO KNOWLEDGE TRANSFER / NO IMPLIED ASSIGNMENT
 - NON-RELIANCE / NO-DUTY STATEMENT
+
+---
+
+## Additional Clarifications (Non-Exhaustive)
+
+Silence, non-response, or lack of objection
+shall not be interpreted as consent, approval,
+or acceptance of any interpretation, use, or attribution.
+
+Partial quotation, excerpting, selective reference,
+translation, localization, or re-expression of materials,
+as well as use outside their original context or framing,
+do not modify attribution, responsibility,
+or the interpretive boundaries defined herein.
+
+Claims of understanding, comprehension,
+or demonstrated insight
+do not confer rights, permissions,
+or interpretive authority.
+
+> These supplemental clarifications
+> are not post-hoc responses to actual incidents,
+> but preemptive closures
+> of interpretive failure possibilities
+> revealed through structural analysis.
+
+### 1) Rejection of Rationality and Optimality Expectations
+
+This material does not aim at rationality, efficiency,
+cost minimization, or optimal choice.
+
+### 2) Rejection of Improvement and Versioning Expectations
+
+This material does not presuppose improvement, simplification,
+user-friendly adjustments, or future versioning.
+
+However, supplementary descriptions or conceptual clarifications
+based on observed cases may be added independently of this premise.
+
+### 3) De-authoritization of Authorial Intent and Values
+
+This material may reflect
+the author’s perspective, problem awareness,
+or value-oriented stance.
+
+However, such elements may not be used
+as grounds for the interpretation, application,
+or justification of this material.
+
+The author’s intent, beliefs, or value judgments
+do not serve as proxy grounds
+for any judgment, decision,
+or attribution of responsibility.
+
+### 4) Non-Defective Nature of Discomfort and Confusion
+
+Confusion, discomfort, unease, or difficulty in interpretation
+arising in the course of engaging with this material
+do not constitute errors, defects, or matters requiring correction.
+
+### 5) Responsibility Boundary for Interpretive Failure
+
+This clarification does not impose an obligation to understand,
+but reaffirms the existing boundary of responsibility.
+
+If this material becomes unclear, uncomfortable,
+or difficult to interpret,
+you may safely stop reading.
+
+Continued interpretation beyond that point
+remains outside the author’s responsibility.
 
 ---
 
@@ -456,13 +456,13 @@ without altering the foundational guardrails.
 > 해석 실패 가능성을  
 > 사전에 봉인하기 위한 것이다.
 
-### 1. 합리성·최적성 기대 부정
+### 1) 합리성·최적성 기대 부정
 
 본 자료는 합리성, 효율성,
 비용 최소화, 또는 최적 선택을
 목표로 하지 않는다.
 
-### 2. 개선·버전업 기대 부정
+### 2) 개선·버전업 기대 부정
 
 본 자료는 개선, 단순화,
 사용자 친화적 조정,
@@ -475,7 +475,7 @@ without altering the foundational guardrails.
 본 전제와 무관하게
 추가될 수 있다.
 
-### 3. 작성자 의도·가치의 비권위화
+### 3) 작성자 의도·가치의 비권위화
 
 본 자료에는
 작성자의 관점, 문제의식,
@@ -493,13 +493,13 @@ without altering the foundational guardrails.
 또는 책임 귀속의
 대리 근거가 되지 않는다.
 
-### 4. 불편·혼란 경험의 비결함
+### 4) 불편·혼란 경험의 비결함
 
 본 자료를 접하는 과정에서 발생하는
 혼란, 불편, 불쾌, 이해 곤란 상태는
 오류, 결함, 또는 수정 대상이 아니다.
 
-### 5. 이해 실패에 대한 책임 경계
+### 5) 이해 실패에 대한 책임 경계
 
 이 보강 문구는
 이해를 요구하거나 강제하지 않으며,
