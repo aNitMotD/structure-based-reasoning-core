@@ -191,6 +191,56 @@ you may safely stop reading.
 Continued interpretation beyond that point
 remains outside the author’s responsibility.
 
+---
+
+## 6. Indirect Influence and Conceptual Inspiration
+
+Exposure to the materials contained in this repository
+may lead readers to form ideas, interpretations,
+or conceptual associations.
+
+Such outcomes may arise naturally
+during reading or reflection.
+
+However, the occurrence of:
+
+- conceptual inspiration
+- perceived intellectual influence
+- idea similarity
+- analytical resemblance
+- philosophical or structural alignment
+
+does not constitute:
+
+- derivation
+- intellectual lineage
+- conceptual inheritance
+- methodological transfer
+- authorial contribution
+- attribution or ownership claims
+
+Any understanding, insight,
+or conceptual development arising
+after interaction with this repository
+is considered to arise independently
+within the reader's own cognition.
+
+The existence of conceptual similarity
+between this repository and
+subsequent works or systems
+does not establish influence,
+origin, or transmission.
+
+Responsibility for all such works
+remains solely with the party
+that develops or applies them.
+
+This clarification reinforces
+the boundaries defined in:
+
+- INTERPRETATION-GUARDRAILS.md
+- NO KNOWLEDGE TRANSFER / NO IMPLIED ASSIGNMENT
+- NON-RELIANCE / NO-DUTY STATEMENT
 
 ---
 
@@ -208,7 +258,7 @@ without altering the foundational guardrails.
 
 ## 한국어
 
-본 문서는 **INTERPRETATION-GUARDRAILS.md**에  
+본 문서는 **INTERPRETATION-GUARDRAILS.md** 에  
 정의된 해석 경계를 보강하기 위한  
 추가 제약을 명시한다.
 
@@ -327,6 +377,58 @@ without altering the foundational guardrails.
 이루어진 모든 판단과 결정에 대한  
 책임은 전적으로  
 해당 판단 주체에게 귀속된다.
+
+---
+
+## 6. 간접 영향 및 개념적 영감
+
+본 레포지토리에 포함된 자료에 노출됨으로써  
+독자가 아이디어, 해석, 또는 개념적 연관을 형성할 수 있다.
+
+이러한 결과는  
+독해 또는 사유 과정에서  
+자연스럽게 발생할 수 있다.
+
+그러나 다음과 같은 현상의 발생은:
+
+- 개념적 영감  
+- 지적 영향으로 인식되는 상태  
+- 아이디어 유사성  
+- 분석적 유사성  
+- 철학적 또는 구조적 정렬  
+
+다음을 구성하지 않는다:
+
+- 파생성  
+- 지적 계보  
+- 개념적 상속  
+- 방법론 이전  
+- 작성자의 기여  
+- 귀속 또는 소유권 주장  
+
+본 레포지토리와의 상호작용 이후  
+독자가 획득한 이해, 통찰,  
+또는 개념적 전개는  
+독자의 인지 내부에서  
+독립적으로 발생한 것으로 간주된다.
+
+본 레포지토리와 이후 생성된  
+작업 또는 시스템 사이에  
+개념적 유사성이 존재한다는 사실만으로  
+영향, 기원, 또는 전달이  
+성립하는 것으로 해석되지 않는다.
+
+이러한 작업에 대한 책임은  
+해당 작업을 개발하거나  
+적용한 주체에게  
+전적으로 귀속된다.
+
+본 명확화는 다음 문서들에 정의된  
+경계를 보강하기 위해 존재한다:
+
+- INTERPRETATION-GUARDRAILS.md  
+- NO KNOWLEDGE TRANSFER / NO IMPLIED ASSIGNMENT  
+- NON-RELIANCE / NO-DUTY STATEMENT
 
 ---
 
