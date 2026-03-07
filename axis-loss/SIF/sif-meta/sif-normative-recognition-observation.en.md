@@ -83,6 +83,8 @@ Reading disclaimer
 ↓  
 Irreversible recognition state
 
+---
+
 Note:
 
 In repository environments such as GitHub, platform rendering rules
@@ -95,13 +97,15 @@ a broader recognition pathway rather than strict reading.
 
 Possible recognition pathway:
 
-Recognizable state
-↓
-Document exposure (README rendering, repository entry page)
-↓
-User access / viewing
-↓
+Recognizable state  
+↓  
+Document exposure (README rendering, repository entry page)  
+↓  
+User access / viewing  
+↓  
 Recognition state formation
+
+---
 
 However, under the legal-force frame, interpretation becomes:
 
