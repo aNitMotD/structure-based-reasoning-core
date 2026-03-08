@@ -69,7 +69,7 @@ This state corresponds to the typical pattern of **Structural Inaccessibility Fa
 
 ## 4. Case Example (Narrative)
 
-In the narrative case, the disclaimer operates as follows:
+In the narrative case, the repository disclosure operates as follows:
 
 - it does **not prohibit actions**
 - it does **not claim legal enforceability**
@@ -77,9 +77,9 @@ In the narrative case, the disclaimer operates as follows:
 
 Structure:
 
-Pre-reading state  
+Pre-recognition state  
 ↓  
-Reading disclaimer  
+Exposure to the repository disclosure  
 ↓  
 Irreversible recognition state
 
@@ -89,7 +89,7 @@ Note:
 
 In repository environments such as GitHub, platform rendering rules
 (e.g., automatic README display on repository entry pages)
-may make disclaimers reasonably recognizable even before
+may make repository disclosures reasonably recognizable even before
 a deliberate act of reading occurs.
 
 In such cases, the cognitive-state condition may arise through

@@ -19,12 +19,12 @@ over any individual document or artifact.
 
 ---
 
-## Structural Definition of the Disclaimer’s Role
+## Structural Definition of the Repository Disclosure’s Role
 
 ### 1) Core Proposition
 
-- This disclaimer is **not a mechanism for preventing actions**.
-- The target of this disclaimer is the **justification for denying responsibility**.
+- This repository disclosure is **not a mechanism for preventing actions**.
+- The target of this repository disclosure is the **justification for denying responsibility**.
 
 ### 2) Separation of Action and Responsibility
 
@@ -40,7 +40,7 @@ over any individual document or artifact.
 An action may occur;  
 however, responsibility for that action belongs to a separate axis.
 
-### 3) Operational Mechanism of the Disclaimer
+### 3) Operational Mechanism of the Repository Disclosure
 
 - What is permitted: **the act of taking**
 - What is blocked: **statements that deny responsibility after taking**
@@ -48,11 +48,11 @@ however, responsibility for that action belongs to a separate axis.
 That is,
 
 - “It was taken” → no conflict
-- “It was taken, but responsibility does not apply” → conflict with this disclaimer
+- “It was taken, but responsibility does not apply” → conflict with this repository disclosure
 
 ### 4) Translation into the Judgment Axis
 
-- This disclaimer is **not an action constraint but a post-hoc judgment constraint**.
+- This repository disclosure is **not an action constraint but a post-hoc judgment constraint**.
 - The point of conflict is not the action itself, but
   - *the moment responsibility attribution is denied*.
 
@@ -62,7 +62,7 @@ That is,
 
 ### 6) Functional Definition
 
-- This disclaimer is not a prohibition.
+- This repository disclosure is not a prohibition.
 - It functions as a **mechanism that removes escape routes**.
 
 Permitted responses include:
