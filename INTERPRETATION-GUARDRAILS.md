@@ -21,12 +21,12 @@ over any individual document or artifact.
 
 ## Structural Definition of the Disclaimer’s Role
 
-### 1. Core Proposition
+### 1) Core Proposition
 
 - This disclaimer is **not a mechanism for preventing actions**.
 - The target of this disclaimer is the **justification for denying responsibility**.
 
-### 2. Separation of Action and Responsibility
+### 2) Separation of Action and Responsibility
 
 - **Action**
   - Cannot be physically or structurally prevented
@@ -40,7 +40,7 @@ over any individual document or artifact.
 An action may occur;  
 however, responsibility for that action belongs to a separate axis.
 
-### 3. Operational Mechanism of the Disclaimer
+### 3) Operational Mechanism of the Disclaimer
 
 - What is permitted: **the act of taking**
 - What is blocked: **statements that deny responsibility after taking**
@@ -50,17 +50,17 @@ That is,
 - “It was taken” → no conflict
 - “It was taken, but responsibility does not apply” → conflict with this disclaimer
 
-### 4. Translation into the Judgment Axis
+### 4) Translation into the Judgment Axis
 
 - This disclaimer is **not an action constraint but a post-hoc judgment constraint**.
 - The point of conflict is not the action itself, but
   - *the moment responsibility attribution is denied*.
 
-### 5. Structural Summary (One Line)
+### 5) Structural Summary (One Line)
 
 - **Freedom of action is open; freedom to deny responsibility is closed.**
 
-### 6. Functional Definition
+### 6) Functional Definition
 
 - This disclaimer is not a prohibition.
 - It functions as a **mechanism that removes escape routes**.
@@ -73,6 +73,20 @@ Permitted responses include:
 
 However,  
 the justification for evading responsibility is not permitted.
+
+---
+
+## Recognition Condition
+
+Repository disclosures may be encountered through
+multiple interface paths (e.g., README rendering).
+
+Recognition does not require a deliberate reading act.
+Reasonable exposure to the disclosure may be sufficient
+to form the recognition condition.
+
+See also:
+SIF – Normative Recognition Observation
 
 ---
 
@@ -320,12 +334,12 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ## 사전고지의 역할에 대한 구조적 정리
 
-### 1. 기본 명제
+### 1) 기본 명제
 
 - 사전고지는 **행위를 막기 위한 장치가 아니다**.
 - 사전고지가 겨냥하는 대상은 **책임 부정의 정당성** 이다.
 
-### 2. 행위와 책임의 분리
+### 2) 행위와 책임의 분리
 
 - **행위**
   - 물리적·구조적으로 차단 불가
@@ -339,7 +353,7 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 행위는 발생할 수 있으나,  
 그 행위에 대한 책임은 별개의 축에 귀속된다.
 
-### 3. 사전고지의 작동 방식
+### 3) 사전고지의 작동 방식
 
 - 허용하는 것: **가져가는 행위**
 - 차단하는 것: **가져간 이후 책임을 부정하는 서술**
@@ -349,17 +363,17 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 - “가져갔다” → 충돌 없음
 - “가져갔지만 책임은 아니다” → 사전고지와 충돌
 
-### 4. 판단 축으로의 번역
+### 4) 판단 축으로의 번역
 
 - 사전고지는 **행위 제약이 아니라 사후 판단 제약** 이다.
 - 충돌 지점은 행위 자체가 아니라,
   - *책임 귀속을 부정하는 순간* 이다.
 
-### 5. 구조 요약 (한 줄)
+### 5) 구조 요약 (한 줄)
 
 - **행위 자유도는 열려 있고, 책임 자유도는 닫혀 있다.**
 
-### 6. 기능적 정의
+### 6) 기능적 정의
 
 - 이 사전고지는 금지문이 아니다.
 - **도주로를 제거하는 장치** 다.
@@ -372,6 +386,22 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 단,  
 책임 회피의 정당화만은 허용되지 않는다.
+
+---
+
+## 인지 조건
+
+레포지토리의 고지 사항은
+여러 인터페이스 경로(예: README 렌더링)를 통해
+접할 수 있다.
+
+인지는 반드시 의도적인 읽기 행위를
+요구하지 않는다.
+고지에 대한 합리적인 노출만으로도
+인지 조건이 형성될 수 있다.
+
+참조:
+SIF – Normative Recognition Observation
 
 ---
 

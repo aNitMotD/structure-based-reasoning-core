@@ -112,6 +112,12 @@ redistribution, and derivative actions,
 and does not apply to the author’s own use
 or internal maintenance.
 
+**Observational note**
+
+License violations may occur.
+If such a violation occurs, the act itself may constitute
+an instance of the observational phenomena recorded in this repository.
+
 ---
 
 # 구조 기반 사고 핵심
@@ -236,3 +242,9 @@ or internal maintenance.
 파생 행위를 규율하기 위한 것이며,
 작성자의 자체 사용이나 내부 관리에는
 적용 대상이 아니다.
+
+**관측 관련 참고**
+
+라이선스 위반이 발생할 수 있다.
+이 경우 해당 행위는 본 레포지토리에 기록된 관측 현상의
+실연 사례로 해석될 수 있다.
