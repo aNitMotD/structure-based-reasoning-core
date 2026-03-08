@@ -25,8 +25,8 @@ Interpretation, judgment, and application
 
 ## Reading Order
 
-- Interpretation boundary: INTERPRETATION-GUARDRAILS.md (and related root declarations)
-- Reader positioning: user_orientation/
+- Interpretation boundary: [INTERPRETATION-GUARDRAILS](./INTERPRETATION-GUARDRAILS.md) (and related root declarations)  
+- Reader positioning: [User Orientation](./user_orientation/user-phase-classification.en.md)  
 
 The remaining directories are intended to be read
 only after the documents listed above have been reviewed.
@@ -38,7 +38,7 @@ only after the documents listed above have been reviewed.
 This repository contains materials produced through a reasoning process.
 It does not represent the reasoning engine itself.
 
-For the precise boundary definition, see: designed-outputs/relationship.en.md
+For the precise boundary definition, see: [Relationship](./designed-outputs/relationship.en.md)
 
 ---
 
@@ -95,7 +95,7 @@ This repository also contains contextual notes on how thinking
 may be recognized rather than generated within organizational environments.
 These notes are observational in nature and do not constitute guidance,
 policy, or claims of ownership.
-- Contextual note: `context-origin/en/thinking_is_not_property.en.md`
+- Contextual note: [Thinking is not property](./context-origin/en/thinking_is_not_property.en.md)
 
 ---
 
@@ -146,8 +146,8 @@ an instance of the observational phenomena recorded in this repository.
 
 ## 읽기 순서 안내
 
-- **해석·책임 경계**: `INTERPRETATION-GUARDRAILS.md` 및 root에 위치한 관련 선언 문서  
-- **독자 위치 정렬**: `user_orientation/`
+- **해석·책임 경계**: [INTERPRETATION-GUARDRAILS](./INTERPRETATION-GUARDRAILS.md) (그리고 root에 위치한 관련 선언 문서)  
+- **독자 위치 정렬**: [User Orientation](./user_orientation/user-phase-classification.ko.md)  
 
 위 문서들을 먼저 확인한 이후에,
 나머지 디렉터리의 내용을 읽는 것을 전제로 한다.
@@ -159,7 +159,7 @@ an instance of the observational phenomena recorded in this repository.
 본 레포지토리는 사고 과정에서 생성된 산출물을 포함하며,
 사고엔진 그 자체를 의미하지 않는다.
 
-경계에 대한 상세한 정의는 designed-outputs/relationship.ko.md 를 참조.
+경계에 대한 상세한 정의는 [Relationship](./designed-outputs/relationship.ko.md) 를 참조.
 
 ---
 
@@ -224,7 +224,7 @@ an instance of the observational phenomena recorded in this repository.
 **인식·관측되는 방식** 에 대한 맥락적 기록이 포함되어 있다.
 이는 지침, 정책, 또는 소유권 주장에 해당하지 않는
 관측적 문서이다.
-- Contextual note: `context-origin/ko/thinking_is_not_property.ko.md`
+- Contextual note: [Thinking is not property](./context-origin/ko/thinking_is_not_property.ko.md)
 
 ---
 

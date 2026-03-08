@@ -10,7 +10,7 @@ Non-normative, non-prescriptive record.
 
 ## 1. Source of Observation
 
-This observation is recorded from a **narrative scene depicting external community commentary** around a repository disclaimer.
+This observation is recorded from a **narrative scene depicting external community commentary** surrounding recognition of the repository disclosure.
 
 Observed comment pattern:
 

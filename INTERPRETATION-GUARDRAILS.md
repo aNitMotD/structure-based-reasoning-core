@@ -85,8 +85,8 @@ Recognition does not require a deliberate reading act.
 Reasonable exposure to the disclosure may be sufficient
 to form the recognition condition.
 
-See also:
-SIF – Normative Recognition Observation
+See also:  
+[SIF – Normative Recognition Observation](./axis-loss/SIF/sif-meta/sif-normative-recognition-observation.en.md)
 
 ---
 
@@ -391,17 +391,17 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ## 인지 조건
 
-레포지토리의 고지 사항은
+레포지토리의 사전고지는
 여러 인터페이스 경로(예: README 렌더링)를 통해
 접할 수 있다.
 
 인지는 반드시 의도적인 읽기 행위를
 요구하지 않는다.
-고지에 대한 합리적인 노출만으로도
+사전고지에 대한 합리적인 노출만으로도
 인지 조건이 형성될 수 있다.
 
-참조:
-SIF – Normative Recognition Observation
+참조:  
+[SIF – Normative Recognition Observation](./axis-loss/SIF/sif-meta/sif-normative-recognition-observation.ko.md)
 
 ---
 
