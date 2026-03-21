@@ -241,7 +241,7 @@ of judgment alignment under the SIF state.**
 ---
 
 ※ For a conceptual distinction regarding the misinterpretation of structural observation as prediction,  
-   refer to sif-meta/observation-vs-prediction.md.
+   refer to sif-meta/observation-vs-prediction.en.md.
 
 ---
 
