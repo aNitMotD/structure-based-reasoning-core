@@ -1,5 +1,7 @@
 # Structure-Based Reasoning Core
 
+> This work does not assume execution responsibility; responsibility within the defined observation boundary is maintained, and external attribution beyond this boundary is rejected.
+
 ## English
 
 All materials in this repository are governed by
@@ -121,6 +123,8 @@ an instance of the observational phenomena recorded in this repository.
 ---
 
 # 구조 기반 사고 핵심
+
+> 본 작업은 실행 책임을 전제하지 않으며, 정의된 관측 범위 내 책임은 유지되고, 그 외부로의 책임 전가는 허용되지 않는다.
 
 ## 한국어 (Korean)
 

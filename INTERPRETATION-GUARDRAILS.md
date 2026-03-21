@@ -90,6 +90,38 @@ See also:
 
 ---
 
+## Responsibility Model
+
+This work defines responsibility along two separate axes: responsibility scope and attribution flow.
+
+### 1) Responsibility Scope
+
+- Execution Responsibility  
+  Responsibility for actions, decisions, or real-world outcomes.  
+  → Not assumed.
+
+- Observational Responsibility  
+  Responsibility for structural interpretation, representation, and boundary definition within the defined observation scope.  
+  → Explicitly maintained.
+
+### 2) Attribution Control
+
+- External Attribution  
+  Any attempt to assign or transfer responsibility to the author beyond the defined observation boundary.  
+  → Explicitly rejected.
+
+### 3) Boundary Clarification
+
+The absence of execution responsibility must not be interpreted as absence of responsibility.
+
+Responsibility is not removed but constrained:
+- Maintained within the observation boundary
+- Rejected outside of it
+
+This work does not operate under “no responsibility,” but under a bounded responsibility model with strict attribution control.
+
+---
+
 ## 1. Non-Prescriptive Declaration
 
 This repository is non-prescriptive.
@@ -402,6 +434,39 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 참조:  
 [SIF – Normative Recognition Observation](./axis-loss/SIF/sif-meta/sif-normative-recognition-observation.ko.md)
+
+---
+
+## 책임 모델
+
+본 작업은 책임을 두 개의 축으로 분리하여 정의한다: 책임 범위와 귀속 흐름.
+
+### 1) 책임 범위
+
+- 실행 책임
+  행위, 의사결정, 또는 현실 결과에 대한 책임  
+  → 전제하지 않음
+
+- 관측 책임
+  정의된 관측 범위 내에서의 구조 해석, 표현, 경계 설정에 대한 책임  
+  → 명시적으로 유지됨
+
+### 2) 귀속 제어
+
+- 외부 귀속
+  정의된 관측 경계를 넘어 작성자에게 책임을 할당하거나 전가하려는 시도  
+  → 허용되지 않음
+
+### 3) 경계 명확화
+
+실행 책임의 부재는 책임의 부재를 의미하지 않는다.
+
+책임은 제거되는 것이 아니라 제한된다:
+- 관측 범위 내에서는 유지된다
+- 그 외부에서는 귀속이 허용되지 않는다
+
+본 작업은 “책임 없음” 상태가 아니라,
+명확한 경계와 귀속 제어를 가진 제한된 책임 모델을 기준으로 정의된다.
 
 ---
 

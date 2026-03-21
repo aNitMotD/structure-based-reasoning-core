@@ -26,7 +26,8 @@ that can be executed, deployed,
 or operated.
 
 The materials describe
-design outcomes and structural observations only.
+structural outputs produced through a structure-based reasoning process,
+and related observations only.
 
 ---
 
@@ -57,5 +58,5 @@ INTERPRETATION-GUARDRAILS.md
 취급되어서는 안 된다.
 
 본 자료는
-설계 산출물과 구조적 관찰만을
-기술한다.
+구조 기반 사고 과정을 통해 도출된 구조적 산출물과
+그에 따른 관측 내용만을 다룬다.

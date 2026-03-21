@@ -29,7 +29,8 @@ applicable law, contractual terms,
 or agreements between relevant parties.
 
 1. Whether the artifact was created  
-   within the scope of an employment relationship
+   within the scope of a defined relationship  
+   (e.g., employment, contractual engagement, service provision, or independent creation)
 
 2. Whether applicable contracts or laws  
    contain explicit provisions  
@@ -105,8 +106,9 @@ INTERPRETATION-GUARDRAILS.md
 관련 계약, 법률, 또는 당사자 간 합의에 따라  
 결정될 수 있다.
 
-1. 산출물이 고용 관계 내에서  
-   생성되었는지 여부
+1. 산출물이 특정 관계 범위 내에서  
+   생성되었는지 여부  
+   (예: 고용 관계, 계약 관계, 서비스 제공, 또는 독립적 생성 등)
 
 2. 관련 계약 또는 법률에  
    명시적인 귀속 규정이  
