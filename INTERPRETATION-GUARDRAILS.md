@@ -218,18 +218,23 @@ by any such external actions.
 
 ## 5. Conditional Attribution and Ownership
 
-Attribution and ownership
-are context-dependent.
+Attribution and ownership are context-dependent
+and evaluated based on the relationship context
+and responsibility assumption.
 
-- Artifacts created outside an employment context
+- Artifacts created outside any defined relationship context  
   remain the property of the author.
-- Artifacts created within an employment context
-  are subject to applicable contracts and laws.
-- If an organization cannot fully assume
-  responsibility for resulting outcomes,
+
+- Artifacts created within a defined relationship context  
+  (e.g., employment, contractual engagement, service provision)  
+  are subject to applicable contracts, laws, or agreements.
+
+- If an organization or external party does not fully assume  
+  responsibility for resulting outcomes,  
   ownership is not transferred by default.
-- Ownership transfer requires
-  explicit agreement and responsibility acceptance.
+
+- Ownership transfer requires explicit agreement  
+  and acceptance of responsibility for outcomes.
 
 ---
 
@@ -565,16 +570,22 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 ## 5. 조건부 귀속 및 소유권
 
 귀속 및 소유권은
-맥락에 따라 결정된다.
+관계 맥락과 책임 수용 여부에 따라
+결정된다.
 
-- 고용 관계 외에서 생성된 산출물은
+- 어떠한 관계 맥락에도 속하지 않고 생성된 산출물은  
   작성자에게 귀속된다.
-- 고용 관계 내에서 생성된 산출물은
-  관련 계약 및 법률의 적용을 받는다.
-- 조직이 결과 책임을 전면 수용할 수 없는 경우,
-  소유권은 자동 이전되지 않는다.
-- 소유권 이전은
-  명시적 합의와 책임 수용을 전제로 한다.
+
+- 특정 관계 맥락 내에서 생성된 산출물  
+  (예: 고용 관계, 계약 관계, 서비스 제공 등)은  
+  관련 계약, 법률 또는 합의의 적용을 받는다.
+
+- 조직 또는 외부 주체가 결과에 대한 책임을  
+  전면적으로 수용하지 않는 경우,  
+  소유권은 자동으로 이전되지 않는다.
+
+- 소유권 이전은  
+  명시적 합의와 결과 책임의 수용을 전제로 한다.
 
 ---
 
