@@ -216,6 +216,35 @@ of judgment alignment.
 
 ---
 
+### Clarification on Transition Tags
+
+`SIF-o` and `SIF-d` do NOT represent:
+
+- Subtypes of SIF
+- State branching
+- Outcomes of choice
+- Evaluation or responsibility attribution
+
+These tags exist solely as  
+**naming markers for identifying observed transition points  
+of judgment alignment under the SIF state.**
+
+---
+
+### Summary
+
+> **SIF is a single state,  
+> and SIF-o / SIF-d are tags used to identify  
+> observed transition points where judgment alignment begins.  
+> They do not serve as classification or evaluation criteria.**
+
+---
+
+※ For a conceptual distinction regarding the misinterpretation of structural observation as prediction,  
+   refer to sif-meta/observation-vs-prediction.md.
+
+---
+
 ## Classification Closure
 
 The SIF described in this document constitutes
