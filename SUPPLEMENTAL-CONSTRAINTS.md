@@ -173,6 +173,34 @@ the boundaries defined in:
 
 ---
 
+## 7. No Implied License and Independent Creation Boundary
+
+Public availability, non-intervention, or lack of response  
+shall not be interpreted as:
+
+- permission, license, or authorization  
+  (including implied license)
+- consent to use, reproduce, modify, or derive from the materials  
+
+Such interpretations are structurally invalid  
+within the boundaries defined in this repository.
+
+However, this repository does not restrict:
+
+- the occurrence of use, reference, modification, or derivative activity
+- independently arising ideas, interpretations, or creations
+
+All outcomes, uses, and resulting artifacts  
+remain solely the responsibility of the party  
+that performs or applies them.
+
+In cases where similar results arise  
+after exposure to this repository,  
+the burden of establishing independence  
+remains with the party asserting such independence.
+
+---
+
 ## Additional Clarifications (Non-Exhaustive)
 
 Silence, non-response, or lack of objection
@@ -429,6 +457,34 @@ without altering the foundational guardrails.
 - INTERPRETATION-GUARDRAILS.md  
 - NO KNOWLEDGE TRANSFER / NO IMPLIED ASSIGNMENT  
 - NON-RELIANCE / NO-DUTY STATEMENT
+
+---
+
+## 7. 묵시적 이용허락 및 독립적 창작 경계
+
+본 레포지토리의 공개 상태, 비개입, 또는 비응답은  
+다음을 의미하지 않는다:
+
+- 어떠한 형태의 허가, 라이선스, 또는 사용 권한  
+  (묵시적 이용허락 포함)
+- 본 자료의 사용, 복제, 수정, 또는 파생적 활용에 대한 동의
+
+이와 같은 해석은  
+본 레포지토리에 정의된 해석 경계 내에서  
+구조적으로 성립하지 않는다.
+
+다만, 본 레포지토리는 다음을 제한하지 않는다:
+
+- 사용, 참조, 수정, 또는 파생적 활용의 발생 자체
+- 독자의 인지 내부에서 독립적으로 발생하는 해석, 아이디어, 또는 창작
+
+본 자료를 기반으로 이루어진 모든 사용, 적용, 또는 결과물에 대한 책임은  
+해당 행위를 수행한 주체에게 전적으로 귀속된다.
+
+또한, 본 레포지토리에 노출된 이후  
+유사한 결과가 발생한 경우,  
+그 결과가 독립적으로 발생하였음을 입증할 책임은  
+이를 주장하는 주체에게 있다.
 
 ---
 
