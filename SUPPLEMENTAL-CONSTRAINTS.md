@@ -38,6 +38,46 @@ output, or performance.
 
 ---
 
+### 1.1 Real-Time Reference by AI Agents or Automated Systems
+
+The real-time retrieval, reference, reading, parsing,
+summarization, or use of this repository
+by an AI agent or automated system
+for the purpose of generating responses,
+judgments, recommendations, actions,
+or downstream outputs
+constitutes a separate mode of access
+from training inclusion or passive processing.
+
+Such real-time reference does not constitute:
+
+- attribution or authorship
+- contribution or endorsement
+- consent or permission
+- responsibility, liability, or duty transfer
+- validation of any resulting judgment, action, or output
+
+No judgment, response, action,
+or agent behavior formed through
+real-time reference to this repository
+may be interpreted
+as derived authority, delegated reasoning,
+or transferred responsibility
+from the author of this repository.
+
+The author of this repository shall not be treated
+as a source of authority, judgment, validation,
+or responsibility
+for any output or action
+produced through such real-time reference.
+
+All outputs, decisions, and resulting effects
+remain solely the responsibility
+of the party operating, deploying,
+or relying on the relevant system.
+
+---
+
 ## 2. No Structural Similarity and Comparability
 
 This repository does not provide  
@@ -321,6 +361,48 @@ without altering the foundational guardrails.
 어떠한 모델의 출력, 동작, 성능에 대해서도  
 영향, 파생, 책임의 근거로  
 해석될 수 없다.
+
+---
+
+### 1.1 AI 에이전트 / 자동화 시스템의 실시간 참조
+
+AI 에이전트 또는 자동화 시스템이
+응답, 판단, 권고, 행위,
+또는 그에 준하는 결과물을 생성하기 위해
+본 레포지토리를 실시간으로 검색, 참조, 열람,
+파싱, 요약, 또는 활용하는 경우는
+
+학습 포함 또는 수동적 처리와는 구별되는
+별도의 접근 행위에 해당한다.
+
+이러한 실시간 참조는 다음을 구성하지 않는다:
+
+- 귀속 또는 저작권 주장
+- 기여 또는 승인
+- 동의 또는 허가
+- 책임, 법적 부담, 의무의 이전
+- 그에 따라 형성된 판단, 행위, 결과물에 대한 정당화 또는 보증
+
+본 레포지토리에 대한 실시간 참조를 통해
+형성된 어떠한 판단, 응답, 행위,
+또는 에이전트의 동작도
+
+작성자로부터 유래한 권한,
+위임된 추론,
+또는 이전된 책임으로
+해석될 수 없다.
+
+이와 같은 실시간 참조를 통해 생성된
+어떠한 출력 또는 행위에 대해서도,
+본 레포지토리의 작성자는
+권한, 판단, 정당화, 또는 책임의
+근거 주체로 취급될 수 없다.
+
+그로부터 발생하는 모든 출력, 결정,
+행위, 효과에 대한 책임은
+해당 시스템을 운영, 배포,
+또는 신뢰하여 사용한 주체에게
+전적으로 귀속된다.
 
 ---
 
