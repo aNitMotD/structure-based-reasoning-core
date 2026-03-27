@@ -56,18 +56,41 @@ should be treated as a complete, standalone, or self-sufficient unit.
 
 ---
 
-## Responsibility and Derivation
+## Responsibility, Derivation, and Attribution
 
-All materials in this repository are derived outputs.
-Responsibility for interpretation, judgment, and application
-always remains with the reader or user.
+All materials in this repository are derivative artifacts.
 
-Attribution and ownership follow a conditional model:
-- Outputs created outside an organization remain personal
-- Outputs created within an organization follow organizational ownership
-- Transfer of ownership requires explicit responsibility acceptance
+Responsibility for interpretation, judgment,
+adoption, application, deployment, redistribution,
+modification, and reliance
+always remains with the party
+that performs or assumes such acts.
 
-Details are described in the accompanying declaration documents.
+No material in this repository
+delegates judgment,
+transfers responsibility,
+or fixes attribution or ownership by itself.
+
+Attribution and ownership, if assessed,
+are determined externally
+under applicable law, contractual terms,
+relationship context,
+explicit responsibility acceptance,
+and any separate agreement between relevant parties.
+
+Accordingly, ownership is not transferred by default,
+and no claim of transfer, attribution, or organizational ownership
+arises from use, exposure, reference,
+structural similarity, or public availability alone.
+
+Details are described
+in the accompanying declaration documents.
+
+See:
+- [INTERPRETATION-GUARDRAILS](./INTERPRETATION-GUARDRAILS.md)
+- [RESPONSIBILITY-AND-OWNERSHIP](./RESPONSIBILITY-AND-OWNERSHIP.md)
+- [DERIVATION-NOTICE](./DERIVATION-NOTICE.md)
+- [SUPPLEMENTAL-CONSTRAINTS](./SUPPLEMENTAL-CONSTRAINTS.md)
 
 ---
 
@@ -143,8 +166,11 @@ an instance of the observational phenomena recorded in this repository.
 - 실행 가능하거나 운영·자문 목적의 시스템
 - 판단, 책임, 또는 권한의 이전
 
-자료의 해석, 판단, 적용에 대한 책임은
-항상 본 레포지토리 **외부에 남아 있다**.
+자료의 해석, 판단,
+채택, 적용, 배포,
+재배포, 수정, 및 의존에 대한 책임은
+항상 그러한 행위를 수행하거나
+수용하는 당사자에게 남는다.
 
 ---
 
@@ -182,20 +208,43 @@ an instance of the observational phenomena recorded in this repository.
 
 ---
 
-## 책임 및 파생 관계
+## 책임, 파생, 및 귀속
 
-본 레포지토리에 포함된 모든 자료는
-사고 결과로서의 파생 산출물이다.
+본 레포지토리의 모든 자료는 파생 산출물이다.
 
-해석, 판단, 적용에 대한 책임은
-항상 독자 또는 사용자에게 귀속된다.
+해석, 판단,
+채택, 적용, 배포, 재배포,
+수정, 및 의존에 대한 책임은
+항상 그러한 행위를 수행하거나
+수용하는 당사자에게 남는다.
 
-귀속 및 소유는 조건부 모델을 따른다:
-- 조직 외부에서 생성된 산출물은 개인 귀속
-- 조직 내부에서 생성된 산출물은 조직 귀속
-- 소유 이전은 명시적인 책임 수용을 전제로 한다
+본 레포지토리의 어떠한 자료도
+판단을 대리하지 않으며,
+책임을 이전하지 않으며,
+그 자체로 귀속 또는 소유권을 확정하지 않는다.
 
-세부 내용은 관련 선언 문서를 참고한다.
+귀속 및 소유권은,
+판단이 이루어지는 경우,
+적용 가능한 법률, 계약 조건,
+관계 맥락,
+명시적인 책임 수용,
+그리고 관련 당사자 간의 별도 합의에 따라
+외부에서 결정된다.
+
+따라서 소유권은 기본적으로 이전되지 않으며,
+사용, 노출, 참조,
+구조적 유사성, 또는 공개되어 있다는 사실만으로
+이전, 귀속, 또는 조직 소유에 대한 어떠한 주장도
+성립하지 않는다.
+
+자세한 내용은
+동반된 선언 문서들에 설명되어 있다.
+
+참조:
+- [INTERPRETATION-GUARDRAILS](./INTERPRETATION-GUARDRAILS.md)
+- [RESPONSIBILITY-AND-OWNERSHIP](./RESPONSIBILITY-AND-OWNERSHIP.md)
+- [DERIVATION-NOTICE](./DERIVATION-NOTICE.md)
+- [SUPPLEMENTAL-CONSTRAINTS](./SUPPLEMENTAL-CONSTRAINTS.md)
 
 ---
 

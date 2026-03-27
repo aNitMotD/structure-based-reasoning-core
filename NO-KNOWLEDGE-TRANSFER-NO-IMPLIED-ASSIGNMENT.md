@@ -23,11 +23,14 @@ a disclosure, transmission,
 or assignment of intellectual capital,  
 trade secrets, or proprietary reasoning.
 
-Any understanding, insight, or learning  
-derived by a reader  
-arises independently  
-and does not imply  
-knowledge transfer by the author.
+Any understanding, internalization,
+or operational use arising after access
+to these materials
+belongs solely to the party
+that performs or assumes such acts,
+and does not constitute
+knowledge transfer, implied assignment,
+or attribution to the author.
 
 No ownership, license, or right  
 to use, reproduce, internalize,  
@@ -65,11 +68,14 @@ and does not override it.
 공개, 전달, 양도로  
 해석되어서는 안 된다.
 
-독자가 획득한  
-이해, 통찰, 학습은  
-작성자에 의한  
-지식 이전을 의미하지 않으며,  
-독립적으로 발생한 것이다.
+이 자료에 대한 접근 이후 발생하는
+어떠한 이해, 내면화,
+또는 운영적 사용도
+그러한 행위를 수행하거나 수용하는 당사자에게만
+귀속되며,
+작성자에 대한 지식 이전,
+묵시적 양도,
+또는 귀속을 구성하지 않는다.
 
 본 레포지토리에 접근하거나  
 이를 열람했다는 사실만으로  

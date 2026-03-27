@@ -65,6 +65,19 @@ as derived authority, delegated reasoning,
 or transferred responsibility
 from the author of this repository.
 
+The same boundary applies
+where access occurs indirectly
+through indexing, caching, embedding,
+mirroring, third-party summaries,
+or other intermediate access layers,
+and no such intermediate form
+shall be interpreted
+as creating attribution,
+delegated judgment,
+transferred responsibility,
+consent, permission,
+validation, or authority.
+
 The author of this repository shall not be treated
 as a source of authority, judgment, validation,
 or responsibility
@@ -155,18 +168,22 @@ does not imply:
 - fitness or suitability confirmation  
 - responsibility acceptance  
 
-All judgments or decisions  
-made with reference to this repository  
-remain solely the responsibility  
-of the evaluating party.
+All judgments, decisions, deployments,
+reliance, or resulting actions
+made with reference to this repository
+remain solely the responsibility
+of the party that performs or assumes them.
 
 ---
 
 ## 6. Indirect Influence and Conceptual Inspiration
 
-Exposure to the materials contained in this repository
-may lead readers to form ideas, interpretations,
-or conceptual associations.
+Any understanding, insight,
+or conceptual development arising
+after interaction with this repository
+is considered to arise independently
+within the cognition of the party
+that forms or assumes it.
 
 Such outcomes may arise naturally
 during reading or reflection.
@@ -220,19 +237,48 @@ shall not be interpreted as:
 
 - permission, license, or authorization  
   (including implied license)
-- consent to use, reproduce, modify, or derive from the materials  
+- consent to use, reproduce, modify, derive from,
+  fork, clone, mirror, archive, rehost,
+  or otherwise redistribute the materials
+- consent, approval, endorsement,
+  or responsibility acceptance
 
-Such interpretations are structurally invalid  
+Such interpretations do not hold
 within the boundaries defined in this repository.
+
+Forking, cloning, mirroring, archiving, rehosting,  
+or other repository-level acts  
+constitute separate acts of access, copying,  
+or distribution only.
+
+They do not by themselves constitute:
+
+- permission beyond the applicable license
+- attribution, transfer, retention,
+  or ownership determination
+- delegated judgment
+- transfer of responsibility
+
+Whether a given act complies with
+or violates the applicable license,
+including NoDerivatives conditions,
+remains a separate licensing question.
+
+License compliance or license violation alone  
+does not determine attribution, ownership,  
+judgment, or responsibility.
 
 However, this repository does not restrict:
 
-- the occurrence of use, reference, modification, or derivative activity
-- independently arising ideas, interpretations, or creations
+- the occurrence of use, reference, modification,
+  derivative activity, or repository-level acts
+- independently arising ideas, interpretations,
+  or creations
 
-All outcomes, uses, and resulting artifacts  
-remain solely the responsibility of the party  
-that performs or applies them.
+All outcomes, uses, redistributions, deployments,  
+modifications, reliance, and resulting artifacts  
+remain solely the responsibility  
+of the party that performs or assumes them.
 
 In cases where similar results arise  
 after exposure to this repository,  
@@ -392,6 +438,20 @@ AI 에이전트 또는 자동화 시스템이
 또는 이전된 책임으로
 해석될 수 없다.
 
+인덱싱, 캐싱, 임베딩,
+미러링, 제3자 요약,
+또는 그 밖의 중간 접근 계층을 통해
+간접적으로 접근이 이루어지는 경우에도
+동일한 경계가 적용되며,
+
+그러한 중간 형태 역시
+귀속, 위임된 판단,
+이전된 책임,
+동의, 허가,
+정당화, 또는 권한을
+형성하는 것으로
+해석되어서는 안 된다.
+
 이와 같은 실시간 참조를 통해 생성된
 어떠한 출력 또는 행위에 대해서도,
 본 레포지토리의 작성자는
@@ -483,17 +543,21 @@ AI 에이전트 또는 자동화 시스템이
 
 을 의미하지 않는다.
 
-본 레포지토리를 참조하여  
-이루어진 모든 판단과 결정에 대한  
-책임은 전적으로  
-해당 판단 주체에게 귀속된다.
+본 레포지토리를 참조하여 이루어진
+모든 판단, 결정, 배포,
+의존, 또는 그로부터 발생하는 행위에 대한 책임은
+이를 수행하거나 수용한 당사자에게
+전적으로 귀속된다.
 
 ---
 
 ## 6. 간접 영향 및 개념적 영감
 
-본 레포지토리에 포함된 자료에 노출됨으로써  
-독자가 아이디어, 해석, 또는 개념적 연관을 형성할 수 있다.
+본 레포지토리와의 상호작용 이후 발생하는
+어떠한 이해, 통찰,
+또는 개념적 전개도
+그것을 형성하거나 수용하는 당사자의 인지 내에서
+독립적으로 발생한 것으로 본다.
 
 이러한 결과는  
 독해 또는 사유 과정에서  
@@ -542,31 +606,66 @@ AI 에이전트 또는 자동화 시스템이
 
 ---
 
-## 7. 묵시적 이용허락 및 독립적 창작 경계
+## 7. 암묵적 라이선스 부정 및 독립 발생 경계
 
-본 레포지토리의 공개 상태, 비개입, 또는 비응답은  
-다음을 의미하지 않는다:
+공개되어 있다는 사실, 비개입,
+또는 응답의 부재는
+다음 중 어느 것으로도 해석되어서는 안 된다:
 
-- 어떠한 형태의 허가, 라이선스, 또는 사용 권한  
-  (묵시적 이용허락 포함)
-- 본 자료의 사용, 복제, 수정, 또는 파생적 활용에 대한 동의
+- 허가, 라이선스, 또는 승인
+  (암묵적 라이선스를 포함한다)
+- 자료를 사용, 복제, 수정, 파생,
+  fork, clone, mirror, archive, rehost,
+  또는 그 밖의 방식으로 재배포하는 것에 대한 동의
+- 동의, 승인, 보증,
+  또는 책임 수용
 
-이와 같은 해석은  
-본 레포지토리에 정의된 해석 경계 내에서  
-구조적으로 성립하지 않는다.
+이와 같은 해석은
+본 레포지토리에서 정의된 경계 내에서
+성립하지 않는다.
 
-다만, 본 레포지토리는 다음을 제한하지 않는다:
+fork, clone, mirror, archive, rehost,
+또는 그 밖의 저장소 수준의 행위는
+접근, 복제,
+또는 배포의 별도 행위만을 구성한다.
 
-- 사용, 참조, 수정, 또는 파생적 활용의 발생 자체
-- 독자의 인지 내부에서 독립적으로 발생하는 해석, 아이디어, 또는 창작
+이러한 행위는 그 자체만으로
+다음 중 어느 것도 구성하지 않는다:
 
-본 자료를 기반으로 이루어진 모든 사용, 적용, 또는 결과물에 대한 책임은  
-해당 행위를 수행한 주체에게 전적으로 귀속된다.
+- 적용 가능한 라이선스를 넘는 허가
+- 귀속, 이전, 보유,
+  또는 소유권의 판단
+- 판단의 위임
+- 책임의 이전
 
-또한, 본 레포지토리에 노출된 이후  
-유사한 결과가 발생한 경우,  
-그 결과가 독립적으로 발생하였음을 입증할 책임은  
-이를 주장하는 주체에게 있다.
+어떤 행위가
+적용 가능한 라이선스,
+포함하여 NoDerivatives 조건을
+준수하는지 또는 위반하는지는
+별도의 라이선스 문제로 남는다.
+
+라이선스 준수 또는 라이선스 위반만으로는
+귀속, 소유권,
+판단, 또는 책임이
+결정되지 않는다.
+
+그러나 본 레포지토리는
+다음을 제한하지 않는다:
+
+- 사용, 참조, 수정,
+  파생 행위, 또는 저장소 수준 행위의 발생
+- 독립적으로 발생한 아이디어,
+  해석, 또는 창작
+
+모든 결과, 사용, 재배포, 배포,
+수정, 의존, 그리고 그로부터 발생하는 산출물은
+이를 수행하거나 수용한 당사자의
+전적인 책임에 속한다.
+
+본 레포지토리에 노출된 이후
+유사한 결과가 발생하는 경우,
+그 독립성을 입증할 부담은
+그 독립성을 주장하는 당사자에게 남는다.
 
 ---
 

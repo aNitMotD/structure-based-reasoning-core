@@ -20,14 +20,17 @@ any duty or obligation arising from:
 - their structure, clarity, or completeness  
 - any interpretation, reference, or use by others  
 
-Any reliance placed on these materials  
-is done solely at the reader’s discretion  
+Any reliance placed on these materials
+is undertaken solely by the party
+that performs or assumes such reliance,
+at that party’s own discretion
 and responsibility.
 
-No duty, obligation, or standard of care  
-is created or implied  
-by access to, review of,  
-or engagement with this repository.
+No duty, obligation, or standard of care
+is created or implied
+by access to, review of,
+engagement with, reliance on,
+or application of this repository.
 
 This declaration operates under  
 INTERPRETATION-GUARDRAILS.md  
@@ -59,15 +62,17 @@ and does not override it.
 - 자료의 구조적 정합성, 명확성, 완결성  
 - 제3자의 해석, 참조, 또는 사용  
 
-본 자료에 대한  
-어떠한 신뢰 또는 의존도  
-전적으로 독자의 판단과  
-책임 하에 이루어진다.
+본 자료에 대한
+어떠한 신뢰 또는 의존도
+그러한 의존을 수행하거나 수용하는 당사자가
+전적으로 자신의 판단과
+책임 하에 수행하는 것이다.
 
-본 레포지토리에 접근하거나,  
-열람하거나, 활용했다는 사실만으로  
-어떠한 의무, 책임,  
-주의 기준이  
+본 레포지토리에 접근하거나,
+열람하거나, 활용하거나,
+의존하거나, 적용했다는 사실만으로
+어떠한 의무, 책임,
+주의 기준도
 성립하거나 암시되지 않는다.
 
 본 선언은  

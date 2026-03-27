@@ -168,14 +168,18 @@ are non-authoritative.
 
 They do not provide judgments,
 decisions, advice, or conclusions
-on behalf of the reader.
+on behalf of any reader, user,
+or any party that performs or assumes
+relevant acts.
 
 No responsibility, authority, or judgment
 is delegated to or assumed by these materials.
 
-Responsibility for interpretation,
-decision-making, and application
-always remains external to this repository.
+Responsibility for interpretation, judgment,
+adoption, application, deployment,
+redistribution, modification, and reliance
+always remains with the party
+that performs or assumes such acts.
 
 ---
 
@@ -196,19 +200,21 @@ or apparent completeness
 do not imply ownership, responsibility,  
 or authority over judgment.
 
-Judgment always remains external  
-to these artifacts,  
-with respect to both the author  
-and any user of the materials,  
-and is not internalized in  
+Judgment always remains external
+to these artifacts,
+with respect to both the author
+and any party that accesses, interprets,
+or applies the materials,
+and is not internalized in
 or transferred by these artifacts.
 
-Even if the structure of an artifact  
-is applied, executed, or operated externally,  
-the outcomes and responsibilities  
-arising from such application, execution,  
-or operation belong solely  
-to the applying party.
+Even if the structure of an artifact
+is applied, executed, or operated externally,
+the outcomes and responsibilities
+arising from such application, execution,
+or operation belong solely
+to the party that performs
+or assumes such acts.
 
 The non-executable nature of these artifacts  
 is not altered or transferred  
@@ -218,23 +224,43 @@ by any such external actions.
 
 ## 5. Conditional Attribution and Ownership
 
-Attribution and ownership are context-dependent
-and evaluated based on the relationship context
-and responsibility assumption.
+Attribution and ownership, if assessed,
+are context-dependent
+and determined externally
+under applicable law,
+contractual terms,
+relationship context,
+explicit responsibility acceptance,
+and any separate agreement
+between relevant parties.
 
-- Artifacts created outside any defined relationship context  
-  remain the property of the author.
+These materials do not determine,
+declare, or fix attribution,
+transfer, retention, or ownership
+by themselves.
 
-- Artifacts created within a defined relationship context  
-  (e.g., employment, contractual engagement, service provision)  
-  are subject to applicable contracts, laws, or agreements.
+Ownership is not transferred by default.
 
-- If an organization or external party does not fully assume  
-  responsibility for resulting outcomes,  
-  ownership is not transferred by default.
+No claim of transfer, attribution,
+or organizational ownership
+arises from use, exposure, reference,
+structural similarity,
+public availability,
+or repository-level acts alone.
 
-- Ownership transfer requires explicit agreement  
-  and acceptance of responsibility for outcomes.
+Where attribution or ownership
+is evaluated,
+artifacts created within or outside
+a defined relationship context
+may be assessed differently
+under the applicable legal,
+contractual, or relational framework.
+
+Ownership transfer, if any,
+requires external determination
+or explicit agreement,
+together with the acceptance
+of responsibility for resulting outcomes.
 
 ---
 
@@ -516,20 +542,25 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ---
 
-## 3. 비권위적 선언
+## 3. 비권위 선언
 
 본 레포지토리의 내용은
-권위를 가지지 않는다.
+비권위적이다.
 
-판단, 결정, 조언, 결론을
-독자를 대신해 제공하지 않는다.
+이 자료들은 어떠한 독자, 사용자,
+또는 관련 행위를 수행하거나 수용하는
+당사자를 대신하여
+판단, 결정, 조언, 또는 결론을 제공하지 않는다.
 
-어떠한 책임, 권한, 판단도
-본 자료를 통해 이전되거나
-대리되지 않는다.
+이 자료들에 의해
+어떠한 책임, 권위, 또는 판단도
+위임되거나 부담되지 않는다.
 
-해석, 판단, 적용에 대한 책임은
-항상 이 레포지토리 외부에 남아 있다.
+해석, 판단,
+채택, 적용, 배포,
+재배포, 수정, 및 의존에 대한 책임은
+항상 그러한 행위를 수행하거나
+수용하는 당사자에게 남는다.
 
 ---
 
@@ -551,16 +582,21 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 또는 권한의 귀속을  
 의미하지 않는다.
 
-판단은 항상  
-이 산출물의 작성자 및 사용자  
-각자의 외부에 남아 있으며,  
-본 산출물에 의해  
+판단은 항상
+이 산출물의 작성자와
+자료에 접근, 해석,
+또는 적용하는 어떠한 당사자에 대해서도
+그 외부에 남아 있으며,
+본 산출물에 의해
 내재화되거나 이전되지 않는다.
 
-산출물의 구조가  
-외부에서 적용, 실행, 운용된 경우에도,  
-해당 적용, 실행, 운용의 결과와 책임은  
-적용 주체에 귀속되며,  
+산출물의 구조가
+외부에서 적용, 실행, 운용된 경우에도,
+해당 적용, 실행, 운용으로부터 발생하는
+결과와 책임은
+그러한 행위를 수행하거나 수용한 당사자에게만
+귀속된다.
+
 본 산출물의 비실행적 성격은  
 그러한 외부 행위에 의해  
 변경되거나 전이되지 않는다.
@@ -569,23 +605,42 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ## 5. 조건부 귀속 및 소유권
 
-귀속 및 소유권은
-관계 맥락과 책임 수용 여부에 따라
-결정된다.
+귀속 및 소유권은,
+판단이 이루어지는 경우,
+맥락 의존적이며
+적용 가능한 법률,
+계약 조건,
+관계 맥락,
+명시적인 책임 수용,
+그리고 관련 당사자 간의
+별도 합의에 따라
+외부에서 결정된다.
 
-- 어떠한 관계 맥락에도 속하지 않고 생성된 산출물은  
-  작성자에게 귀속된다.
+이 자료들 자체는
+귀속, 이전, 보유, 또는 소유권을
+결정, 선언, 또는 확정하지 않는다.
 
-- 특정 관계 맥락 내에서 생성된 산출물  
-  (예: 고용 관계, 계약 관계, 서비스 제공 등)은  
-  관련 계약, 법률 또는 합의의 적용을 받는다.
+소유권은 기본적으로 이전되지 않는다.
 
-- 조직 또는 외부 주체가 결과에 대한 책임을  
-  전면적으로 수용하지 않는 경우,  
-  소유권은 자동으로 이전되지 않는다.
+사용, 노출, 참조,
+구조적 유사성,
+공개되어 있다는 사실,
+또는 저장소 수준의 행위만으로는
+이전, 귀속,
+또는 조직 소유에 대한
+어떠한 주장도 성립하지 않는다.
 
-- 소유권 이전은  
-  명시적 합의와 결과 책임의 수용을 전제로 한다.
+귀속 또는 소유권이 평가되는 경우,
+정의된 관계 맥락의 내부 또는 외부에서 생성된 산출물은
+적용 가능한 법적,
+계약적, 또는 관계적 틀에 따라
+다르게 판단될 수 있다.
+
+소유권 이전이 발생하는 경우에도,
+그것은 외부 판단
+또는 명시적 합의를 필요로 하며,
+그와 함께 결과에 대한
+책임 수용이 요구된다.
 
 ---
 

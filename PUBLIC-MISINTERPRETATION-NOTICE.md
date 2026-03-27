@@ -7,8 +7,8 @@ This document addresses the possibility of
 **external misinterpretation, re-labeling, or third-party description**  
 of this repository and its contents.
 
-Such occurrences are **recognized as structurally unavoidable**  
-in public or semi-public contexts.
+Such occurrences are recognized as
+likely to arise in public or semi-public contexts.
 
 Accordingly, the following boundaries are declared:
 
@@ -100,8 +100,8 @@ not to expand explanation.
 **외부 오해, 재라벨링, 제3자 서술** 의 가능성을  
 사전에 전제로 한다.
 
-이러한 현상은 공개 또는 준공개 환경에서  
-**구조적으로 회피 불가능함을 인지** 한 상태에서,  
+이러한 현상은 공개 또는 준공개 환경에서
+발생할 수 있는 것으로 전제하며,
 다음과 같은 경계를 선언한다.
 
 ---

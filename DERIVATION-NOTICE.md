@@ -1,22 +1,60 @@
-# Notice on Attribution Criteria for Derivative Artifacts
+# Derivation Notice
+(Notice on Attribution Criteria for Derivative Artifacts)
 
 ## English
 
-This document explains the criteria that may be used  
-when assessing attribution and ownership  
-of derivative artifacts contained in this repository.
+All materials in this repository
+are derivative artifacts.
 
-This notice operates under  
-INTERPRETATION-GUARDRAILS.md  
-and does not override or replace it.
+This document does not determine,
+declare, or fix attribution,
+transfer, retention, or ownership
+by itself.
 
-This repository contains  
-derivative artifacts resulting from  
-an individual’s internal reasoning activities.
+Actual attribution and ownership,
+if assessed,
+are determined externally
+under applicable law,
+contractual terms,
+relationship context,
+explicit responsibility acceptance,
+and any separate agreement
+between relevant parties.
 
-For the purposes of this document, **responsibility** refers to  
-the assumption of legal, operational, and decision-making  
-accountability for outcomes arising from an artifact.
+No claim of attribution,
+transfer, retention, or ownership
+arises from use, exposure, reference,
+structural similarity,
+public availability,
+or repository-level acts alone.
+
+Forking, cloning, mirroring,
+archiving, rehosting,
+or other repository-level acts
+do not by themselves determine
+attribution, transfer, retention,
+or ownership.
+
+Whether a given act
+complies with or violates
+applicable license conditions,
+including NoDerivatives conditions,
+is a separate licensing question.
+
+Attribution, ownership,
+responsibility, and judgment
+are not determined
+by license compliance
+or license violation alone.
+
+Accordingly, ownership is not transferred
+by default,
+and any transfer or attribution,
+if recognized,
+requires external determination
+or explicit agreement,
+together with responsibility acceptance
+for resulting outcomes.
 
 ---
 
@@ -75,27 +113,63 @@ or operational outputs.
 
 ---
 
-# 파생 산출물 귀속 기준 고지
+# 파생 고지
+(파생 산출물 귀속 기준 고지)
 
 ## 한국어 (Korean)
 
-본 문서는 본 레포지토리에 포함된  
-파생 산출물의 귀속 및 소유권에 관한  
-판단에 사용될 수 있는 기준을 설명한다.
+본 레포지토리의 모든 자료는
+파생 산출물이다.
 
-본 고지는  
-INTERPRETATION-GUARDRAILS.md  
-하에서 적용되며,  
-이를 대체하지 않는다.
+본 문서 자체는
+귀속, 이전, 보유, 또는 소유권을
+결정, 선언, 또는 확정하지 않는다.
 
-본 레포지토리는  
-개인의 내부 사고 활동에서 도출된  
-파생 산출물을 포함한다.
+실제 귀속 및 소유권은,
+판단이 이루어지는 경우,
+적용 가능한 법률,
+계약 조건,
+관계 맥락,
+명시적인 책임 수용,
+그리고 관련 당사자 간의
+별도 합의에 따라
+외부에서 결정된다.
 
-본 문서에서 **책임**(responsibility)이란,  
-산출물로부터 발생하는 결과에 대해  
-법적, 운영적, 그리고 의사결정상의 책임을  
-부담하는 것을 의미한다.
+사용, 노출, 참조,
+구조적 유사성,
+공개되어 있다는 사실,
+또는 저장소 수준의 행위만으로는
+귀속, 이전, 보유,
+또는 소유권에 대한
+어떠한 주장도 성립하지 않는다.
+
+fork, clone, mirror,
+archive, rehost,
+또는 그 밖의 저장소 수준의 행위는
+그 자체만으로
+귀속, 이전, 보유,
+또는 소유권을
+결정하지 않는다.
+
+어떤 행위가
+적용 가능한 라이선스 조건,
+포함하여 NoDerivatives 조건을
+준수하는지 또는 위반하는지는
+별도의 라이선스 문제이다.
+
+귀속, 소유권,
+책임, 및 판단은
+라이선스 준수 또는
+라이선스 위반만으로
+결정되지 않는다.
+
+따라서 소유권은
+기본적으로 이전되지 않으며,
+이전 또는 귀속이 인정되는 경우에도,
+그것은 외부 판단
+또는 명시적 합의를 필요로 하며,
+그와 함께 결과에 대한
+책임 수용이 요구된다.
 
 ---
 
