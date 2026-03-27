@@ -14,6 +14,19 @@ or use this work for commercial purposes.
 
 ---
 
+No separate commercial license
+is offered for this repository.
+
+No inquiry, interaction,
+public availability, silence,
+or lack of objection
+shall be interpreted
+as openness to commercial licensing,
+commercial negotiation,
+or commercial authorization.
+
+---
+
 ### License Interpretation Notice
 
 This license governs redistribution and use of the materials
@@ -103,6 +116,21 @@ of the party that performs or assumes them.
 
 수정된 버전의 배포나
 상업적 이용은 허용되지 않는다.
+
+---
+
+본 레포지토리에 대하여
+별도의 상업적 라이선스는
+제공되지 않는다.
+
+문의, 상호작용,
+공개 상태,
+침묵,
+또는 이의 제기의 부재는
+상업적 라이선스 제공 가능성,
+상업적 협의 가능성,
+또는 상업적 허가로
+해석되어서는 안 된다.
 
 ---
 

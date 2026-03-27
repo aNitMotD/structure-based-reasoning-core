@@ -137,6 +137,12 @@ redistribution, and derivative actions,
 and does not apply to the author’s own use
 or internal maintenance.
 
+This repository is not offered
+for commercial licensing.
+
+It must not be read
+as a commercially negotiable asset.
+
 **Observational note**
 
 License violations may occur.
@@ -295,6 +301,13 @@ an instance of the observational phenomena recorded in this repository.
 파생 행위를 규율하기 위한 것이며,
 작성자의 자체 사용이나 내부 관리에는
 적용 대상이 아니다.
+
+본 레포지토리는
+상업적 라이선싱의 대상으로
+제공되지 않는다.
+
+이를 상업적 협의가 가능한 자산으로
+읽어서는 안 된다.
 
 **관측 관련 참고**
 
