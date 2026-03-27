@@ -1,6 +1,8 @@
 # PUBLIC MISINTERPRETATION NOTICE
 *(External Attribution & Misrepresentation Boundary)*
 
+> This document is not intended as a notice of future enforcement, but as a prior fixation of responsibility and interpretive boundaries.
+
 ## English
 
 This document addresses the possibility of  
@@ -93,6 +95,8 @@ not to expand explanation.
 
 # 외부 오해에 대한 사전 고지
 *(외부 귀속 및 왜곡 경계)*
+
+> 본 문서는 향후 집행을 예고하기 위한 것이 아니라, 책임과 해석의 경계를 사전에 고정하기 위한 것이다.
 
 ## 한국어 (Korean)
 
