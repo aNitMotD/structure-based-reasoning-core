@@ -274,6 +274,17 @@ Such additions do not alter
 the core claims or interpretive guardrails
 defined in this document.
 
+Such additions may also operate
+as additive records
+under TEMPORAL-SCOPE-LOCK.md.
+
+They must not be interpreted
+as retroactively modifying
+the original interpretive scope,
+temporal boundary,
+or core guardrails
+of this document.
+
 This declaration exists to prevent
 future ambiguity, not to revise prior meaning.
 
@@ -653,6 +664,17 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 이는 본 문서에 정의된
 핵심 주장이나 해석 가드레일을
 변경하지 않는다.
+
+이러한 추가 문서는
+TEMPORAL-SCOPE-LOCK.md에 따른
+추가 기록(additive records)으로도
+작동할 수 있다.
+
+이는 본 문서의 원래 해석 범위,
+시간 경계,
+또는 핵심 가드레일을
+소급 수정하는 것으로
+해석되어서는 안 된다.
 
 본 선언은 의미 수정이 아니라,
 향후 해석 혼선을
