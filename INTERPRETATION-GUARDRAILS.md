@@ -285,8 +285,11 @@ temporal boundary,
 or core guardrails
 of this document.
 
-This declaration exists to prevent
-future ambiguity, not to revise prior meaning.
+The purpose of this paragraph
+is not to modify meaning,
+but to prevent
+future interpretive confusion
+before it arises.
 
 ### Scope of Related Boundary Declarations (Non-Exhaustive)
 
@@ -676,9 +679,10 @@ TEMPORAL-SCOPE-LOCK.md에 따른
 소급 수정하는 것으로
 해석되어서는 안 된다.
 
-본 선언은 의미 수정이 아니라,
+이 문단의 목적은
+의미 수정이 아니라,
 향후 해석 혼선을
-사전에 차단하기 위한 것이다.
+사전에 차단하는 데 있다.
 
 ### 관련 경계 선언 범위 (비열거적)
 
