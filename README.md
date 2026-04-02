@@ -2,6 +2,11 @@
 
 > This work does not assume execution responsibility; responsibility within the defined observation boundary is maintained, and external attribution beyond this boundary is rejected.
 
+> **Language Priority Notice**  
+> English materials may serve as supplementary materials for reference, comparison, and structural alignment checks.  
+> In some cases, comparison with English wording may help reveal and correct errors in Korean phrasing.  
+> However, the Korean materials remain the authoritative version with respect to meaning, scope, and interpretive priority.
+
 ## English
 
 All materials in this repository are governed by
@@ -154,6 +159,11 @@ an instance of the observational phenomena recorded in this repository.
 # 구조 기반 사고 핵심
 
 > 본 작업은 실행 책임을 전제하지 않으며, 정의된 관측 범위 내 책임은 유지되고, 그 외부로의 책임 전가는 허용되지 않는다.
+
+> **언어 우선순위 고지**  
+> 영어 자료는 설명, 참조, 및 구조 정합성 확인을 위한 보조 자료로 활용될 수 있다.  
+> 경우에 따라 영어 표현과의 대조를 통해 한국어 표현 오류가 수정될 수 있다.  
+> 다만 의미, 범위, 및 해석 우선순위에 관하여 한국어 자료가 정본이다.
 
 ## 한국어 (Korean)
 
