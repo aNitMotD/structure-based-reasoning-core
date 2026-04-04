@@ -9,7 +9,7 @@
 
 ## 1. Observation Background (brief)
 
-- While observing narrative developments with a “wish-fulfillment” tendency,  
+- While observing hypothetical narrative developments,  
   **temporal continuity failed to persist as a single coherent object.**
 - Rather than a single error, this appeared as  
   **a process-level collapse in which temporal context was branched, compressed, or retrospectively reinterpreted, resulting in a loss of coherence.**
