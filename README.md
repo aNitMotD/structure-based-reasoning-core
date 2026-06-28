@@ -28,6 +28,11 @@ This repository **does not provide or contain**:
 Interpretation, judgment, and application
 **always remain external to this repository**.
 
+If the materials in this repository become **unclear, uncomfortable, or difficult to interpret, you may safely stop reading.**
+
+No completion, mastery, or continued interpretation is required or expected.  
+Any continued interpretation beyond that point remains outside the author’s responsibility.
+
 ---
 
 ## Reading Order
@@ -182,11 +187,13 @@ an instance of the observational phenomena recorded in this repository.
 - 실행 가능하거나 운영·자문 목적의 시스템
 - 판단, 책임, 또는 권한의 이전
 
-자료의 해석, 판단,
-채택, 적용, 배포,
-재배포, 수정, 및 의존에 대한 책임은
-항상 그러한 행위를 수행하거나
-수용하는 당사자에게 남는다.
+자료의 해석, 판단, 채택, 적용, 배포, 재배포, 수정, 및 의존에 대한 책임은
+항상 그러한 행위를 수행하거나 수용하는 당사자에게 남는다.
+
+본 레포지토리의 자료가 **불명확하거나, 불편하게 느껴지거나, 해석하기 어렵다고 판단되는 경우, 언제든지 읽기를 중단해도 무방하다.**
+
+완전한 이해, 숙지, 또는 계속된 해석은 요구되거나 기대되지 않는다.  
+그 이후의 해석이나 독해는 작성자의 책임 범위에 속하지 않는다.
 
 ---
 
