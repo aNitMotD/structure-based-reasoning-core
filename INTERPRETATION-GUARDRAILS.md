@@ -96,13 +96,13 @@ This work defines responsibility along two separate axes: responsibility scope a
 
 ### 1) Responsibility Scope
 
-- Execution Responsibility  
-  Responsibility for actions, decisions, or real-world outcomes.  
-  → Not assumed.
-
 - Observational Responsibility  
   Responsibility for structural interpretation, representation, and boundary definition within the defined observation scope.  
   → Explicitly maintained.
+
+- Non-Observational Responsibility  
+  Responsibility for interpretation, application, execution, reliance, external use, or outcomes arising outside the defined observation scope.  
+  → Not assumed.
   
 #### 1-1) Meaning of Observational Responsibility
 
@@ -124,6 +124,18 @@ It is a bounded responsibility to preserve accuracy as far as reasonably possibl
 - External Attribution  
   Any attempt to assign or transfer responsibility to the author beyond the defined observation boundary.  
   → Explicitly rejected.
+  
+- Attribution by Interpretation  
+  Any attempt to convert a reader’s interpretation into the author’s judgment, instruction, approval, endorsement, or responsibility.  
+  → Explicitly rejected.
+
+- Attribution by Application or Execution  
+  Any attempt to attribute externally performed application, adaptation, execution, implementation, operation, deployment, decision, or real-world outcome to the author.  
+  → Explicitly rejected.
+
+- Attribution by Reliance, Similarity, Reference, or External Use  
+  Any attempt to assign responsibility to the author on the basis of reliance on, similarity to, reference to, exposure to, or external use of these materials.  
+  → Explicitly rejected.
 
 ### 3) Boundary Clarification
 
@@ -132,8 +144,12 @@ The absence of execution responsibility must not be interpreted as absence of re
 Responsibility is not removed but constrained:
 - Maintained within the observation boundary
 - Rejected outside of it
+- Not transferred by interpretation, application, execution, reliance, similarity, reference, exposure, or external use
 
 This work does not operate under “no responsibility,” but under a bounded responsibility model with strict attribution control.
+
+The author maintains responsibility only for the bounded act of observation and representation within the defined observation scope.  
+All non-observational responsibility remains with the party that interprets, applies, executes, relies on, references, adapts, deploys, or otherwise uses the materials.
 
 ---
 
@@ -503,13 +519,13 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 ### 1) 책임 범위
 
-- 실행 책임
-  행위, 의사결정, 또는 현실 결과에 대한 책임  
-  → 전제하지 않음
-
-- 관측 책임
+- 관측 책임  
   정의된 관측 범위 내에서의 구조 해석, 표현, 경계 설정에 대한 책임  
   → 명시적으로 유지됨
+
+- 비관측 책임  
+  정의된 관측 범위 밖에서 발생하는 해석, 적용, 실행, 의존, 외부 사용, 또는 그 결과에 대한 책임  
+  → 전제하지 않음
   
 #### 1-1) 관측 책임의 의미
 
@@ -531,17 +547,33 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 - 외부 귀속
   정의된 관측 경계를 넘어 작성자에게 책임을 할당하거나 전가하려는 시도  
   → 허용되지 않음
+  
+- 해석에 의한 귀속  
+  독자의 해석을 작성자의 판단, 지시, 승인, 지지, 또는 책임으로 전환하려는 시도  
+  → 허용되지 않음
+
+- 적용 또는 실행에 의한 귀속  
+  외부에서 수행된 적용, 변형, 실행, 구현, 운영, 배포, 의사결정, 또는 현실 결과를 작성자에게 귀속하려는 시도  
+  → 허용되지 않음
+
+- 의존, 유사성, 참조, 또는 외부 사용에 의한 귀속  
+  이 자료에 대한 의존, 유사성, 참조, 노출, 또는 외부 사용을 근거로 작성자에게 책임을 할당하려는 시도  
+  → 허용되지 않음
 
 ### 3) 경계 명확화
 
-실행 책임의 부재는 책임의 부재를 의미하지 않는다.
+비관측 책임의 부재는 책임의 부재를 의미하지 않는다.
 
 책임은 제거되는 것이 아니라 제한된다:
 - 관측 범위 내에서는 유지된다
 - 그 외부에서는 귀속이 허용되지 않는다
+- 해석, 적용, 실행, 의존, 유사성, 참조, 노출, 외부 사용에 의해 이전되지 않는다.
 
 본 작업은 “책임 없음” 상태가 아니라,
 명확한 경계와 귀속 제어를 가진 제한된 책임 모델을 기준으로 정의된다.
+
+작성자는 정의된 관측 범위 안에서의 제한된 관측 및 표현 행위에 대해서만 책임을 유지한다.  
+모든 비관측 책임은 자료를 해석, 적용, 실행, 의존, 참조, 변형, 배포, 또는 기타 방식으로 사용하는 당사자에게 남는다.
 
 ---
 
