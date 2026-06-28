@@ -103,6 +103,21 @@ This work defines responsibility along two separate axes: responsibility scope a
 - Observational Responsibility  
   Responsibility for structural interpretation, representation, and boundary definition within the defined observation scope.  
   → Explicitly maintained.
+  
+#### 1-1) Meaning of Observational Responsibility
+
+Observational responsibility does not mean a guarantee of factual completeness, correctness, or error-free representation.
+
+It means that the author makes a reasonable effort, within the defined observation scope, to:
+
+- describe observable materials and evidence as accurately as possible;
+- distinguish observed facts, interpretation, inference, and judgment where relevant;
+- avoid asserting matters outside the observable or verifiable scope;
+- disclose limitations where the available materials, evidence, or observation scope are insufficient;
+- allow prior observations to be corrected if more accurate materials, evidence, or counterexamples are later identified.
+
+Accordingly, observational responsibility is not an unlimited warranty of correctness.  
+It is a bounded responsibility to preserve accuracy as far as reasonably possible within the observation boundary, and not to conceal the limits of observation.
 
 ### 2) Attribution Control
 
@@ -495,6 +510,21 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 - 관측 책임
   정의된 관측 범위 내에서의 구조 해석, 표현, 경계 설정에 대한 책임  
   → 명시적으로 유지됨
+  
+#### 1-1) 관측 책임의 의미
+
+관측 책임은 사실의 완전성, 정확성, 또는 무오류 표현을 보증한다는 의미가 아니다.
+
+관측 책임은 작성자가 정의된 관측 범위 안에서 다음을 위해 합리적으로 노력한다는 의미다.
+
+- 관측 가능한 자료와 증거를 가능한 한 정확하게 기술한다.
+- 필요한 경우 확인된 사실, 해석, 추론, 판단을 구분한다.
+- 관측하거나 검증할 수 없는 범위 밖의 사항을 단정하지 않는다.
+- 자료, 증거, 관측 범위가 충분하지 않은 경우 그 한계를 드러낸다.
+- 이후 더 정확한 자료, 증거, 반례가 확인될 경우 기존 관측은 수정될 수 있음을 인정한다.
+
+따라서 관측 책임은 무제한적인 정확성 보증이 아니다.  
+관측 경계 안에서 가능한 한 정확성을 유지하고, 관측의 한계를 숨기지 않기 위한 제한된 책임이다.
 
 ### 2) 귀속 제어
 
