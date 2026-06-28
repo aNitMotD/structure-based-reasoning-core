@@ -101,7 +101,7 @@ This work defines responsibility along two separate axes: responsibility scope a
   → Explicitly maintained.
 
 - Non-Observational Responsibility  
-  Responsibility for interpretation, application, execution, reliance, reference, modification, distribution, other forms of use, or outcomes arising outside the defined observation scope.
+  Responsibility for interpretation, application, execution, reliance, reference, modification, distribution, other forms of use, or outcomes arising outside the defined observation scope.  
   → Not assumed.
   
 #### 1-1) Meaning of Observational Responsibility
@@ -133,9 +133,9 @@ It is a bounded responsibility to preserve accuracy as far as reasonably possibl
   Any attempt to attribute externally performed application, adaptation, execution, implementation, operation, deployment, decision, or real-world outcome to the author.  
   → Explicitly rejected.
 
-- Attribution by Other Use
- Any attempt to assign responsibility to the author on the basis of reliance on, reference to, modification, distribution, similarity to, exposure to, or other forms of use of these materials.
- → Explicitly rejected.
+- Attribution by Other Use  
+  Any attempt to assign responsibility to the author on the basis of reliance on, reference to, modification, distribution, similarity to, exposure to, or other forms of use of these materials.  
+  → Explicitly rejected.
 
 ### 3) Boundary Clarification
 
@@ -524,7 +524,7 @@ NON-RELIANCE / NO-DUTY STATEMENT의
   → 명시적으로 유지됨
 
 - 비관측 책임  
-  정의된 관측 범위 밖에서 발생하는 해석, 적용, 실행, 의존, 참조, 변형, 배포, 기타 방식의 사용, 또는 그 결과에 대한 책임
+  정의된 관측 범위 밖에서 발생하는 해석, 적용, 실행, 의존, 참조, 변형, 배포, 기타 방식의 사용, 또는 그 결과에 대한 책임  
   → 전제하지 않음
   
 #### 1-1) 관측 책임의 의미
@@ -556,9 +556,9 @@ NON-RELIANCE / NO-DUTY STATEMENT의
   외부에서 수행된 적용, 변형, 실행, 구현, 운영, 배포, 의사결정, 또는 현실 결과를 작성자에게 귀속하려는 시도  
   → 허용되지 않음
 
-- 기타 사용에 의한 귀속
- 이 자료에 대한 의존, 참조, 변형, 배포, 유사성, 노출, 또는 기타 방식의 사용을 근거로 작성자에게 책임을 할당하려는 시도
- → 허용되지 않음
+- 기타 사용에 의한 귀속  
+  이 자료에 대한 의존, 참조, 변형, 배포, 유사성, 노출, 또는 기타 방식의 사용을 근거로 작성자에게 책임을 할당하려는 시도  
+  → 허용되지 않음
 
 ### 3) 경계 명확화
 
