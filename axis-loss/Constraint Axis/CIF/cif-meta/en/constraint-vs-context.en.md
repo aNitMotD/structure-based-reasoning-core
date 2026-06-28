@@ -282,6 +282,26 @@ Additional signals:
 
 ---
 
+## Verification Scope Notice
+
+The verification methods described in this document do not constitute procedures for resolving, correcting, or mitigating CIF.
+
+Within this document, verification is limited to the following purposes:
+
+- To confirm whether constraints have actually been inherited.
+- To distinguish the apparent continuity of context from the continued validity of constraints.
+- To identify constraint loss through condition modification, boundary injection, and minimal constraint analysis.
+
+This verification serves only as an identification structure for exposing the occurrence of CIF.
+Any subsequent correction, application, operational use, responsibility judgment, or selection of remedies falls outside the scope of this document.
+
+Accordingly, the verification methods in this document should not be understood as prescriptive procedures.
+They should be understood only as falsification-oriented observational tools for identifying constraint loss.
+
+This notice applies to all subsequent verification methods, core rules, classifications, identification heuristics, quick routines, and error patterns.
+
+---
+
 ## 17. Validation Method
 
 Keep context, isolate constraints

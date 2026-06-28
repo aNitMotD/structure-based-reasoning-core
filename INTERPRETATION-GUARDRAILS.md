@@ -90,6 +90,18 @@ See also:
 
 ---
 
+### Direct Access and Deep Link Exposure
+
+Repository materials may be accessed directly through deep links, search results, external references, isolated file views, or other non-root entry paths.
+
+Such access does not remove or suspend the applicability of README.md, INTERPRETATION-GUARDRAILS.md, or related boundary declarations.
+
+Where an individual document includes a Direct Access Notice, that notice functions only to expose the required interpretive prerequisites at the point of direct access. It does not create an independent rule, method, restriction, or separate interpretive framework.
+
+Failure to access the repository through the root README does not by itself negate reasonable exposure to the repository’s interpretive prerequisites, where those prerequisites are made visible through the accessed document or surrounding repository context.
+
+---
+
 ## Responsibility Model
 
 This work defines responsibility along two separate axes: responsibility scope and attribution flow.
@@ -510,6 +522,20 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 참조:  
 [SIF – Normative Recognition Observation](./axis-loss/SIF/sif-meta/sif-normative-recognition-observation.ko.md)
+
+---
+
+### 직접 접근 및 딥링크 노출
+
+레포지토리의 자료는 딥링크, 검색 결과, 외부 참조, 개별 파일 보기, 또는 루트가 아닌 진입 경로를 통해 직접 접근될 수 있다.
+
+그러한 접근은 README.md, INTERPRETATION-GUARDRAILS.md, 또는 관련 경계 선언의 적용을 제거하거나 중단하지 않는다.
+
+개별 문서에 직접 접근 고지가 포함된 경우, 해당 고지는 직접 접근 지점에서 필요한 해석 전제를 노출하기 위한 것이다.  
+이는 독립적인 규칙, 방법, 제한, 또는 별도의 해석 체계를 생성하지 않는다.
+
+루트 README를 통해 접근하지 않았다는 사정만으로, 접근한 문서 또는 주변 저장소 맥락을 통해 해석 전제가 노출된 경우  
+그 전제에 대한 합리적 노출이 부정되지는 않는다.
 
 ---
 
