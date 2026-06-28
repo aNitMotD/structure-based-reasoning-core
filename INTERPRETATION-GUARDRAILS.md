@@ -156,7 +156,7 @@ The absence of execution responsibility must not be interpreted as absence of re
 Responsibility is not removed but constrained:
 - Maintained within the observation boundary
 - Rejected outside of it
-- Not transferred by interpretation, application, execution, reliance, similarity, reference, exposure, or external use
+- Not transferred by interpretation, application, execution, reliance, similarity, reference, exposure, or any other use.
 
 This work does not operate under “no responsibility,” but under a bounded responsibility model with strict attribution control.
 
@@ -593,7 +593,7 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 책임은 제거되는 것이 아니라 제한된다:
 - 관측 범위 내에서는 유지된다
 - 그 외부에서는 귀속이 허용되지 않는다
-- 해석, 적용, 실행, 의존, 유사성, 참조, 노출, 외부 사용에 의해 이전되지 않는다.
+- 해석, 적용, 실행, 의존, 유사성, 참조, 노출, 또는 기타 방식의 사용에 의해 이전되지 않는다.
 
 본 작업은 “책임 없음” 상태가 아니라,
 명확한 경계와 귀속 제어를 가진 제한된 책임 모델을 기준으로 정의된다.
