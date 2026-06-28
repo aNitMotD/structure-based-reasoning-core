@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 > Phase 2 — Human & Governance Layer  
 > This document describes post-failure observations, not structural definitions.
 

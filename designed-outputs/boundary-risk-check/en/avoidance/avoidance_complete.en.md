@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # Boundary Risk Check — Responsibility Avoidance (Complete)
 
 This document does not provide conclusions, recommendations, or next actions.  

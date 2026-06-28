@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # Responsibility Vacuum — Quick Check
 
 If **2 or more** of the following come to mind immediately, pause.

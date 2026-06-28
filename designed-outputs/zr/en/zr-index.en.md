@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # Zero Reflect (ZR)
 
 Zero Reflect (ZR) is a responsibility-boundary reflection system.

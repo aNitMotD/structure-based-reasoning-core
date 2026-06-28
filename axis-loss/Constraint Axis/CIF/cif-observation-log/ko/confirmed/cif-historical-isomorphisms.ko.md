@@ -1,3 +1,8 @@
+> **직접 접근 고지**
+> 본 문서는 저장소의 README.md 및 INTERPRETATION-GUARDRAILS.md를 먼저 확인했다는 전제 하에서만 해석되어야 합니다.
+
+---
+
 # CIF Historical Isomorphisms — Observational Set
 
 > 본 문서는 역사적 사건의 평가·교훈·도덕 판단을 포함하지 않는다.  

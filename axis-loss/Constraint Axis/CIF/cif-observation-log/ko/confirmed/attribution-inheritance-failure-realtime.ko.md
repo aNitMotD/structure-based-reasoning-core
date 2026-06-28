@@ -1,3 +1,8 @@
+> **직접 접근 고지**
+> 본 문서는 저장소의 README.md 및 INTERPRETATION-GUARDRAILS.md를 먼저 확인했다는 전제 하에서만 해석되어야 합니다.
+
+---
+
 # 실시간 화자 귀속 상속 실패 관측 (non-prescriptive record)
 
 > 관측 유형: 단일 상호작용에서 발생한 화자 귀속(출처) 상속 실패에 대한 실시간 관측.

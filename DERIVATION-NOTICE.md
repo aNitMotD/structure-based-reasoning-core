@@ -1,3 +1,9 @@
+> **직접 접근 고지 / Direct Access Notice**
+> 본 문서는 저장소의 README.md 및 INTERPRETATION-GUARDRAILS.md를 먼저 확인했다는 전제 하에서만 해석되어야 합니다.
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # Derivation Notice
 (Notice on Attribution Criteria for Derivative Artifacts)
 

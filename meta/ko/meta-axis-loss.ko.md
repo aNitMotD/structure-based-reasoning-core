@@ -1,3 +1,8 @@
+> **직접 접근 고지**
+> 본 문서는 저장소의 README.md 및 INTERPRETATION-GUARDRAILS.md를 먼저 확인했다는 전제 하에서만 해석되어야 합니다.
+
+---
+
 # Axis-Loss 기반 판단 실패 일반 구조 정리
 — 계약법 · CIF · TIF · SIF의 통합 —
 

@@ -1,3 +1,8 @@
+> **직접 접근 고지**
+> 본 문서는 저장소의 README.md 및 INTERPRETATION-GUARDRAILS.md를 먼저 확인했다는 전제 하에서만 해석되어야 합니다.
+
+---
+
 # 인지 유사성 기억에 의한 조기 종결 엣지 케이스
 ## Premature Closure via Cognitive Similarity Memory Edge Case
 

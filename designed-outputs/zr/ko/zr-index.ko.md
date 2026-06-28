@@ -1,3 +1,8 @@
+> **직접 접근 고지**
+> 본 문서는 저장소의 README.md 및 INTERPRETATION-GUARDRAILS.md를 먼저 확인했다는 전제 하에서만 해석되어야 합니다.
+
+---
+
 # Zero Reflect (ZR)
 
 Zero Reflect(ZR)는 책임 경계를 반사하는 시스템이다.

@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # Boundary Declaration Template for Claude Projects (General Form)
 
 This document is a **general boundary declaration template** for Claude-based projects that does **not rely on any specific personal reasoning framework or specialized theoretical system**.

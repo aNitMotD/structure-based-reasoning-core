@@ -1,3 +1,8 @@
+> **직접 접근 고지**
+> 본 문서는 저장소의 README.md 및 INTERPRETATION-GUARDRAILS.md를 먼저 확인했다는 전제 하에서만 해석되어야 합니다.
+
+---
+
 # 세션 비용–침묵 응답 경계 오인 엣지 케이스
 ## Vision Session Cost–Silent Response Boundary Misinterpretation Edge Case
 ### (멀티모달 LLM 환경에서 경계를 흐리는 UX와 침묵하는 비전 실패에 대한 명확화)

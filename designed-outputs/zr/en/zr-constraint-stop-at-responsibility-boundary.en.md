@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 ## Case: Preventing Structural Closure by Stopping at the Responsibility Boundary
 
 ### 1. Trigger

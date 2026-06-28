@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # Boundary Risk Check — Responsibility Diffusion (Signal)
 
 This document describes **signals that emerge when responsibility is spread across multiple actors**.  

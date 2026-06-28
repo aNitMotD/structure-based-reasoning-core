@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # Boundary Template for Claude Projects – Checklist & Failure Case Appendix
 
 This document accompanies the **“Boundary Declaration Template for Claude Projects (General Form)”**.

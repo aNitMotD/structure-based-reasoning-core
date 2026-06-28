@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # Boundary Risk Check — Responsibility Avoidance (Signal)
 
 This document describes **signals of responsibility avoidance that appear before a judgment is made**.  

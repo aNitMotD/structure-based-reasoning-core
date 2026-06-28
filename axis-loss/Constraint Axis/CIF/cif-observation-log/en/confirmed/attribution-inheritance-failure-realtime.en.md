@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # Real-Time Attribution Inheritance Failure Observation (non-prescriptive record)
 
 > Observation Type: Single-interaction real-time observation of speaker attribution inheritance failure.

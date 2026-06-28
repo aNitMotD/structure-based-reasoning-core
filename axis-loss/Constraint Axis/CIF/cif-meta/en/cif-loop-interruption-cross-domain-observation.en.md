@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # Cross-Domain Observation of CIF Loop-Interruption Conditions (Non-Normative)
 
 This document is a memo that organizes structural observations separated from the development of a hypothetical narrative,

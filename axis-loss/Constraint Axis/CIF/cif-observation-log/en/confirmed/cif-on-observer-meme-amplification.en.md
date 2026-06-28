@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # CIF Meme Amplification Phenomenon and Document Structure Redefinition (non-prescriptive record)
 
 > Observation Type: Phenomenon-level observation of meme amplification effects occurring during CIF documentation and interpretation.

@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # CIF = Door (Open / Close)
 
 This document compresses CIF into a single metaphor: **a door that is opened or closed**.  

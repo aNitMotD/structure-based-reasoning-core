@@ -1,3 +1,9 @@
+> **직접 접근 고지 / Direct Access Notice**
+> 본 문서는 저장소의 README.md 및 INTERPRETATION-GUARDRAILS.md를 먼저 확인했다는 전제 하에서만 해석되어야 합니다.
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 *이 문서는 사고엔진이 구조적으로 분리되기 이전,*
 *IP·고용·법적 문맥에서 방어적으로 작성된 초안이다.*
 *현행 정의를 대표하지 않는다.*

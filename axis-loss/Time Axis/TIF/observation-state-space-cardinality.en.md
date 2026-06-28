@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # Observational Memo — CIF / TIF State-Space Cardinality
 
 > This document does **not** introduce definitions, theories, or frameworks.  

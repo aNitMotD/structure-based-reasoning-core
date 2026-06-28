@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 ### Operational Rules
 
 | Observation Point | Usage Rule | Observed Expression | Structural Reading (Internal Logic) |

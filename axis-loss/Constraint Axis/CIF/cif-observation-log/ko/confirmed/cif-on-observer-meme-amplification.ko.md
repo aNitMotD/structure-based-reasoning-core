@@ -1,3 +1,8 @@
+> **직접 접근 고지**
+> 본 문서는 저장소의 README.md 및 INTERPRETATION-GUARDRAILS.md를 먼저 확인했다는 전제 하에서만 해석되어야 합니다.
+
+---
+
 # CIF 밈화 현상 및 문서 구조 재정의 (non-prescriptive record)
 
 > 관측 유형: CIF 문서화 및 해석 과정에서 발생하는 밈 증폭 효과에 대한 현상 수준 관측.

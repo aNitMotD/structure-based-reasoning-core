@@ -1,3 +1,8 @@
+> **직접 접근 고지**
+> 본 문서는 저장소의 README.md 및 INTERPRETATION-GUARDRAILS.md를 먼저 확인했다는 전제 하에서만 해석되어야 합니다.
+
+---
+
 # 인간 역할 지배 엣지 케이스
 ## Human-Role Dominance Edge Case
 ### (책임 중심 입력 착시)

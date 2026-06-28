@@ -1,3 +1,8 @@
+> **직접 접근 고지**
+> 본 문서는 저장소의 README.md 및 INTERPRETATION-GUARDRAILS.md를 먼저 확인했다는 전제 하에서만 해석되어야 합니다.
+
+---
+
 # 이중 축 인식 엣지 케이스
 ## Dual-Axis Recognition Edge Case
 ### (사건 축 vs 인지 축 불일치)

@@ -1,3 +1,8 @@
+> **Direct Access Notice**
+> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+
+---
+
 # User Phase Classification
 
 > In this document, the term **phase** does not refer to a sequential level or hierarchy.  
