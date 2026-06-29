@@ -1,6 +1,8 @@
 # Structure-Based Reasoning Core
 
-> This work does not assume execution responsibility; responsibility within the defined observation boundary is maintained, and external attribution beyond this boundary is rejected.
+> This work operates under a bounded responsibility model with strict attribution control,  
+> and maintains responsibility for observation and representation within the defined observation scope.  
+> Non-observational responsibility for use arising outside that scope, or for any resulting outcomes, is not assumed.
 
 > **Language Priority Notice**  
 > English materials may serve as supplementary materials for reference, comparison, and structural alignment checks.  
@@ -25,8 +27,10 @@ This repository **does not provide or contain**:
 - executable, operational, or advisory systems
 - any transfer of judgment, responsibility, or authority
 
-Interpretation, judgment, and application
-**always remain external to this repository**.
+Non-observational responsibility for interpretation,  
+judgment, adoption, application, execution, reliance, reference, modification, distribution,  
+other forms of use, and any resulting outcomes  
+always remains with the party that performs or assumes such acts.
 
 If the materials in this repository become **unclear, uncomfortable, or difficult to interpret, you may safely stop reading.**
 
@@ -163,7 +167,9 @@ an instance of the observational phenomena recorded in this repository.
 
 # 구조 기반 사고 핵심
 
-> 본 작업은 실행 책임을 전제하지 않으며, 정의된 관측 범위 내 책임은 유지되고, 그 외부로의 책임 전가는 허용되지 않는다.
+> 본 작업은 명확한 경계와 귀속 제어를 가진 제한된 책임 모델을 기준으로 하며,  
+> 정의된 관측 범위 안에서의 관측 및 표현 책임은 유지한다.  
+> 그 범위 밖에서 발생하는 사용 또는 그 결과에 대한 비관측 책임은 전제하지 않는다.
 
 > **언어 우선순위 고지**  
 > 영어 자료는 설명, 참조, 및 구조 정합성 확인을 위한 보조 자료로 활용될 수 있다.  
@@ -187,7 +193,8 @@ an instance of the observational phenomena recorded in this repository.
 - 실행 가능하거나 운영·자문 목적의 시스템
 - 판단, 책임, 또는 권한의 이전
 
-자료의 해석, 판단, 채택, 적용, 배포, 재배포, 수정, 및 의존에 대한 책임은  
+자료의 해석, 판단, 채택, 적용, 실행, 의존, 참조, 변형, 배포,  
+기타 방식의 사용, 그리고 그 결과에 대한 비관측 책임은  
 항상 그러한 행위를 수행하거나 수용하는 당사자에게 남는다.
 
 본 레포지토리의 자료가 **불명확하거나, 불편하게 느껴지거나, 해석하기 어렵다고 판단되는 경우,  
