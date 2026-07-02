@@ -8,34 +8,34 @@
 
 ## English
 
-This work is licensed under the
+This work is licensed under the  
 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License]
 (https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-You may share this material in unmodified form,
+You may share this material in unmodified form,  
 with proper attribution, for non-commercial purposes only.
 
-You may not distribute modified versions
+You may not distribute modified versions  
 or use this work for commercial purposes.
 
 ---
 
-No separate commercial license
+No separate commercial license  
 is offered for this repository.
 
-No inquiry, interaction,
-public availability, silence,
-or lack of objection
-shall be interpreted
-as openness to commercial licensing,
-commercial negotiation,
+No inquiry, interaction,  
+public availability, silence,  
+or lack of objection  
+shall be interpreted  
+as openness to commercial licensing,  
+commercial negotiation,  
 or commercial authorization.
 
 ---
 
 ### License Interpretation Notice
 
-This license governs redistribution and use of the materials
+This license governs redistribution and use of the materials  
 in this repository.
 
 It does not:
@@ -44,67 +44,72 @@ It does not:
 - Override the interpretation guardrails
   defined in INTERPRETATION-GUARDRAILS.md
 
-Use of these materials does not constitute
+Use of these materials does not constitute  
 delegation of decision-making or authority.
 
 ---
 
-### Separation of ND Violation and Responsibility
+### Separation of ND Violation, Interpretation, and Responsibility
 
-Whether a given act constitutes a violation
-of the NoDerivatives condition
+Whether a given act constitutes a violation  
+of the NoDerivatives condition  
 is a separate licensing question.
 
-Responsibility, judgment, attribution,
-and ownership are not determined
+Interpretation, responsibility, judgment, attribution,  
+and ownership are not determined  
 by ND compliance or ND violation alone.
 
-Compliance with the ND condition
-does not transfer responsibility,
+Compliance with the ND condition  
+does not transfer interpretation, responsibility,  
 judgment, attribution, or ownership.
 
-Violation of the ND condition,
-if it occurs,
-does not transfer responsibility,
-judgment, attribution, or ownership
+Violation of the ND condition,  
+if it occurs,  
+does not transfer interpretation, responsibility,  
+judgment, attribution, or ownership  
 to the author either.
 
-All modification, redistribution,
-deployment, reliance, and resulting outcomes
-remain solely the responsibility
-of the party that performs or assumes them.
+All interpretation, modification, redistribution,  
+deployment, reliance, other forms of use,  
+and resulting outcomes  
+remain solely the responsibility  
+of the party that performs, adopts, relies on,  
+or otherwise makes use of them.
 
 ---
 
 ### Additional License Boundary Notice
 
-Compliance with this license
-does not transfer responsibility,
+Compliance with this license  
+does not transfer interpretation, responsibility,  
 judgment, attribution, or ownership.
 
-Violation of this license,
-if it occurs,
-does not transfer responsibility,
-judgment, attribution, or ownership
+Violation of this license,  
+if it occurs,  
+does not transfer interpretation, responsibility,  
+judgment, attribution, or ownership  
 to the author either.
 
-Forking, cloning, mirroring, archiving,
-rehosting, or other repository-level acts
-constitute separate acts of access,
-copying, or distribution only,
+Forking, cloning, mirroring, archiving,  
+rehosting, or other repository-level acts  
+constitute separate acts of access,  
+copying, or distribution only,  
 and do not by themselves constitute:
 
 - permission beyond the license
 - consent, approval, or endorsement
+- interpretive authority
 - attribution or ownership transfer
 - delegation of judgment
 - transfer of responsibility
 
-All interpretation, modification,
-redistribution, deployment, reliance,
-and resulting outcomes
-remain solely the responsibility
-of the party that performs or assumes them.
+All interpretation, modification,  
+redistribution, deployment, reliance,  
+other forms of use,  
+and resulting outcomes  
+remain solely the responsibility  
+of the party that performs, adopts, relies on,  
+or otherwise makes use of them.
 
 ---
 
@@ -112,37 +117,37 @@ of the party that performs or assumes them.
 
 ## 한국어 (Korean)
 
-본 저작물은
+본 저작물은  
 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 국제 라이선스]
 (https://creativecommons.org/licenses/by-nc-nd/4.0/)
 를 따른다.
 
-출처를 명시하고, 비상업적 목적에 한해
+출처를 명시하고, 비상업적 목적에 한해  
 변경 없이 공유할 수 있다.
 
-수정된 버전의 배포나
+수정된 버전의 배포나  
 상업적 이용은 허용되지 않는다.
 
 ---
 
-본 레포지토리에 대하여
-별도의 상업적 라이선스는
+본 레포지토리에 대하여  
+별도의 상업적 라이선스는  
 제공되지 않는다.
 
-문의, 상호작용,
-공개 상태,
-침묵,
-또는 이의 제기의 부재는
-상업적 라이선스 제공 가능성,
-상업적 협의 가능성,
-또는 상업적 허가로
+문의, 상호작용,  
+공개 상태,  
+침묵,  
+또는 이의 제기의 부재는  
+상업적 라이선스 제공 가능성,  
+상업적 협의 가능성,  
+또는 상업적 허가로  
 해석되어서는 안 된다.
 
 ---
 
 ### 라이선스 해석 고지
 
-본 라이선스는 본 레포지토리 자료의
+본 라이선스는 본 레포지토리 자료의  
 배포 및 사용 조건을 규정한다.
 
 다만 본 라이선스는 다음을 의미하지 않는다:
@@ -152,65 +157,69 @@ of the party that performs or assumes them.
 - INTERPRETATION-GUARDRAILS.md에
   명시된 해석 가드레일의 무효화
 
-본 자료의 사용은
-의사결정이나 권한의 위임을
+본 자료의 사용은  
+의사결정이나 권한의 위임을  
 의미하지 않는다.
 
 ---
 
-### ND 위반과 책임의 분리
+### ND 위반, 해석 및 책임의 분리
 
-어떤 행위가
-NoDerivatives 조건의 위반을 구성하는지는
+어떤 행위가  
+NoDerivatives 조건의 위반을 구성하는지는  
 별도의 라이선스 문제이다.
 
-책임, 판단, 귀속,
-및 소유권은
-ND 준수 또는 ND 위반만으로
+해석, 책임, 판단, 귀속,  
+및 소유권은  
+ND 준수 또는 ND 위반만으로  
 결정되지 않는다.
 
-ND 조건의 준수는
-책임, 판단, 귀속, 또는 소유권을
+ND 조건의 준수는  
+해석, 책임, 판단, 귀속, 또는 소유권을  
 이전하지 않는다.
 
-ND 조건의 위반이
-발생하는 경우에도,
-그 위반 자체로
-책임, 판단, 귀속, 또는 소유권이
+ND 조건의 위반이  
+발생하는 경우에도,  
+그 위반 자체로  
+해석, 책임, 판단, 귀속, 또는 소유권이  
 작성자에게 이전되는 것은 아니다.
 
-모든 수정, 재배포,
-배포, 의존,
-그리고 그로부터 발생하는 결과는
-이를 수행하거나 수용한 당사자의
+모든 해석, 수정, 재배포,  
+배포, 의존, 기타 방식의 사용,  
+그리고 그로부터 발생하는 결과는  
+이를 수행하거나 채택하거나 의존하거나  
+그 밖의 방식으로 사용한 당사자의  
 전적인 책임에 속한다.
 
 ---
 
 ### 추가 라이선스 경계 고지
 
-본 라이선스를 준수한다고 해서
-책임, 판단, 귀속, 또는 소유권이
-이전되는 것은 아니다.
+본 라이선스를 준수한다고 해서  
+해석, 책임, 판단, 귀속, 또는 소유권이  
+이전되는 것은 아니다.  
 
-본 라이선스의 위반이 발생하는 경우에도,
-그 위반 자체로
-책임, 판단, 귀속, 또는 소유권이
-작성자에게 이전되는 것은 아니다.
+본 라이선스의 위반이 발생하는 경우에도,  
+그 위반 자체로  
+해석, 책임, 판단, 귀속, 또는 소유권이  
+작성자에게 이전되는 것은 아니다.  
 
-fork, clone, mirror, archive,
-rehost, 또는 그 밖의 저장소 수준의 행위는
-접근, 복제, 또는 배포의 별도 행위만을 구성할 뿐이며,
+fork, clone, mirror, archive,  
+rehost, 또는 그 밖의 저장소 수준의 행위는  
+접근, 복제, 또는 배포의 별도 행위만을 구성할 뿐이며,  
 그 자체로 다음 중 어느 것도 구성하지 않는다:
 
 - 라이선스를 넘는 허가
 - 동의, 승인, 또는 보증
+- 해석 권한
 - 귀속 또는 소유권의 이전
 - 판단의 위임
 - 책임의 이전
 
-모든 해석, 수정,
-재배포, 배포, 의존,
-그리고 그로부터 발생하는 결과는
-이를 수행하거나 수용한 당사자의
+모든 해석, 수정,  
+재배포, 배포, 의존,  
+기타 방식의 사용,  
+그리고 그로부터 발생하는 결과는  
+이를 수행하거나 채택하거나 의존하거나  
+그 밖의 방식으로 사용한 당사자의  
 전적인 책임에 속한다.
