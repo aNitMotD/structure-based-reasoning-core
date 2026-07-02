@@ -11,7 +11,7 @@
 
 ---
 
-## 1. CIF (Closure Inflexibility Failure)
+## 1. CIF (Constraint Inheritance Failure)
 
 ### 판단 질문 1
 **Q. 이 판단이 틀릴 가능성은 존재하는가?**
@@ -60,7 +60,7 @@
 
 ---
 
-## 2. TIF-E (Tool Identity Failure – Exceptional)
+## 2. TIF-E (Time Inconsistency Failure – Time Elision)
 
 ### 판단 질문 1
 **Q. 너는 AI를 쓰는가?**
@@ -104,7 +104,7 @@
 
 ---
 
-## 3. SIF (Structure Invisibility Failure)
+## 3. SIF (Structural Inaccessibility Failure)
 
 ### 판단 질문 1
 **Q. 이 설명에서 순서를 바꿔도 결과는 유지되는가?**
