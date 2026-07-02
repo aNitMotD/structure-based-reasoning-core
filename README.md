@@ -150,7 +150,7 @@ must comply with the terms of the license.
 This license governs third-party use,
 redistribution,
 distribution of modified versions,
-and other forms of use,
+and other forms of use,  
 and does not apply to the author’s own use
 or internal maintenance.
 
@@ -326,7 +326,7 @@ an instance of the observational phenomena recorded in this repository.
 
 해당 라이선스는 제3자의 사용, 재배포,
 수정본의 배포 및 그 밖의 이용을
-규율하기 위한 것이며,
+규율하기 위한 것이며,  
 작성자의 자체 사용이나 내부 관리에는
 적용 대상이 아니다.
 
