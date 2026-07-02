@@ -81,7 +81,7 @@ when projected onto different agents.
 
 CIF denotes a structural failure mode in which
 constraints that were explicitly present and recognized
-fail to be inherited or enforced at the generation layer.
+fail to be inherited by the generation layer.
 
 The resulting output may remain logically coherent and narratively complete,
 and may pass **coherence-based or narrative consistency checks**,
