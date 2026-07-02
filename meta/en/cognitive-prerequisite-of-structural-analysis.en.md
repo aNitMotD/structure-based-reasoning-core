@@ -201,8 +201,11 @@ Points of contact with the author’s view:
 Differences:
 
 - These lines mainly focus on language comprehension and discourse processing.
+- In these lines, coherence, frames, and context construction are primarily used to explain how texts or utterances form understandable flows of meaning.
 - The author’s focus is the cognitive prerequisites of general structural analysis, not limited to language.
 - From the author’s view, text structure may be one application area of structural analysis, but structural analysis itself is not limited to text analysis.
+- The author’s view focuses less on discourse coherence or text comprehension structures themselves, and more on the conditions under which language, context, and constraints operate in boundary and transition judgments about actual objects of analysis.
+
 
 ---
 
@@ -219,6 +222,7 @@ Representative core concepts:
 - from-to structure
 - indwelling
 - integrative awareness
+- emergent formation of meaning
 
 Polanyi argued that humans know more than they can explicitly state.  
 Tacit knowledge does not merely mean knowledge that is difficult to explain in words.  
@@ -229,6 +233,7 @@ Focal awareness is awareness of the object to which we directly attend, while su
 
 The from-to structure refers to an awareness structure that moves from subsidiary clues toward a focal object.  
 Indwelling is connected to the state of entering into a tool, language, technique, or system of judgment and seeing the world through it.
+In this sense, meaning is formed emergently through the integration of subsidiary cues toward a focal object, rather than being reducible to the sum of isolated elements.
 
 Points of contact with the author’s view:
 
