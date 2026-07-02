@@ -232,7 +232,7 @@ One important distinction in Polanyi’s work is the distinction between focal a
 Focal awareness is awareness of the object to which we directly attend, while subsidiary awareness consists of the clues, sensations, habits, and technical skills we rely on in the background in order to understand that object.
 
 The from-to structure refers to an awareness structure that moves from subsidiary clues toward a focal object.  
-Indwelling is connected to the state of entering into a tool, language, technique, or system of judgment and seeing the world through it.
+Indwelling is connected to the state of entering into a tool, language, technique, or system of judgment and seeing the world through it.  
 In this sense, meaning is formed emergently through the integration of subsidiary cues toward a focal object, rather than being reducible to the sum of isolated elements.
 
 Points of contact with the author’s view:
