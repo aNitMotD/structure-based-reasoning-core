@@ -142,11 +142,10 @@ policy, or claims of ownership.
 
 This repository is licensed under **CC BY-NC-ND 4.0**.
 
-Use, redistribution,
+Third-party use, redistribution,
 distribution of modified versions,
 and other forms of use
-must comply with the terms of the license
-and the responsibility boundaries described above.
+must comply with the terms of the license.
 
 This license governs third-party use,
 redistribution,
@@ -321,11 +320,9 @@ an instance of the observational phenomena recorded in this repository.
 본 레포지토리는
 **CC BY-NC-ND 4.0** 라이선스를 따른다.
 
-모든 사용, 재배포,
-수정본의 배포, 그 밖의 이용은
-해당 라이선스와
-본 문서에 명시된 책임 경계를
-준수해야 한다.
+제3자의 사용, 재배포,
+수정본의 배포, 및 그 밖의 이용은
+해당 라이선스 조건을 준수해야 한다.
 
 해당 라이선스는 제3자의 사용, 재배포,
 수정본의 배포 및 그 밖의 이용을
