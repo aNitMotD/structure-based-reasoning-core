@@ -76,7 +76,7 @@ All materials in this repository are derivative artifacts.
 
 Responsibility for interpretation, judgment,
 adoption, application, deployment, redistribution,
-modification, and reliance
+modification, and reliance, and other forms of use
 always remains with the party
 that performs or assumes such acts.
 
@@ -142,12 +142,16 @@ policy, or claims of ownership.
 
 This repository is licensed under **CC BY-NC-ND 4.0**.
 
-Use, redistribution, or adaptation
+Use, redistribution,
+distribution of modified versions,
+and other forms of use
 must comply with the terms of the license
 and the responsibility boundaries described above.
 
 This license governs third-party use,
-redistribution, and derivative actions,
+redistribution,
+distribution of modified versions,
+and other forms of use,
 and does not apply to the author’s own use
 or internal maintenance.
 
@@ -159,8 +163,8 @@ as a commercially negotiable asset.
 
 **Observational note**
 
-License violations may occur.
-If such a violation occurs, the act itself may constitute
+License violations may occur.  
+If such a violation occurs, the act itself may constitute  
 an instance of the observational phenomena recorded in this repository.
 
 ---
@@ -245,7 +249,7 @@ an instance of the observational phenomena recorded in this repository.
 
 해석, 판단,
 채택, 적용, 배포, 재배포,
-수정, 및 의존에 대한 책임은
+수정, 의존, 및 기타 방식의 사용에 대한 책임은
 항상 그러한 행위를 수행하거나
 수용하는 당사자에게 남는다.
 
@@ -317,13 +321,15 @@ an instance of the observational phenomena recorded in this repository.
 본 레포지토리는
 **CC BY-NC-ND 4.0** 라이선스를 따른다.
 
-모든 사용, 재배포, 파생 행위는
+모든 사용, 재배포,
+수정본의 배포, 그 밖의 이용은
 해당 라이선스와
 본 문서에 명시된 책임 경계를
 준수해야 한다.
 
 해당 라이선스는 제3자의 사용, 재배포,
-파생 행위를 규율하기 위한 것이며,
+수정본의 배포 및 그 밖의 이용을
+규율하기 위한 것이며,
 작성자의 자체 사용이나 내부 관리에는
 적용 대상이 아니다.
 
@@ -336,6 +342,6 @@ an instance of the observational phenomena recorded in this repository.
 
 **관측 관련 참고**
 
-라이선스 위반이 발생할 수 있다.
-이 경우 해당 행위는 본 레포지토리에 기록된 관측 현상의
+라이선스 위반이 발생할 수 있다.  
+이 경우 해당 행위는 본 레포지토리에 기록된 관측 현상의  
 실연 사례로 해석될 수 있다.
