@@ -50,6 +50,12 @@ That is,
 - “It was taken” → no conflict
 - “It was taken, but responsibility does not apply” → conflict with this repository disclosure
 
+The mere occurrence of an act does not, by itself, constitute a conflict with this repository disclosure.
+
+As long as responsibility for that act remains with the party that performs or assumes it, the act itself is not the point of conflict with this repository disclosure.
+
+A conflict arises after the act, when these materials or this disclosure are used as a basis for denying that responsibility or transferring it to the author.
+
 ### 4) Translation into the Judgment Axis
 
 - This repository disclosure is **not an action constraint but a post-hoc judgment constraint**.
@@ -488,6 +494,17 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 - “가져갔다” → 충돌 없음
 - “가져갔지만 책임은 아니다” → 사전고지와 충돌
+
+행위가 발생했다는 사실만으로는
+이 사전고지와의 충돌이 성립하지 않는다.
+
+해당 행위의 책임이
+그 행위를 수행하거나 수용한 당사자에게 귀속되는 한,
+그 행위 자체는 이 사전고지의 충돌 지점이 아니다.
+
+충돌은 행위 이후,
+그 책임을 부정하거나 작성자에게 전가하려는 근거로
+이 자료 또는 사전고지를 사용하는 순간 발생한다.
 
 ### 4) 판단 축으로의 번역
 
