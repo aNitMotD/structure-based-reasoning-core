@@ -33,12 +33,18 @@ over any individual document or artifact.
   - Acts such as acquisition, use, reference, or reproduction may occur
 
 - **Responsibility**
-  - Exists on a judgmental and normative axis
-  - Remains fixed even after the fact
+  - Exists on an interpretive and normative axis
+  - Remains fixable even after the fact
   - Cannot be evaded
 
-An action may occur;  
-however, responsibility for that action belongs to a separate axis.
+An action may occur.  
+Responsibility for that action is attributed to a separate axis.
+
+Post-fixability does not mean that legal effect is granted retroactively.  
+It means that subsequent use, interpretation, appropriation, and shifting of responsibility may be assessed under the criteria disclosed in advance.
+
+Likewise, non-evadability does not mean the deprivation of rights.  
+It means that responsibility for the relevant act of use and its consequences cannot be denied.
 
 ### 3) Operational Mechanism of the Repository Disclosure
 
@@ -484,6 +490,12 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 
 행위는 발생할 수 있으나,  
 그 행위에 대한 책임은 별개의 축에 귀속된다.
+
+사후 고정 가능성은 법률상 효력의 사후 부여를 의미하지 않는다.  
+이는 사전에 고지된 기준에 따라 사후의 이용·해석·전용·책임 전가를 판단할 수 있다는 의미이다.
+
+또한 회피 불가능성은 권리 박탈을 의미하지 않는다.  
+이는 해당 이용 행위와 그 결과에 대한 책임 귀속을 부정할 수 없다는 의미이다.
 
 ### 3) 사전고지의 작동 방식
 
