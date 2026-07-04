@@ -9,7 +9,8 @@
 ## English
 
 This work is licensed under the  
-[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License]
+(https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 You may share this material in unmodified form,  
 with proper attribution, for non-commercial purposes only.
@@ -77,6 +78,15 @@ or otherwise makes use of them.
 
 ---
 
+### Commercial Use and Responsibility
+
+Commercial use constitutes a violation of this license.
+Acceptance of responsibility does not nullify or cure that violation.
+
+However, if the party engaging in such use actually accepts the responsibility arising from that use, the author may choose not to treat the violation as a separate matter requiring response, including whether and to what extent to respond to third-party reports, notices, or complaints concerning that violation.
+
+---
+
 ### Additional License Boundary Notice
 
 Compliance with this license  
@@ -117,7 +127,8 @@ or otherwise makes use of them.
 ## 한국어 (Korean)
 
 본 저작물은  
-[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 국제 라이선스](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 국제 라이선스]
+(https://creativecommons.org/licenses/by-nc-nd/4.0/)
 를 따른다.
 
 출처를 명시하고, 비상업적 목적에 한해  
@@ -132,9 +143,7 @@ or otherwise makes use of them.
 별도의 상업적 라이선스는  
 제공되지 않는다.
 
-문의, 상호작용,  
-공개 상태,  
-침묵,  
+문의, 상호작용, 공개 상태, 침묵,  
 또는 이의 제기의 부재는  
 상업적 라이선스 제공 가능성,  
 상업적 협의 가능성,  
@@ -167,8 +176,7 @@ or otherwise makes use of them.
 NoDerivatives 조건의 위반을 구성하는지는  
 별도의 라이선스 문제이다.
 
-해석, 책임, 판단, 귀속,  
-및 소유권은  
+해석, 책임, 판단, 귀속, 및 소유권은  
 ND 준수 또는 ND 위반만으로  
 결정되지 않는다.
 
@@ -176,18 +184,22 @@ ND 조건의 준수는
 해석, 책임, 판단, 귀속, 또는 소유권을  
 이전하지 않는다.
 
-ND 조건의 위반이  
-발생하는 경우에도,  
-그 위반 자체로  
-해석, 책임, 판단, 귀속, 또는 소유권이  
+ND 조건의 위반이 발생하는 경우에도,  
+그 위반 자체로 해석, 책임, 판단, 귀속, 또는 소유권이  
 작성자에게 이전되는 것은 아니다.
 
-모든 해석, 수정, 재배포,  
-배포, 의존, 기타 방식의 사용,  
-그리고 그로부터 발생하는 결과는  
-이를 수행하거나 채택하거나 의존하거나  
-그 밖의 방식으로 사용한 당사자의  
+모든 해석, 수정, 재배포, 배포, 의존, 기타 방식의 사용, 그리고 그로부터 발생하는 결과는  
+이를 수행하거나 채택하거나 의존하거나 그 밖의 방식으로 사용한 당사자의  
 전적인 책임에 속한다.
+
+---
+
+### 상업적 이용과 책임
+
+상업적 이용은 이 라이선스의 위반에 해당한다.
+책임 수용은 그 위반을 무효화하거나 치유하지 않는다.
+
+다만 해당 이용자가 그 이용으로부터 발생하는 책임을 실제로 수용하는 경우, 작성자는 그 위반을 별도의 반응 대상으로 삼지 않을 수 있으며, 여기에는 제3자의 신고·제보·문제 제기에 대한 반응 여부와 그 반응 정도도 포함된다.
 
 ---
 
