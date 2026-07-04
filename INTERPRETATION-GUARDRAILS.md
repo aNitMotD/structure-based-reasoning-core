@@ -55,6 +55,12 @@ That is,
 - This repository disclosure is **not an action constraint but a post-hoc judgment constraint**.
 - The point of conflict is not the action itself, but
   - *the moment responsibility attribution is denied*.
+  
+However, the denial of responsibility attribution here does not refer to mere misinterpretation, objection, expression of opinion, or failure to understand.
+
+A conflict arises when such a statement functions as a basis for denying, avoiding, or transferring responsibility in actual use, application, distribution, reference, assertion, disclaimer, attribution avoidance, or an external judgment process.
+
+That is, a mere misinterpretation or objection may fall within the range of permitted responses. However, when that misinterpretation or objection is used as the basis for a substantive act or for avoiding responsibility, that point conflicts with this repository disclosure.
 
 ### 5) Structural Summary (One Line)
 
@@ -488,6 +494,18 @@ NON-RELIANCE / NO-DUTY STATEMENT의
 - 사전고지는 **행위 제약이 아니라 사후 판단 제약** 이다.
 - 충돌 지점은 행위 자체가 아니라,
   - *책임 귀속을 부정하는 순간* 이다.
+
+단, 여기서 말하는 책임 귀속의 부정은
+단순한 오독, 반박, 의견 표명, 또는 이해 실패를 의미하지 않는다.
+
+충돌은 그러한 진술이
+실제 사용, 적용, 배포, 참조, 주장, 면책, 귀속 회피,
+또는 외부 판단 과정에서
+책임을 부정하거나 전가하는 근거로 기능할 때 발생한다.
+
+즉, 말뿐인 오독이나 반박은 허용되는 반응에 속할 수 있으나,
+그 오독이나 반박이 실질적 행위 또는 책임 회피의 근거로 사용되는 순간,
+그 지점은 사전고지와 충돌한다.
 
 ### 5) 구조 요약 (한 줄)
 
