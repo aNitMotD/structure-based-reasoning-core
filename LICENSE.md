@@ -80,10 +80,12 @@ or otherwise makes use of them.
 
 ### Commercial Use and Responsibility
 
-Commercial use constitutes a violation of this license.
+Commercial use constitutes a violation of this license.  
 Acceptance of responsibility does not nullify or cure that violation.
 
-However, if the party engaging in such use actually accepts the responsibility arising from that use, the author may choose not to treat the violation as a separate matter requiring response, including whether and to what extent to respond to third-party reports, notices, or complaints concerning that violation.
+However, if the party engaging in such use actually accepts the responsibility arising from that use,  
+the author may choose not to treat the violation as a separate matter requiring response,  
+including whether and to what extent to respond to third-party reports, notices, or complaints concerning that violation.
 
 ---
 
@@ -196,10 +198,12 @@ ND 조건의 위반이 발생하는 경우에도,
 
 ### 상업적 이용과 책임
 
-상업적 이용은 이 라이선스의 위반에 해당한다.
+상업적 이용은 이 라이선스의 위반에 해당한다.  
 책임 수용은 그 위반을 무효화하거나 치유하지 않는다.
 
-다만 해당 이용자가 그 이용으로부터 발생하는 책임을 실제로 수용하는 경우, 작성자는 그 위반을 별도의 반응 대상으로 삼지 않을 수 있으며, 여기에는 제3자의 신고·제보·문제 제기에 대한 반응 여부와 그 반응 정도도 포함된다.
+다만 해당 이용자가 그 이용으로부터 발생하는 책임을 실제로 수용하는 경우,  
+작성자는 그 위반을 별도의 반응 대상으로 삼지 않을 수 있으며,  
+여기에는 제3자의 신고·제보·문제 제기에 대한 반응 여부와 그 반응 정도도 포함된다.
 
 ---
 
