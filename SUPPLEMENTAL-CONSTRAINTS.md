@@ -293,6 +293,16 @@ remains with the party asserting such independence.
 
 ---
 
+## 8. Silence Layer Separation
+
+A third party’s silence, non-response, delay, or absence of correction may be used only as a record that no counter-signal was identified within the relevant observational context, and does not, by itself, establish consent, fault, failure, responsibility, or any other legal or normative effect.
+
+The author’s silence, non-response, delay, or absence of correction likewise must not be interpreted as consent, approval, adoption, waiver, assurance, acceptance of responsibility, or any other attribution effect in relation to any external interpretation, use, derivation, summary, redistribution, or third-party claim.
+
+This section controls where silence appears to be treated differently across observational, interpretive, legal, or responsibility-related contexts. No interpretation may collapse observational recording into consent, judgment, waiver, endorsement, or responsibility attribution.
+
+---
+
 ## Additional Clarifications (Non-Exhaustive)
 
 Silence, non-response, or lack of objection
@@ -672,6 +682,16 @@ fork, clone, mirror, archive, rehost,
 유사한 결과가 발생하는 경우,
 그 독립성을 입증할 부담은
 그 독립성을 주장하는 당사자에게 남는다.
+
+---
+
+## 8. 침묵 층위 분리
+
+제3자의 침묵, 무응답, 지연 또는 정정 부재는 관측 맥락에서 반대 신호가 확인되지 않았다는 상태 기록으로만 사용될 수 있으며, 그 자체로 동의, 과실, 실패, 책임 또는 기타 법적·규범적 효과를 확정하지 않는다.
+
+작성자의 침묵, 무응답, 지연 또는 정정 부재도 외부 해석, 사용, 파생, 요약, 재배포 또는 제3자 주장에 대한 동의, 승인, 채택, 포기, 보증, 책임 수락 또는 기타 귀속 효과로 해석될 수 없다.
+
+본 조항은 침묵이 관측, 해석, 법률 또는 책임 관련 맥락에서 다르게 다루어지는 것처럼 보이는 경우에 우선 적용된다. 어떠한 해석도 관측 기록을 동의, 판단, 포기, 보증 또는 책임 귀속으로 붕괴시켜서는 안 된다.
 
 ---
 
