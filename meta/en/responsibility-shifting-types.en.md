@@ -256,7 +256,7 @@ Even when actual use, copying, or influence has not been established, similarity
 
 # Common Structure
 
-Although these eight types appear different, they structurally share the following features.
+Although these types appear different, they structurally share the following features.
 
 1. Some external act or reaction occurs.
 2. Damage, disadvantage, pressure, or change appears as a result.
