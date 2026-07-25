@@ -1,13 +1,13 @@
 > **Direct Access Notice**  
-> This document must be interpreted only on the assumption that the repository’s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
+> This document must be interpreted only on the assumption that the repositoryâ€™s README.md and INTERPRETATION-GUARDRAILS.md have been reviewed first.
 
 ---
 
-# Seven Types of Responsibility Shifting
+# Responsibility-Shifting Types
 
 ## Overview
 
-The seven types below may appear in different forms, but they share a common structure: an attempt to attribute an externally generated act, result, or effect back to the original observer.  
+The types below may appear in different forms, but they share a common structure: an attempt to attribute an externally generated act, result, or effect back to the original observer.  
 The difference lies in the entry point of the attack. The common feature is that each type attempts to collapse the separation between observation and application, record and execution, influence and responsibility.
 
 > The types presented in this document are not an exhaustive list of all possible responsibility-shifting types.  
@@ -179,6 +179,30 @@ Functional declarations and factual influence are separate axes. The formation o
 
 ---
 
+## Type 8. Independent Observer Targeting Shifting
+
+### Definition
+
+A type in which an organization that developed independently, after damage occurs, finds an independent observer who wrote similar content and identifies that observer as the cause or responsible party for the result.
+
+### Core Structure
+
+- The organization develops independently.
+- Damage occurs in the product or service.
+- An independent observer who wrote similar content is identified.
+- Similarity is reconstructed as causation.
+- Responsibility for the development result is shifted to the observer.
+
+### Shifting Method
+
+**Post-hoc causal attribution shifting**
+
+### Core Blocking Axis
+
+Similarity does not prove use, copying, influence, or causation, and the organization attempting to shift responsibility for an independently developed result to an observer discovered after the fact must prove the actual connection.
+
+---
+
 # Classification by Axis
 
 ## External Direct Shifting
@@ -186,6 +210,7 @@ Functional declarations and factual influence are separate axes. The formation o
 - Type 1. Toolization-Based Shifting
 - Type 2. Copy-and-Modification Shifting
 - Type 4. Accuracy-Abuse Shifting
+- Type 8. Independent Observer Targeting Shifting
 
 ## External Indirect Shifting
 
@@ -222,11 +247,16 @@ Even if the allegedly harmed party did not directly use the repository, this typ
 
 Rather than directly asserting responsibility attribution, this type attacks the premise under which the notice operates: whether the declaration and reality still correspond.
 
+## Type 8
+
+This type goes beyond explaining responsibility for an existing development result by finding an independent observer with similar content after damage occurs and designating that observer as the origin of responsibility.
+Even when actual use, copying, or influence has not been established, similarity is reconstructed as causation, making the independent observer a post-hoc responsible party.
+
 ---
 
 # Common Structure
 
-Although these seven types appear different, they structurally share the following features.
+Although these eight types appear different, they structurally share the following features.
 
 1. Some external act or reaction occurs.
 2. Damage, disadvantage, pressure, or change appears as a result.
@@ -248,12 +278,13 @@ In other words, the common pattern is:
 - Type 5: Scope shifting
 - Type 6: Citation shifting
 - Type 7: Declaration shifting
+- Type 8: Targeting shifting
 
 ---
 
 # Overall Summary
 
-The seven types of responsibility shifting are distinct attack vectors through which responsibility for externally generated results is attributed back to the observer, even though the observer did not directly execute or operate the relevant act. These vectors include use, modification, market effects, abuse, alleged omission in observation scope, third-party citation effects, and declaration-reality gap attacks.
+The types of responsibility shifting are distinct attack vectors through which responsibility for externally generated results is attributed back to the observer, even though the observer did not directly execute or operate the relevant act. These vectors include use, modification, market effects, abuse, alleged omission in observation scope, third-party citation effects, declaration-reality gap attacks, and post-hoc targeting of an independent observer.
 
 The difference lies in the entry point of the attack. The common feature is that all of them attempt to return the result of an external act to the observer.  
 The notice framework does not prevent the act itself; rather, it blocks responsibility shifting by fixing the line of responsibility attribution for the resulting outcome.
