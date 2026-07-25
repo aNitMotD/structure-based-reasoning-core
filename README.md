@@ -58,6 +58,18 @@ For the precise boundary definition, see: [Relationship](./designed-outputs/rela
 
 ---
 
+## Term Note: Reasoning Engine
+
+The **reasoning engine** used in this repository does not refer to a phenomenon completely separate from a way of thinking.
+
+If a way of thinking means the general manner in which a person recognizes problems and makes judgments, the reasoning engine is a term for the recurring structures, invariant axes, and judgment conditions that operate throughout that process.
+
+Therefore, the reasoning engine is a concept defined from structural and operational perspectives as the internal operating structure of a way of thinking.
+
+Here, the reasoning engine does not mean a method, instruction, or executable system.
+
+---
+
 ## Positioning and Character
 
 This repository is:
@@ -224,6 +236,18 @@ an instance of the observational phenomena recorded in this repository.
 사고엔진 그 자체를 의미하지 않는다.
 
 경계에 대한 상세한 정의는 [Relationship](./designed-outputs/relationship.ko.md) 를 참조.
+
+---
+
+## 용어 안내: 사고엔진
+
+이 저장소에서 사용하는 **사고엔진** 은 사고방식과 완전히 다른 현상을 의미하지 않는다.
+
+사고방식이 문제를 인식하고 판단하는 일반적인 방식을 뜻한다면, 사고엔진은 그 과정에서 반복적으로 작동하는 구조·불변 축·판단 조건을 특정하여 부르는 표현이다.
+
+따라서 사고엔진은 사고방식의 내부 작동 구조를 구조적·작동적 관점에서 정의한 개념이다.
+
+여기서 사고엔진은 방법, 지침, 또는 실행 가능한 시스템을 의미하지 않는다.
 
 ---
 

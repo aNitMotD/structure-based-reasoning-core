@@ -3,7 +3,19 @@
 
 ---
 
-# Relationship to the Reasoning Engine
+# Relationship Between a Way of Thinking and the Reasoning Engine
+
+A way of thinking and the reasoning engine do not refer to completely separate phenomena.
+
+A way of thinking means the general manner in which a person recognizes problems and makes judgments. The reasoning engine is a term for the structures, invariant axes, and judgment conditions that repeatedly operate throughout that process.
+
+Therefore, the reasoning engine is a concept defined from structural and operational perspectives as the internal operating structure of a way of thinking.
+
+> The reasoning engine is not a phenomenon separate from a way of thinking, but a concept that identifies the internal operating structure of that way of thinking.
+
+---
+
+# Relationship Between the Repository and the Reasoning Engine
 
 The reasoning engine is an internal system
 comprising multiple cognitive structures,
@@ -31,7 +43,7 @@ The following distinctions apply:
 1. **Edge, Context Origin, RCA**
    - Observational records of how the reasoning engine
      detected, avoided, or reclassified risk
-   - Structurally independent from ZR
+   - Structurally independent from Zero Reflect (hereinafter ZR)
    - Not inputs, outputs, justifications, or test cases for any library
 
 2. **Actual constraint design cases (e.g. ZR)**
