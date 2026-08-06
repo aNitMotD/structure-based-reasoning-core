@@ -24,7 +24,7 @@ Rather, it is a consequence of architectural separation:
 - another layer selects outputs based on narrative priors and coherence,
 - and no guaranteed inheritance path exists between them.
 
-As a result, constraint awareness does not imply constraint enforcement.
+As a result, constraint awareness does not guarantee the maintenance of constraint effect across layer transitions.
 
 This failure is architectural, not behavioral.
 It arises from how transformer-based systems process and generate sequences,
